@@ -1,0 +1,44 @@
+.mOn92 {
+    padding: 72px 0 24px
+}
+
+.mOn92.N1eRc {
+    background-color: var(--redesign-heading-purple)
+}
+
+.mOn92.N1eRc hr {
+    background-color: var(--cream-50)
+}
+
+@media (max-width: 768px) {
+    .mOn92 {
+        padding-top:24px
+    }
+}
+
+.mOn92 hr {
+    background-color: var(--purple-int-100);
+    width: 1px;
+    margin: 0 auto;
+    border-top: 0
+}
+
+.mOn92 .QiSPy {
+    height: 60px
+}
+
+@media (max-width: 768px) {
+    .mOn92 .QiSPy {
+        height:32px
+    }
+}
+
+.mOn92 .TpAQW {
+    height: 120px
+}
+
+@media (max-width: 768px) {
+    .mOn92 .TpAQW {
+        height:64px
+    }
+}

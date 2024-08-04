@@ -1,0 +1,140 @@
+.WTJPg {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+.OMNuk {
+    max-width: 1080px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px
+}
+
+.OMNuk .LQxVP,
+.OMNuk .LQxVP * {
+    text-transform: uppercase;
+    font-size: var(--re-sh4-fs) !important;
+    line-height: var(--re-sh4-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important;
+    color: var(--hero-purple)
+}
+
+[class~='black-theme'] .OMNuk .LQxVP,
+.OMNuk .LQxVP * {
+    color: var(--teal)
+}
+
+.OMNuk .LQxVP {
+    margin-bottom: 10px
+}
+
+.OMNuk li img {
+    padding-bottom: 8px
+}
+
+.OMNuk .llBuK {
+    width: 100%;
+    text-align: center
+}
+
+.OMNuk .llBuK img {
+    max-width: 307px;
+    max-height: 198px
+}
+
+.OMNuk .JWZlc {
+    background-color: var(--white);
+    padding: 20px
+}
+
+.OMNuk .JWZlc ul {
+    margin-bottom: 0
+}
+
+.OMNuk .JWZlc li {
+    color: var(--hero-purple);
+    flex-direction: row;
+    border-bottom: 1px solid;
+    padding-bottom: 23px;
+    padding-top: 22px
+}
+
+[class~='black-theme'] .OMNuk .JWZlc li {
+    color: var(--teal)
+}
+
+.OMNuk .JWZlc li:hover {
+    cursor: pointer
+}
+
+.OMNuk .JWZlc li:last-child {
+    border-bottom: 0 !important
+}
+
+.OMNuk .JWZlc li:first-child {
+    padding-top: 8px;
+    padding-bottom: 23px
+}
+
+.OMNuk .JWZlc.G0XVn li:first-child {
+    padding-top: 10px
+}
+
+.OMNuk .JWZlc .vqSbc,
+.OMNuk .JWZlc .yAqUF {
+    color: var(--hero-purple);
+    display: inline;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important;
+    font-size: var(--re-sh4-fs) !important;
+    line-height: var(--re-sh4-lh) !important
+}
+
+[class~='black-theme'] .OMNuk .JWZlc .vqSbc,
+[class~='black-theme'] .OMNuk .JWZlc .yAqUF {
+    color: var(--black)
+}
+
+.OMNuk .JWZlc .yAqUF {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+.OMNuk .JWZlc .vqSbc {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important;
+    font-size: var(--re-sh4-fs) !important;
+    line-height: var(--re-sh4-lh) !important;
+    color: var(--hero-purple)
+}
+
+.OMNuk .JWZlc .Ycufk {
+    color: var(--hero-purple);
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important;
+    font-size: var(--re-sh2-fs) !important;
+    line-height: var(--re-sh2-lh) !important;
+    padding-top: 4px;
+    word-wrap: break-word
+}
+
+[class~='black-theme'] .OMNuk .JWZlc .Ycufk {
+    color: var(--teal)
+}
+
+.OMNuk .JWZlc li:hover .Ycufk {
+    text-decoration: underline
+}
+
+@media screen and (max-width: 1080px) {
+    .JWZlc li img {
+        display: block;
+        max-width: 50%;
+        margin: 0 auto
+    }
+}

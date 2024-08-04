@@ -1,0 +1,4026 @@
+:root {
+    --light-green: #62bb26;
+    --dark-green: #0f8a07;
+    --dark-green-hover: #056a0b;
+    --athena-purple: #0077b6;
+    --forest: #7a9a01;
+    --spring: #b7bf10;
+    --turtle-green: #62bb46;
+    --ruby: #a50050;
+    --teal: #0093b2;
+    --dark-teal: #00627c;
+    --hover-teal: #00586a;
+    --alert-green: #64bb46;
+    --hover-green: #0aa200;
+    --error-red: #f73f3f;
+    --error-darkred: #ca0d0d;
+    --very-light-pink: #fdf3f3;
+    --white: #fff;
+    --black: #000;
+    --slate: #666;
+    --dark-gray: #9e9e9e;
+    --grey-100: #212529;
+    --gray: #d8d8d8;
+    --light-gray: #f2f2f2;
+    --very-light-gray: #f8f8f8;
+    --pale-purple: #f8f2ff;
+    --lh-pc: 110%;
+    --p1-fs: 14px;
+    --p1-lh: 20px;
+    --p2-fs: 20px;
+    --p2-lh: 28px;
+    --p3-fs: 36px;
+    --p3-lh: 50px;
+    --p4-fs: 30px;
+    --p4-lh: 40px;
+    --p5-fs: 16px;
+    --p5-lh: 22px;
+    --h1-fs: 56px;
+    --h1-lh: 60px;
+    --h2-fs: 36px;
+    --h2-lh: 46px;
+    --h3-fs: 30px;
+    --h3-lh: 38px;
+    --h4-fs: 20px;
+    --h4-lh: 28px;
+    --h5-fs: 14px;
+    --h5-lh: 20px;
+    --metric-regular-ff: 'MetricRegular';
+    --metric-regular-fw: 400;
+    --metric-medium-ff: 'MetricMedium';
+    --metric-medium-fw: normal;
+    --metric-semibold-ff: 'MetricSemibold';
+    --metric-semibold-fw: normal;
+    --metric-italic-ff: 'MetricItalic';
+    --metric-italic-fw: normal;
+    --cta-small-fs: 16px;
+    --cta-small-lh: 20px;
+    --rd-input-fs: 18px;
+    --rd-label-fs: 13px;
+    --rd-legend-lh: 25px;
+    --hero-purple: #0077b6;
+    --lite-purple: #9c28b1;
+    --orchid: #b4005b;
+    --forge-blue: #0466b4;
+    --peacock: #4db2ca;
+    --honey: #f3a61c;
+    --lime-green: #589c48;
+    --cream: #f2ecde;
+    --gray: #6d6e6f;
+    --gray-texture: #eee;
+    --gray-light: #e9e9ea;
+    --gray-dark: #808080;
+    --clear: rgba(0, 0, 0, 0);
+    --solid-gray: #e8e8e8;
+    --shakespeare: #5ab7ce;
+    --firefly: #102038;
+    --lavender-grey: #cfc8dc;
+    --grape-parfait: #8a79ac;
+    --oslo-gray: #828a97;
+    --blue-sapphire: #005b7a;
+    --maastricht-blue: #06162d;
+    --faux-maastricht-blue: #102037;
+    --platinum-gray: #797979;
+    --weathered-stone-grey: #c4c4c4;
+    --dim-gray: #696969;
+    --spanish-gray: #92929d;
+    --ford-gray: #979797;
+    --purple-int-100: rgba(0, 118, 182, 1);
+    --purple-int-70: rgba(0, 118, 182, 0.7);
+    --purple-int-50: rgba(0, 118, 182, 0.5);
+    --Purple-int-30: rgba(0, 118, 182, 0.3);
+    --purple-int-15: rgba(0, 118, 182, 0.15);
+    --purple-int-10: rgba(0, 118, 182, 0.1);
+    --lite-int-70: #ba69c8;
+    --lite-int-50: #cd93d8;
+    --lite-int-30: #e1bfe8;
+    --lite-int-15: #f0dff3;
+    --orchid-int-100: #de167c;
+    --orchid-int-70: #e85ca3;
+    --orchid-int-50: #ee8abd;
+    --orchid-int-30: #f5b9d8;
+    --orchid-int-15: #fadceb;
+    --peacock-int-70: #8ccddd;
+    --peacock-int-50: #acdbe6;
+    --peacock-int-30: #cee9f0;
+    --peacock-int-15: #e6f4f8;
+    --lime-70: #89bb80;
+    --lime-50: #a8cda2;
+    --lime-30: #cce2c9;
+    --lime-15: #e6f1e4;
+    --honey-70: #f8c261;
+    --honey-50: #f9d38e;
+    --honey-30: #fce5bb;
+    --honey-15: #fef2dd;
+    --forge-int-100: #057bd9;
+    --forge-int-70: #50a3e4;
+    --forge-int-50: #82bdec;
+    --forge-int-30: #b4d7f4;
+    --forge-int-15: #daebf9;
+    --grey-70: #9a9b9b;
+    --grey-50: #b5b6b7;
+    --grey-30: #d4d4d5;
+    --grey-10: #f0f0f0;
+    --cream-70: #f7f3e9;
+    --cream-50: #f8f6ee;
+    --cream-30: #fcfaf5;
+    --cream-15: #fefdfb;
+    --off-white: #f3f4f5;
+    --salmon: #ff906b;
+    --jellyfish-accent: #7ee1e8;
+    --orange: #dd5546;
+    --off-white-bg: EFF7FE;
+    --teal-grad: #0093c6;
+    --violet: #cda0ed;
+    --success: #00dc8c;
+    --error: #ff2044;
+    --jellyfish-bg: #d7fdff;
+    --salmon-bg: #ffd2c9;
+    --violet-bg: #f1e7fa;
+    --success-bg: #d2ffef;
+    --error-bg: #ffe0e8;
+    --body-light: #1c2f49;
+    --gray-ui: #506c8e;
+    --gray-semi-ui: #828a97;
+    --gray-med-ui: #ccd4dc;
+    --gray-light-ui: #eff2f8;
+    --gray-ultra-light: #f6f7fa;
+    --surface-ultra-light: #fafcfc;
+    --disabled-gray: #d8d8d8;
+    --campaign-indigo: #0077B6;
+    --ptserif-ff: 'PT Serif', serif;
+    --sourcesanspro-ff: 'Source Sans Pro', sans-serif;
+    --ptserif-reg-fw: 400;
+    --ptserif-bold-fw: 700;
+    --sspro-extralight-fw: 200;
+    --sspro-light-fw: 300;
+    --sspro-reg-fw: 400;
+    --sspro-semibold-fw: 600;
+    --sspro-bold-fw: 700;
+    --sspro-black-fw: 900;
+    --default-ffs: 'clig' off, 'liga' off;
+    --re-xxh-fs: 90px;
+    --re-xxh-lh: 113px;
+    --re-xh-fs: 110px;
+    --re-xh-lh: 114px;
+    --re-h1-fs: 80px;
+    --re-h1-lh: 86px;
+    --re-h2-fs: 60px;
+    --re-h2-lh: 66px;
+    --re-h3-fs: 46px;
+    --re-h3-lh: 52px;
+    --re-h4-fs: 36px;
+    --re-h4-lh: 42px;
+    --re-h5-fs: 31px;
+    --re-h5-lh: 38px;
+    --re-h6-fs: 25px;
+    --re-h6-lh: 31px;
+    --re-sh1-fs: 26px;
+    --re-sh1-lh: 32px;
+    --re-sh2-fs: 21px;
+    --re-sh2-lh: 27px;
+    --re-sh3-fs: 18px;
+    --re-sh3-lh: 24px;
+    --re-sh4-fs: 16px;
+    --re-sh4-lh: 22px;
+    --re-sh5-fs: 16px;
+    --re-sh5-lh: 22px;
+    --re-sh6-fs: 22px;
+    --re-sh6-lh: 28px;
+    --re-sh7-fs: 23px;
+    --re-sh7-lh: 31px;
+    --re-p1-fs: 19px;
+    --re-p1-lh: 26px;
+    --re-p2-fs: 17px;
+    --re-p2-lh: 24px;
+    --re-p3-fs: 15px;
+    --re-p3-lh: 21px;
+    --re-p4-fs: 12px;
+    --re-p4-lh: 18px;
+    --re-pi-fs: 26px;
+    --re-pi-lh: 33px;
+    --re-link-fs: 17px;
+    --re-link-lh: 24px;
+    --re-l1-fs: 15px;
+    --re-l1-lh: 21px;
+    --re-h1-m-fs: 40px;
+    --re-h1-m-lh: 46px;
+    --re-h2-m-fs: 36px;
+    --re-h2-m-lh: 42px;
+    --re-h3-m-fs: 32px;
+    --re-h3-m-lh: 38px;
+    --re-h4-m-fs: 31px;
+    --re-h4-m-lh: 38px;
+    --re-h5-m-fs: 31px;
+    --re-h5-m-lh: 38px;
+    --re-h6-m-fs: 25px;
+    --re-h6-m-lh: 31px;
+    --transparent: solid transparent;
+    --re-epoc-link-fs: 18px;
+    --re-epoc-link-lh: 24px;
+    --epoc-sh1-fs: 28px;
+    --epoc-sh1-lh: 34px;
+    --elevation-5-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.09)
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --re-h1-fs: 40px;
+        --re-h1-lh: 46px;
+        --re-h2-fs: 36px;
+        --re-h2-lh: 42px;
+        --re-h3-fs: 32px;
+        --re-h3-lh: 38px;
+        --re-h4-fs: 31px;
+        --re-h4-lh: 38px;
+        --re-h5-fs: 31px;
+        --re-h5-lh: 38px;
+        --re-h6-fs: 25px;
+        --re-h6-lh: 31px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --re-h1-fs: 40px;
+        --re-h1-lh: 46px;
+        --re-h2-fs: 36px;
+        --re-h2-lh: 42px;
+        --re-h3-fs: 32px;
+        --re-h3-lh: 38px;
+        --re-h4-fs: 31px;
+        --re-h4-lh: 38px;
+        --re-h5-fs: 31px;
+        --re-h5-lh: 38px;
+        --re-h6-fs: 25px;
+        --re-h6-lh: 31px
+    }
+}
+
+:root {
+    --content-max-width: 1080px;
+    --scrolling-content-padding: calc((100vw - 1075px) / 2);
+    --hero-purple-dark: #0076b6cc;
+    --redesign-heading-purple: #0077B6;
+    --peacock-dark: #178199
+}
+
+:root {
+    --ah-xxlh-fs: 60px;
+    --ah-xxlh-lh: 66px;
+    --ah-xlh-fs: 48px;
+    --ah-xlh-lh: 54px;
+    --ah-h1-fs: 44px;
+    --ah-h1-lh: 49px;
+    --ah-h2-fs: 40px;
+    --ah-h2-lh: 42px;
+    --ah-h3-fs: 36px;
+    --ah-h3-lh: 40px;
+    --ah-h4-fs: 32px;
+    --ah-h4-lh: 36px;
+    --ah-h5-fs: 28px;
+    --ah-h5-lh: 34px;
+    --ah-h6-fs: 24px;
+    --ah-h6-lh: 27px;
+    --ah-sh1-fs: 26px;
+    --ah-sh1-lh: 32px;
+    --ah-sh2-fs: 20px;
+    --ah-sh2-lh: 26px;
+    --ah-sh3-fs: 18px;
+    --ah-sh3-lh: 23px;
+    --ah-sh4-fs: 16px;
+    --ah-sh4-lh: 22px;
+    --ah-p1-fs: 19px;
+    --ah-p1-lh: 27px;
+    --ah-p2-fs: 17px;
+    --ah-p2-lh: 24px;
+    --ah-p3-fs: 15px;
+    --ah-p3-lh: 21px;
+    --ah-p4-fs: 14px;
+    --ah-p4-lh: 20px;
+    --ah-ey-fs: 14px;
+    --ah-ey-lh: 16px;
+    --ah-link-fs: 16px;
+    --ah-link-lh: 18px;
+    --ah-nav-fs: 13px;
+    --ah-nav-lh: 18px;
+    --ah-xxlh-pt-fs: 72px;
+    --ah-xxlh-pt-lh: 86px;
+    --ah-h1-pt-fs: 64px;
+    --ah-h1-pt-lh: 70px;
+    --ah-h2-pt-fs: 48px;
+    --ah-h2-pt-lh: 58px;
+    --ah-h3-pt-fs: 40px;
+    --ah-h3-pt-lh: 45px;
+    --ah-h4-pt-fs: 36px;
+    --ah-h4-pt-lh: 42px;
+    --ah-h5-pt-fs: 32px;
+    --ah-h5-pt-lh: 38px;
+    --ah-h6-pt-fs: 24px;
+    --ah-h6-pt-lh: 27px;
+    --ah-sh-pt-fs: 20px;
+    --ah-sh-pt-lh: 26px;
+    --ah-ban-h1-fs: 64px;
+    --ah-ban-h1-lh: 72px;
+    --ah-ban-h2-fs: 60px;
+    --ah-ban-h2-lh: 66px;
+    --ah-ban-h3-fs: 40px;
+    --ah-ban-h3-lh: 45px
+}
+
+.NwE3P {
+    font-family: var(--sourcesanspro-ff)
+}
+
+.LAASS {
+    font-family: var(--ptserif-ff)
+}
+
+.mFjfK {
+    font-weight: 400
+}
+
+.FHkYJ {
+    font-weight: 500
+}
+
+.KmMWF {
+    font-weight: 600
+}
+
+.wFdWa {
+    font-weight: 700
+}
+
+.bNv_7 {
+    font-size: 80px;
+    line-height: 86px
+}
+
+.FhrmT {
+    font-size: 68px;
+    line-height: 74px
+}
+
+.AEyGB {
+    font-size: 56px;
+    line-height: 62px
+}
+
+.gyueY {
+    font-size: 46px;
+    line-height: 52px
+}
+
+.arL3L {
+    font-size: 36px;
+    line-height: 42px
+}
+
+.Bj_mp {
+    font-size: 28px;
+    line-height: 34px
+}
+
+.SkmWZ {
+    font-size: 22px;
+    line-height: 26px
+}
+
+.gwfBV {
+    font-size: 20px;
+    line-height: 26px
+}
+
+.CB2ix {
+    font-size: 18px;
+    line-height: 24px
+}
+
+.azupe {
+    font-size: 16px;
+    line-height: 22px
+}
+
+.KRbYd {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+.tgdz3 {
+    font-family: var(--ptserif-ff) !important;
+    font-size: var(--font-lg)
+}
+
+.s0zNG {
+    font-family: var(--rubik-regular-ff) !important
+}
+
+.T9OHB {
+    font-family: var(--ptserif-ff) !important;
+    font-size: var(--font-md)
+}
+
+[class*='serif-font'] {
+    font-family: 'PT Serif', Georgia, Times New Roman, serif !important
+}
+
+.KRbYd {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+[id*='ahcom'] h1,
+[id*='khub'] h1,
+[class~='ReactModalPortal'] h1,
+[class~='ReactModal__Content'] h1,
+[class~='black-theme'] h1,
+[id*='ahcom'] h2,
+[id*='khub'] h2,
+[class~='ReactModalPortal'] h2,
+[class~='ReactModal__Content'] h2,
+[class~='black-theme'] h2,
+[id*='ahcom'] h3,
+[id*='khub'] h3,
+[class~='ReactModalPortal'] h3,
+[class~='ReactModal__Content'] h3,
+[class~='black-theme'] h3,
+[id*='ahcom'] h4,
+[id*='khub'] h4,
+[class~='ReactModalPortal'] h4,
+[class~='ReactModal__Content'] h4,
+[class~='black-theme'] h4,
+[id*='ahcom'] h5,
+[id*='khub'] h5,
+[class~='ReactModalPortal'] h5,
+[class~='ReactModal__Content'] h5,
+[class~='black-theme'] h5,
+[id*='ahcom'] h6,
+[id*='khub'] h6,
+[class~='ReactModalPortal'] h6,
+[class~='ReactModal__Content'] h6,
+[class~='black-theme'] h6 {
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-bold-fw) !important
+}
+
+[id*='ahcom'] p,
+[id*='khub'] p,
+[class~='ReactModalPortal'] p,
+[class~='ReactModal__Content'] p,
+[class~='black-theme'] p,
+[id*='ahcom'] div,
+[id*='khub'] div,
+[class~='ReactModalPortal'] div,
+[class~='ReactModal__Content'] div,
+[class~='black-theme'] div,
+[id*='ahcom'] span,
+[id*='khub'] span,
+[class~='ReactModalPortal'] span,
+[class~='ReactModal__Content'] span,
+[class~='black-theme'] span {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important;
+    font-size: var(--re-p1-fs) !important;
+    line-height: var(--re-p1-lh) !important
+}
+
+[id*='ahcom'] p[class~='para-sm'],
+[id*='khub'] p[class~='para-sm'],
+[class~='ReactModalPortal'] p[class~='para-sm'],
+[class~='ReactModal__Content'] p[class~='para-sm'],
+[class~='black-theme'] p[class~='para-sm'],
+[id*='ahcom'] div[class~='para-sm'],
+[id*='khub'] div[class~='para-sm'],
+[class~='ReactModalPortal'] div[class~='para-sm'],
+[class~='ReactModal__Content'] div[class~='para-sm'],
+[class~='black-theme'] div[class~='para-sm'],
+[id*='ahcom'] span[class~='para-sm'],
+[id*='khub'] span[class~='para-sm'],
+[class~='ReactModalPortal'] span[class~='para-sm'],
+[class~='ReactModal__Content'] span[class~='para-sm'],
+[class~='black-theme'] span[class~='para-sm'] {
+    font-size: var(--re-p2-fs) !important;
+    line-height: var(--re-p2-lh) !important
+}
+
+[id*='ahcom'] p[class~='para-sm'] *,
+[id*='khub'] p[class~='para-sm'] *,
+[class~='ReactModalPortal'] p[class~='para-sm'] *,
+[class~='ReactModal__Content'] p[class~='para-sm'] *,
+[class~='black-theme'] p[class~='para-sm'] *,
+[id*='ahcom'] div[class~='para-sm'] *,
+[id*='khub'] div[class~='para-sm'] *,
+[class~='ReactModalPortal'] div[class~='para-sm'] *,
+[class~='ReactModal__Content'] div[class~='para-sm'] *,
+[class~='black-theme'] div[class~='para-sm'] *,
+[id*='ahcom'] span[class~='para-sm'] *,
+[id*='khub'] span[class~='para-sm'] *,
+[class~='ReactModalPortal'] span[class~='para-sm'] *,
+[class~='ReactModal__Content'] span[class~='para-sm'] *,
+[class~='black-theme'] span[class~='para-sm'] * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] p[class~='para-sm'][class~='para-sm-b'],
+[id*='khub'] p[class~='para-sm'][class~='para-sm-b'],
+[class~='ReactModalPortal'] p[class~='para-sm'][class~='para-sm-b'],
+[class~='ReactModal__Content'] p[class~='para-sm'][class~='para-sm-b'],
+[class~='black-theme'] p[class~='para-sm'][class~='para-sm-b'],
+[id*='ahcom'] div[class~='para-sm'][class~='para-sm-b'],
+[id*='khub'] div[class~='para-sm'][class~='para-sm-b'],
+[class~='ReactModalPortal'] div[class~='para-sm'][class~='para-sm-b'],
+[class~='ReactModal__Content'] div[class~='para-sm'][class~='para-sm-b'],
+[class~='black-theme'] div[class~='para-sm'][class~='para-sm-b'],
+[id*='ahcom'] span[class~='para-sm'][class~='para-sm-b'],
+[id*='khub'] span[class~='para-sm'][class~='para-sm-b'],
+[class~='ReactModalPortal'] span[class~='para-sm'][class~='para-sm-b'],
+[class~='ReactModal__Content'] span[class~='para-sm'][class~='para-sm-b'],
+[class~='black-theme'] span[class~='para-sm'][class~='para-sm-b'] {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important
+}
+
+[id*='ahcom'] p[class~='para-sm'][class~='para-sm-b'] *,
+[id*='khub'] p[class~='para-sm'][class~='para-sm-b'] *,
+[class~='ReactModalPortal'] p[class~='para-sm'][class~='para-sm-b'] *,
+[class~='ReactModal__Content'] p[class~='para-sm'][class~='para-sm-b'] *,
+[class~='black-theme'] p[class~='para-sm'][class~='para-sm-b'] *,
+[id*='ahcom'] div[class~='para-sm'][class~='para-sm-b'] *,
+[id*='khub'] div[class~='para-sm'][class~='para-sm-b'] *,
+[class~='ReactModalPortal'] div[class~='para-sm'][class~='para-sm-b'] *,
+[class~='ReactModal__Content'] div[class~='para-sm'][class~='para-sm-b'] *,
+[class~='black-theme'] div[class~='para-sm'][class~='para-sm-b'] *,
+[id*='ahcom'] span[class~='para-sm'][class~='para-sm-b'] *,
+[id*='khub'] span[class~='para-sm'][class~='para-sm-b'] *,
+[class~='ReactModalPortal'] span[class~='para-sm'][class~='para-sm-b'] *,
+[class~='ReactModal__Content'] span[class~='para-sm'][class~='para-sm-b'] *,
+[class~='black-theme'] span[class~='para-sm'][class~='para-sm-b'] * {
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] p[class~='para-xs'],
+[id*='khub'] p[class~='para-xs'],
+[class~='ReactModalPortal'] p[class~='para-xs'],
+[class~='ReactModal__Content'] p[class~='para-xs'],
+[class~='black-theme'] p[class~='para-xs'],
+[id*='ahcom'] div[class~='para-xs'],
+[id*='khub'] div[class~='para-xs'],
+[class~='ReactModalPortal'] div[class~='para-xs'],
+[class~='ReactModal__Content'] div[class~='para-xs'],
+[class~='black-theme'] div[class~='para-xs'],
+[id*='ahcom'] span[class~='para-xs'],
+[id*='khub'] span[class~='para-xs'],
+[class~='ReactModalPortal'] span[class~='para-xs'],
+[class~='ReactModal__Content'] span[class~='para-xs'],
+[class~='black-theme'] span[class~='para-xs'] {
+    font-size: var(--re-p3-fs) !important;
+    line-height: var(--re-p3-lh) !important
+}
+
+[id*='ahcom'] p[class~='para-xs'] *,
+[id*='khub'] p[class~='para-xs'] *,
+[class~='ReactModalPortal'] p[class~='para-xs'] *,
+[class~='ReactModal__Content'] p[class~='para-xs'] *,
+[class~='black-theme'] p[class~='para-xs'] *,
+[id*='ahcom'] div[class~='para-xs'] *,
+[id*='khub'] div[class~='para-xs'] *,
+[class~='ReactModalPortal'] div[class~='para-xs'] *,
+[class~='ReactModal__Content'] div[class~='para-xs'] *,
+[class~='black-theme'] div[class~='para-xs'] *,
+[id*='ahcom'] span[class~='para-xs'] *,
+[id*='khub'] span[class~='para-xs'] *,
+[class~='ReactModalPortal'] span[class~='para-xs'] *,
+[class~='ReactModal__Content'] span[class~='para-xs'] *,
+[class~='black-theme'] span[class~='para-xs'] * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] p[class~='para-i'],
+[id*='khub'] p[class~='para-i'],
+[class~='ReactModalPortal'] p[class~='para-i'],
+[class~='ReactModal__Content'] p[class~='para-i'],
+[class~='black-theme'] p[class~='para-i'],
+[id*='ahcom'] div[class~='para-i'],
+[id*='khub'] div[class~='para-i'],
+[class~='ReactModalPortal'] div[class~='para-i'],
+[class~='ReactModal__Content'] div[class~='para-i'],
+[class~='black-theme'] div[class~='para-i'],
+[id*='ahcom'] span[class~='para-i'],
+[id*='khub'] span[class~='para-i'],
+[class~='ReactModalPortal'] span[class~='para-i'],
+[class~='ReactModal__Content'] span[class~='para-i'],
+[class~='black-theme'] span[class~='para-i'] {
+    font-style: italic;
+    font-size: var(--re-pi-fs) !important;
+    line-height: var(--re-pi-lh) !important
+}
+
+[id*='ahcom'] p[class~='para-i'] *,
+[id*='khub'] p[class~='para-i'] *,
+[class~='ReactModalPortal'] p[class~='para-i'] *,
+[class~='ReactModal__Content'] p[class~='para-i'] *,
+[class~='black-theme'] p[class~='para-i'] *,
+[id*='ahcom'] div[class~='para-i'] *,
+[id*='khub'] div[class~='para-i'] *,
+[class~='ReactModalPortal'] div[class~='para-i'] *,
+[class~='ReactModal__Content'] div[class~='para-i'] *,
+[class~='black-theme'] div[class~='para-i'] *,
+[id*='ahcom'] span[class~='para-i'] *,
+[id*='khub'] span[class~='para-i'] *,
+[class~='ReactModalPortal'] span[class~='para-i'] *,
+[class~='ReactModal__Content'] span[class~='para-i'] *,
+[class~='black-theme'] span[class~='para-i'] * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] a,
+[id*='khub'] a,
+[class~='ReactModalPortal'] a,
+[class~='ReactModal__Content'] a,
+[class~='black-theme'] a {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important;
+    font-size: var(--re-link-fs) !important;
+    line-height: var(--re-link-lh) !important;
+    cursor: pointer
+}
+
+[id*='ahcom'] a *,
+[id*='khub'] a *,
+[class~='ReactModalPortal'] a *,
+[class~='ReactModal__Content'] a *,
+[class~='black-theme'] a * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] a[class~='link-sb'],
+[id*='khub'] a[class~='link-sb'],
+[class~='ReactModalPortal'] a[class~='link-sb'],
+[class~='ReactModal__Content'] a[class~='link-sb'],
+[class~='black-theme'] a[class~='link-sb'] {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important
+}
+
+[id*='ahcom'] a[class~='link-sb'] *,
+[id*='khub'] a[class~='link-sb'] *,
+[class~='ReactModalPortal'] a[class~='link-sb'] *,
+[class~='ReactModal__Content'] a[class~='link-sb'] *,
+[class~='black-theme'] a[class~='link-sb'] * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] a[class~='link-b'],
+[id*='khub'] a[class~='link-b'],
+[class~='ReactModalPortal'] a[class~='link-b'],
+[class~='ReactModal__Content'] a[class~='link-b'],
+[class~='black-theme'] a[class~='link-b'] {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] a[class~='link-b'] *,
+[id*='khub'] a[class~='link-b'] *,
+[class~='ReactModalPortal'] a[class~='link-b'] *,
+[class~='ReactModal__Content'] a[class~='link-b'] *,
+[class~='black-theme'] a[class~='link-b'] * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] button,
+[id*='khub'] button,
+[class~='ReactModalPortal'] button,
+[class~='ReactModal__Content'] button,
+[class~='black-theme'] button {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important;
+    font-size: var(--re-l1-fs) !important;
+    line-height: var(--re-l1-lh) !important
+}
+
+[id*='ahcom'] button *,
+[id*='khub'] button *,
+[class~='ReactModalPortal'] button *,
+[class~='ReactModal__Content'] button *,
+[class~='black-theme'] button * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] button[class~='btn-b'],
+[id*='khub'] button[class~='btn-b'],
+[class~='ReactModalPortal'] button[class~='btn-b'],
+[class~='ReactModal__Content'] button[class~='btn-b'],
+[class~='black-theme'] button[class~='btn-b'] {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] button[class~='btn-b'] *,
+[id*='khub'] button[class~='btn-b'] *,
+[class~='ReactModalPortal'] button[class~='btn-b'] *,
+[class~='ReactModal__Content'] button[class~='btn-b'] *,
+[class~='black-theme'] button[class~='btn-b'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] [class~='xl-header'],
+[id*='khub'] [class~='xl-header'],
+[class~='ReactModalPortal'] [class~='xl-header'],
+[class~='ReactModal__Content'] [class~='xl-header'],
+[class~='black-theme'] [class~='xl-header'] {
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-reg-fw) !important;
+    font-size: var(--re-xh-fs) !important;
+    line-height: var(--re-xh-lh) !important
+}
+
+[id*='ahcom'] [class~='xl-header'] *,
+[id*='khub'] [class~='xl-header'] *,
+[class~='ReactModalPortal'] [class~='xl-header'] *,
+[class~='ReactModal__Content'] [class~='xl-header'] *,
+[class~='black-theme'] [class~='xl-header'] * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] h1,
+[id*='khub'] h1,
+[class~='ReactModalPortal'] h1,
+[class~='ReactModal__Content'] h1,
+[class~='black-theme'] h1 {
+    font-size: var(--re-h1-fs) !important;
+    line-height: var(--re-h1-lh) !important
+}
+
+[id*='ahcom'] h1 *,
+[id*='khub'] h1 *,
+[class~='ReactModalPortal'] h1 *,
+[class~='ReactModal__Content'] h1 *,
+[class~='black-theme'] h1 * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] h2,
+[id*='khub'] h2,
+[class~='ReactModalPortal'] h2,
+[class~='ReactModal__Content'] h2,
+[class~='black-theme'] h2 {
+    font-size: var(--re-h2-fs) !important;
+    line-height: var(--re-h2-lh) !important
+}
+
+[id*='ahcom'] h2 *,
+[id*='khub'] h2 *,
+[class~='ReactModalPortal'] h2 *,
+[class~='ReactModal__Content'] h2 *,
+[class~='black-theme'] h2 * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] h3,
+[id*='khub'] h3,
+[class~='ReactModalPortal'] h3,
+[class~='ReactModal__Content'] h3,
+[class~='black-theme'] h3 {
+    font-size: var(--re-h3-fs) !important;
+    line-height: var(--re-h3-lh) !important
+}
+
+[id*='ahcom'] h3 *,
+[id*='khub'] h3 *,
+[class~='ReactModalPortal'] h3 *,
+[class~='ReactModal__Content'] h3 *,
+[class~='black-theme'] h3 * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] h4,
+[id*='khub'] h4,
+[class~='ReactModalPortal'] h4,
+[class~='ReactModal__Content'] h4,
+[class~='black-theme'] h4 {
+    font-size: var(--re-h4-fs) !important;
+    line-height: var(--re-h4-lh) !important
+}
+
+[id*='ahcom'] h4 *,
+[id*='khub'] h4 *,
+[class~='ReactModalPortal'] h4 *,
+[class~='ReactModal__Content'] h4 *,
+[class~='black-theme'] h4 * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] h5,
+[id*='khub'] h5,
+[class~='ReactModalPortal'] h5,
+[class~='ReactModal__Content'] h5,
+[class~='black-theme'] h5 {
+    font-size: var(--re-h5-fs) !important;
+    line-height: var(--re-h5-lh) !important
+}
+
+[id*='ahcom'] h5 *,
+[id*='khub'] h5 *,
+[class~='ReactModalPortal'] h5 *,
+[class~='ReactModal__Content'] h5 *,
+[class~='black-theme'] h5 * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] h6,
+[id*='khub'] h6,
+[class~='ReactModalPortal'] h6,
+[class~='ReactModal__Content'] h6,
+[class~='black-theme'] h6 {
+    font-size: var(--re-h6-fs) !important;
+    line-height: var(--re-h6-lh) !important
+}
+
+[id*='ahcom'] h6 *,
+[id*='khub'] h6 *,
+[class~='ReactModalPortal'] h6 *,
+[class~='ReactModal__Content'] h6 *,
+[class~='black-theme'] h6 * {
+    font-size: inherit !important;
+    line-height: inherit !important
+}
+
+[id*='ahcom'] [class~='subhead-1'],
+[id*='khub'] [class~='subhead-1'],
+[class~='ReactModalPortal'] [class~='subhead-1'],
+[class~='ReactModal__Content'] [class~='subhead-1'],
+[class~='black-theme'] [class~='subhead-1'],
+[id*='ahcom'] [class~='subhead-2'],
+[id*='khub'] [class~='subhead-2'],
+[class~='ReactModalPortal'] [class~='subhead-2'],
+[class~='ReactModal__Content'] [class~='subhead-2'],
+[class~='black-theme'] [class~='subhead-2'],
+[id*='ahcom'] [class~='subhead-3'],
+[id*='khub'] [class~='subhead-3'],
+[class~='ReactModalPortal'] [class~='subhead-3'],
+[class~='ReactModal__Content'] [class~='subhead-3'],
+[class~='black-theme'] [class~='subhead-3'],
+[id*='ahcom'] [class~='subhead-4'],
+[id*='khub'] [class~='subhead-4'],
+[class~='ReactModalPortal'] [class~='subhead-4'],
+[class~='ReactModal__Content'] [class~='subhead-4'],
+[class~='black-theme'] [class~='subhead-4'],
+[id*='ahcom'] [class~='subhead-5'],
+[id*='khub'] [class~='subhead-5'],
+[class~='ReactModalPortal'] [class~='subhead-5'],
+[class~='ReactModal__Content'] [class~='subhead-5'],
+[class~='black-theme'] [class~='subhead-5'] {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important
+}
+
+[id*='ahcom'] [class~='subhead-1'],
+[id*='khub'] [class~='subhead-1'],
+[class~='ReactModalPortal'] [class~='subhead-1'],
+[class~='ReactModal__Content'] [class~='subhead-1'],
+[class~='black-theme'] [class~='subhead-1'] {
+    font-size: var(--re-sh1-fs) !important;
+    line-height: var(--re-sh1-lh) !important
+}
+
+[id*='ahcom'] [class~='subhead-1'] *,
+[id*='khub'] [class~='subhead-1'] *,
+[class~='ReactModalPortal'] [class~='subhead-1'] *,
+[class~='ReactModal__Content'] [class~='subhead-1'] *,
+[class~='black-theme'] [class~='subhead-1'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] [class~='subhead-2'],
+[id*='khub'] [class~='subhead-2'],
+[class~='ReactModalPortal'] [class~='subhead-2'],
+[class~='ReactModal__Content'] [class~='subhead-2'],
+[class~='black-theme'] [class~='subhead-2'] {
+    font-size: var(--re-sh2-fs) !important;
+    line-height: var(--re-sh2-lh) !important
+}
+
+[id*='ahcom'] [class~='subhead-2'] *,
+[id*='khub'] [class~='subhead-2'] *,
+[class~='ReactModalPortal'] [class~='subhead-2'] *,
+[class~='ReactModal__Content'] [class~='subhead-2'] *,
+[class~='black-theme'] [class~='subhead-2'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] [class~='subhead-3'],
+[id*='khub'] [class~='subhead-3'],
+[class~='ReactModalPortal'] [class~='subhead-3'],
+[class~='ReactModal__Content'] [class~='subhead-3'],
+[class~='black-theme'] [class~='subhead-3'] {
+    font-size: var(--re-sh3-fs) !important;
+    line-height: var(--re-sh3-lh) !important
+}
+
+[id*='ahcom'] [class~='subhead-3'] *,
+[id*='khub'] [class~='subhead-3'] *,
+[class~='ReactModalPortal'] [class~='subhead-3'] *,
+[class~='ReactModal__Content'] [class~='subhead-3'] *,
+[class~='black-theme'] [class~='subhead-3'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] [class~='subhead-4'],
+[id*='khub'] [class~='subhead-4'],
+[class~='ReactModalPortal'] [class~='subhead-4'],
+[class~='ReactModal__Content'] [class~='subhead-4'],
+[class~='black-theme'] [class~='subhead-4'] {
+    font-size: var(--re-sh4-fs) !important;
+    line-height: var(--re-sh4-lh) !important
+}
+
+[id*='ahcom'] [class~='subhead-4'] *,
+[id*='khub'] [class~='subhead-4'] *,
+[class~='ReactModalPortal'] [class~='subhead-4'] *,
+[class~='ReactModal__Content'] [class~='subhead-4'] *,
+[class~='black-theme'] [class~='subhead-4'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] [class~='subhead-5'],
+[id*='khub'] [class~='subhead-5'],
+[class~='ReactModalPortal'] [class~='subhead-5'],
+[class~='ReactModal__Content'] [class~='subhead-5'],
+[class~='black-theme'] [class~='subhead-5'] {
+    font-size: var(--re-sh5-fs) !important;
+    line-height: var(--re-sh5-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important
+}
+
+[id*='ahcom'] [class~='subhead-5'] *,
+[id*='khub'] [class~='subhead-5'] *,
+[class~='ReactModalPortal'] [class~='subhead-5'] *,
+[class~='ReactModal__Content'] [class~='subhead-5'] *,
+[class~='black-theme'] [class~='subhead-5'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+@media screen and (max-width: 768px) {
+
+    [id*='ahcom'] h1,
+    [id*='khub'] h1,
+    [class~='ReactModalPortal'] h1,
+    [class~='ReactModal__Content'] h1 {
+        font-size: var(--re-h1-m-fs) !important;
+        line-height: var(--re-h1-m-lh) !important
+    }
+
+    [id*='ahcom'] h1 *,
+    [id*='khub'] h1 *,
+    [class~='ReactModalPortal'] h1 *,
+    [class~='ReactModal__Content'] h1 * {
+        font-size: inherit !important;
+        line-height: inherit !important
+    }
+
+    [id*='ahcom'] h2,
+    [id*='khub'] h2,
+    [class~='ReactModalPortal'] h2,
+    [class~='ReactModal__Content'] h2 {
+        font-size: var(--re-h2-m-fs) !important;
+        line-height: var(--re-h2-m-lh) !important
+    }
+
+    [id*='ahcom'] h2 *,
+    [id*='khub'] h2 *,
+    [class~='ReactModalPortal'] h2 *,
+    [class~='ReactModal__Content'] h2 * {
+        font-size: inherit !important;
+        line-height: inherit !important
+    }
+
+    [id*='ahcom'] h3,
+    [id*='khub'] h3,
+    [class~='ReactModalPortal'] h3,
+    [class~='ReactModal__Content'] h3 {
+        font-size: var(--re-h3-m-fs) !important;
+        line-height: var(--re-h3-m-lh) !important
+    }
+
+    [id*='ahcom'] h3 *,
+    [id*='khub'] h3 *,
+    [class~='ReactModalPortal'] h3 *,
+    [class~='ReactModal__Content'] h3 * {
+        font-size: inherit !important;
+        line-height: inherit !important
+    }
+
+    [id*='ahcom'] h4,
+    [id*='khub'] h4,
+    [class~='ReactModalPortal'] h4,
+    [class~='ReactModal__Content'] h4 {
+        font-size: var(--re-h4-m-fs) !important;
+        line-height: var(--re-h4-m-lh) !important
+    }
+
+    [id*='ahcom'] h4 *,
+    [id*='khub'] h4 *,
+    [class~='ReactModalPortal'] h4 *,
+    [class~='ReactModal__Content'] h4 * {
+        font-size: inherit !important;
+        line-height: inherit !important
+    }
+
+    [id*='ahcom'] h5,
+    [id*='khub'] h5,
+    [class~='ReactModalPortal'] h5,
+    [class~='ReactModal__Content'] h5 {
+        font-size: var(--re-h5-m-fs) !important;
+        line-height: var(--re-h5-m-lh) !important
+    }
+
+    [id*='ahcom'] h5 *,
+    [id*='khub'] h5 *,
+    [class~='ReactModalPortal'] h5 *,
+    [class~='ReactModal__Content'] h5 * {
+        font-size: inherit !important;
+        line-height: inherit !important
+    }
+
+    [id*='ahcom'] h6,
+    [id*='khub'] h6,
+    [class~='ReactModalPortal'] h6,
+    [class~='ReactModal__Content'] h6 {
+        font-size: var(--re-h6-m-fs) !important;
+        line-height: var(--re-h6-m-lh) !important
+    }
+
+    [id*='ahcom'] h6 *,
+    [id*='khub'] h6 *,
+    [class~='ReactModalPortal'] h6 *,
+    [class~='ReactModal__Content'] h6 * {
+        font-size: inherit !important;
+        line-height: inherit !important
+    }
+}
+
+.KRbYd {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+[id*='ahcom'] h1[class~='xxl-head-sspro'],
+[id*='khub'] h1[class~='xxl-head-sspro'],
+[id*='ahcom'] h2[class~='xxl-head-sspro'],
+[id*='khub'] h2[class~='xxl-head-sspro'],
+[id*='ahcom'] h3[class~='xxl-head-sspro'],
+[id*='khub'] h3[class~='xxl-head-sspro'],
+[id*='ahcom'] h4[class~='xxl-head-sspro'],
+[id*='khub'] h4[class~='xxl-head-sspro'],
+[id*='ahcom'] h5[class~='xxl-head-sspro'],
+[id*='khub'] h5[class~='xxl-head-sspro'],
+[id*='ahcom'] h6[class~='xxl-head-sspro'],
+[id*='khub'] h6[class~='xxl-head-sspro'],
+[id*='ahcom'] div[class~='xxl-head-sspro'],
+[id*='khub'] div[class~='xxl-head-sspro'],
+[id*='ahcom'] p[class~='xxl-head-sspro'],
+[id*='khub'] p[class~='xxl-head-sspro'],
+[id*='ahcom'] span[class~='xxl-head-sspro'],
+[id*='khub'] span[class~='xxl-head-sspro'] {
+    font-size: var(--ah-xxlh-fs) !important;
+    line-height: var(--ah-xxlh-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xxl-head-sspro'] *,
+[id*='khub'] h1[class~='xxl-head-sspro'] *,
+[id*='ahcom'] h2[class~='xxl-head-sspro'] *,
+[id*='khub'] h2[class~='xxl-head-sspro'] *,
+[id*='ahcom'] h3[class~='xxl-head-sspro'] *,
+[id*='khub'] h3[class~='xxl-head-sspro'] *,
+[id*='ahcom'] h4[class~='xxl-head-sspro'] *,
+[id*='khub'] h4[class~='xxl-head-sspro'] *,
+[id*='ahcom'] h5[class~='xxl-head-sspro'] *,
+[id*='khub'] h5[class~='xxl-head-sspro'] *,
+[id*='ahcom'] h6[class~='xxl-head-sspro'] *,
+[id*='khub'] h6[class~='xxl-head-sspro'] *,
+[id*='ahcom'] div[class~='xxl-head-sspro'] *,
+[id*='khub'] div[class~='xxl-head-sspro'] *,
+[id*='ahcom'] p[class~='xxl-head-sspro'] *,
+[id*='khub'] p[class~='xxl-head-sspro'] *,
+[id*='ahcom'] span[class~='xxl-head-sspro'] *,
+[id*='khub'] span[class~='xxl-head-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='xl-head-sspro'],
+[id*='khub'] h1[class~='xl-head-sspro'],
+[id*='ahcom'] h2[class~='xl-head-sspro'],
+[id*='khub'] h2[class~='xl-head-sspro'],
+[id*='ahcom'] h3[class~='xl-head-sspro'],
+[id*='khub'] h3[class~='xl-head-sspro'],
+[id*='ahcom'] h4[class~='xl-head-sspro'],
+[id*='khub'] h4[class~='xl-head-sspro'],
+[id*='ahcom'] h5[class~='xl-head-sspro'],
+[id*='khub'] h5[class~='xl-head-sspro'],
+[id*='ahcom'] h6[class~='xl-head-sspro'],
+[id*='khub'] h6[class~='xl-head-sspro'],
+[id*='ahcom'] div[class~='xl-head-sspro'],
+[id*='khub'] div[class~='xl-head-sspro'],
+[id*='ahcom'] p[class~='xl-head-sspro'],
+[id*='khub'] p[class~='xl-head-sspro'],
+[id*='ahcom'] span[class~='xl-head-sspro'],
+[id*='khub'] span[class~='xl-head-sspro'] {
+    font-size: var(--ah-xlh-fs) !important;
+    line-height: var(--ah-xlh-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xl-head-sspro'] *,
+[id*='khub'] h1[class~='xl-head-sspro'] *,
+[id*='ahcom'] h2[class~='xl-head-sspro'] *,
+[id*='khub'] h2[class~='xl-head-sspro'] *,
+[id*='ahcom'] h3[class~='xl-head-sspro'] *,
+[id*='khub'] h3[class~='xl-head-sspro'] *,
+[id*='ahcom'] h4[class~='xl-head-sspro'] *,
+[id*='khub'] h4[class~='xl-head-sspro'] *,
+[id*='ahcom'] h5[class~='xl-head-sspro'] *,
+[id*='khub'] h5[class~='xl-head-sspro'] *,
+[id*='ahcom'] h6[class~='xl-head-sspro'] *,
+[id*='khub'] h6[class~='xl-head-sspro'] *,
+[id*='ahcom'] div[class~='xl-head-sspro'] *,
+[id*='khub'] div[class~='xl-head-sspro'] *,
+[id*='ahcom'] p[class~='xl-head-sspro'] *,
+[id*='khub'] p[class~='xl-head-sspro'] *,
+[id*='ahcom'] span[class~='xl-head-sspro'] *,
+[id*='khub'] span[class~='xl-head-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='l-head-sspro'],
+[id*='khub'] h1[class~='l-head-sspro'],
+[id*='ahcom'] h2[class~='l-head-sspro'],
+[id*='khub'] h2[class~='l-head-sspro'],
+[id*='ahcom'] h3[class~='l-head-sspro'],
+[id*='khub'] h3[class~='l-head-sspro'],
+[id*='ahcom'] h4[class~='l-head-sspro'],
+[id*='khub'] h4[class~='l-head-sspro'],
+[id*='ahcom'] h5[class~='l-head-sspro'],
+[id*='khub'] h5[class~='l-head-sspro'],
+[id*='ahcom'] h6[class~='l-head-sspro'],
+[id*='khub'] h6[class~='l-head-sspro'],
+[id*='ahcom'] div[class~='l-head-sspro'],
+[id*='khub'] div[class~='l-head-sspro'],
+[id*='ahcom'] p[class~='l-head-sspro'],
+[id*='khub'] p[class~='l-head-sspro'],
+[id*='ahcom'] span[class~='l-head-sspro'],
+[id*='khub'] span[class~='l-head-sspro'] {
+    font-size: var(--ah-h1-fs) !important;
+    line-height: var(--ah-h1-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='l-head-sspro'] *,
+[id*='khub'] h1[class~='l-head-sspro'] *,
+[id*='ahcom'] h2[class~='l-head-sspro'] *,
+[id*='khub'] h2[class~='l-head-sspro'] *,
+[id*='ahcom'] h3[class~='l-head-sspro'] *,
+[id*='khub'] h3[class~='l-head-sspro'] *,
+[id*='ahcom'] h4[class~='l-head-sspro'] *,
+[id*='khub'] h4[class~='l-head-sspro'] *,
+[id*='ahcom'] h5[class~='l-head-sspro'] *,
+[id*='khub'] h5[class~='l-head-sspro'] *,
+[id*='ahcom'] h6[class~='l-head-sspro'] *,
+[id*='khub'] h6[class~='l-head-sspro'] *,
+[id*='ahcom'] div[class~='l-head-sspro'] *,
+[id*='khub'] div[class~='l-head-sspro'] *,
+[id*='ahcom'] p[class~='l-head-sspro'] *,
+[id*='khub'] p[class~='l-head-sspro'] *,
+[id*='ahcom'] span[class~='l-head-sspro'] *,
+[id*='khub'] span[class~='l-head-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='m-head-sspro'],
+[id*='khub'] h1[class~='m-head-sspro'],
+[id*='ahcom'] h2[class~='m-head-sspro'],
+[id*='khub'] h2[class~='m-head-sspro'],
+[id*='ahcom'] h3[class~='m-head-sspro'],
+[id*='khub'] h3[class~='m-head-sspro'],
+[id*='ahcom'] h4[class~='m-head-sspro'],
+[id*='khub'] h4[class~='m-head-sspro'],
+[id*='ahcom'] h5[class~='m-head-sspro'],
+[id*='khub'] h5[class~='m-head-sspro'],
+[id*='ahcom'] h6[class~='m-head-sspro'],
+[id*='khub'] h6[class~='m-head-sspro'],
+[id*='ahcom'] div[class~='m-head-sspro'],
+[id*='khub'] div[class~='m-head-sspro'],
+[id*='ahcom'] p[class~='m-head-sspro'],
+[id*='khub'] p[class~='m-head-sspro'],
+[id*='ahcom'] span[class~='m-head-sspro'],
+[id*='khub'] span[class~='m-head-sspro'] {
+    font-size: var(--ah-h2-fs) !important;
+    line-height: var(--ah-h2-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='m-head-sspro'] *,
+[id*='khub'] h1[class~='m-head-sspro'] *,
+[id*='ahcom'] h2[class~='m-head-sspro'] *,
+[id*='khub'] h2[class~='m-head-sspro'] *,
+[id*='ahcom'] h3[class~='m-head-sspro'] *,
+[id*='khub'] h3[class~='m-head-sspro'] *,
+[id*='ahcom'] h4[class~='m-head-sspro'] *,
+[id*='khub'] h4[class~='m-head-sspro'] *,
+[id*='ahcom'] h5[class~='m-head-sspro'] *,
+[id*='khub'] h5[class~='m-head-sspro'] *,
+[id*='ahcom'] h6[class~='m-head-sspro'] *,
+[id*='khub'] h6[class~='m-head-sspro'] *,
+[id*='ahcom'] div[class~='m-head-sspro'] *,
+[id*='khub'] div[class~='m-head-sspro'] *,
+[id*='ahcom'] p[class~='m-head-sspro'] *,
+[id*='khub'] p[class~='m-head-sspro'] *,
+[id*='ahcom'] span[class~='m-head-sspro'] *,
+[id*='khub'] span[class~='m-head-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='s-head-sspro'],
+[id*='khub'] h1[class~='s-head-sspro'],
+[id*='ahcom'] h2[class~='s-head-sspro'],
+[id*='khub'] h2[class~='s-head-sspro'],
+[id*='ahcom'] h3[class~='s-head-sspro'],
+[id*='khub'] h3[class~='s-head-sspro'],
+[id*='ahcom'] h4[class~='s-head-sspro'],
+[id*='khub'] h4[class~='s-head-sspro'],
+[id*='ahcom'] h5[class~='s-head-sspro'],
+[id*='khub'] h5[class~='s-head-sspro'],
+[id*='ahcom'] h6[class~='s-head-sspro'],
+[id*='khub'] h6[class~='s-head-sspro'],
+[id*='ahcom'] div[class~='s-head-sspro'],
+[id*='khub'] div[class~='s-head-sspro'],
+[id*='ahcom'] p[class~='s-head-sspro'],
+[id*='khub'] p[class~='s-head-sspro'],
+[id*='ahcom'] span[class~='s-head-sspro'],
+[id*='khub'] span[class~='s-head-sspro'] {
+    font-size: var(--ah-h3-fs) !important;
+    line-height: var(--ah-h3-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='s-head-sspro'] *,
+[id*='khub'] h1[class~='s-head-sspro'] *,
+[id*='ahcom'] h2[class~='s-head-sspro'] *,
+[id*='khub'] h2[class~='s-head-sspro'] *,
+[id*='ahcom'] h3[class~='s-head-sspro'] *,
+[id*='khub'] h3[class~='s-head-sspro'] *,
+[id*='ahcom'] h4[class~='s-head-sspro'] *,
+[id*='khub'] h4[class~='s-head-sspro'] *,
+[id*='ahcom'] h5[class~='s-head-sspro'] *,
+[id*='khub'] h5[class~='s-head-sspro'] *,
+[id*='ahcom'] h6[class~='s-head-sspro'] *,
+[id*='khub'] h6[class~='s-head-sspro'] *,
+[id*='ahcom'] div[class~='s-head-sspro'] *,
+[id*='khub'] div[class~='s-head-sspro'] *,
+[id*='ahcom'] p[class~='s-head-sspro'] *,
+[id*='khub'] p[class~='s-head-sspro'] *,
+[id*='ahcom'] span[class~='s-head-sspro'] *,
+[id*='khub'] span[class~='s-head-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='xs-head-sspro'],
+[id*='khub'] h1[class~='xs-head-sspro'],
+[id*='ahcom'] h2[class~='xs-head-sspro'],
+[id*='khub'] h2[class~='xs-head-sspro'],
+[id*='ahcom'] h3[class~='xs-head-sspro'],
+[id*='khub'] h3[class~='xs-head-sspro'],
+[id*='ahcom'] h4[class~='xs-head-sspro'],
+[id*='khub'] h4[class~='xs-head-sspro'],
+[id*='ahcom'] h5[class~='xs-head-sspro'],
+[id*='khub'] h5[class~='xs-head-sspro'],
+[id*='ahcom'] h6[class~='xs-head-sspro'],
+[id*='khub'] h6[class~='xs-head-sspro'],
+[id*='ahcom'] div[class~='xs-head-sspro'],
+[id*='khub'] div[class~='xs-head-sspro'],
+[id*='ahcom'] p[class~='xs-head-sspro'],
+[id*='khub'] p[class~='xs-head-sspro'],
+[id*='ahcom'] span[class~='xs-head-sspro'],
+[id*='khub'] span[class~='xs-head-sspro'] {
+    font-size: var(--ah-h4-fs) !important;
+    line-height: var(--ah-h4-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xs-head-sspro'] *,
+[id*='khub'] h1[class~='xs-head-sspro'] *,
+[id*='ahcom'] h2[class~='xs-head-sspro'] *,
+[id*='khub'] h2[class~='xs-head-sspro'] *,
+[id*='ahcom'] h3[class~='xs-head-sspro'] *,
+[id*='khub'] h3[class~='xs-head-sspro'] *,
+[id*='ahcom'] h4[class~='xs-head-sspro'] *,
+[id*='khub'] h4[class~='xs-head-sspro'] *,
+[id*='ahcom'] h5[class~='xs-head-sspro'] *,
+[id*='khub'] h5[class~='xs-head-sspro'] *,
+[id*='ahcom'] h6[class~='xs-head-sspro'] *,
+[id*='khub'] h6[class~='xs-head-sspro'] *,
+[id*='ahcom'] div[class~='xs-head-sspro'] *,
+[id*='khub'] div[class~='xs-head-sspro'] *,
+[id*='ahcom'] p[class~='xs-head-sspro'] *,
+[id*='khub'] p[class~='xs-head-sspro'] *,
+[id*='ahcom'] span[class~='xs-head-sspro'] *,
+[id*='khub'] span[class~='xs-head-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='xxs-head-sspro'],
+[id*='khub'] h1[class~='xxs-head-sspro'],
+[id*='ahcom'] h2[class~='xxs-head-sspro'],
+[id*='khub'] h2[class~='xxs-head-sspro'],
+[id*='ahcom'] h3[class~='xxs-head-sspro'],
+[id*='khub'] h3[class~='xxs-head-sspro'],
+[id*='ahcom'] h4[class~='xxs-head-sspro'],
+[id*='khub'] h4[class~='xxs-head-sspro'],
+[id*='ahcom'] h5[class~='xxs-head-sspro'],
+[id*='khub'] h5[class~='xxs-head-sspro'],
+[id*='ahcom'] h6[class~='xxs-head-sspro'],
+[id*='khub'] h6[class~='xxs-head-sspro'],
+[id*='ahcom'] div[class~='xxs-head-sspro'],
+[id*='khub'] div[class~='xxs-head-sspro'],
+[id*='ahcom'] p[class~='xxs-head-sspro'],
+[id*='khub'] p[class~='xxs-head-sspro'],
+[id*='ahcom'] span[class~='xxs-head-sspro'],
+[id*='khub'] span[class~='xxs-head-sspro'] {
+    font-size: var(--ah-h5-fs) !important;
+    line-height: var(--ah-h5-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xxs-head-sspro'] *,
+[id*='khub'] h1[class~='xxs-head-sspro'] *,
+[id*='ahcom'] h2[class~='xxs-head-sspro'] *,
+[id*='khub'] h2[class~='xxs-head-sspro'] *,
+[id*='ahcom'] h3[class~='xxs-head-sspro'] *,
+[id*='khub'] h3[class~='xxs-head-sspro'] *,
+[id*='ahcom'] h4[class~='xxs-head-sspro'] *,
+[id*='khub'] h4[class~='xxs-head-sspro'] *,
+[id*='ahcom'] h5[class~='xxs-head-sspro'] *,
+[id*='khub'] h5[class~='xxs-head-sspro'] *,
+[id*='ahcom'] h6[class~='xxs-head-sspro'] *,
+[id*='khub'] h6[class~='xxs-head-sspro'] *,
+[id*='ahcom'] div[class~='xxs-head-sspro'] *,
+[id*='khub'] div[class~='xxs-head-sspro'] *,
+[id*='ahcom'] p[class~='xxs-head-sspro'] *,
+[id*='khub'] p[class~='xxs-head-sspro'] *,
+[id*='ahcom'] span[class~='xxs-head-sspro'] *,
+[id*='khub'] span[class~='xxs-head-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='xxxs-head-sspro'],
+[id*='khub'] h1[class~='xxxs-head-sspro'],
+[id*='ahcom'] h2[class~='xxxs-head-sspro'],
+[id*='khub'] h2[class~='xxxs-head-sspro'],
+[id*='ahcom'] h3[class~='xxxs-head-sspro'],
+[id*='khub'] h3[class~='xxxs-head-sspro'],
+[id*='ahcom'] h4[class~='xxxs-head-sspro'],
+[id*='khub'] h4[class~='xxxs-head-sspro'],
+[id*='ahcom'] h5[class~='xxxs-head-sspro'],
+[id*='khub'] h5[class~='xxxs-head-sspro'],
+[id*='ahcom'] h6[class~='xxxs-head-sspro'],
+[id*='khub'] h6[class~='xxxs-head-sspro'],
+[id*='ahcom'] div[class~='xxxs-head-sspro'],
+[id*='khub'] div[class~='xxxs-head-sspro'],
+[id*='ahcom'] p[class~='xxxs-head-sspro'],
+[id*='khub'] p[class~='xxxs-head-sspro'],
+[id*='ahcom'] span[class~='xxxs-head-sspro'],
+[id*='khub'] span[class~='xxxs-head-sspro'] {
+    font-size: var(--ah-h6-fs) !important;
+    line-height: var(--ah-h6-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xxxs-head-sspro'] *,
+[id*='khub'] h1[class~='xxxs-head-sspro'] *,
+[id*='ahcom'] h2[class~='xxxs-head-sspro'] *,
+[id*='khub'] h2[class~='xxxs-head-sspro'] *,
+[id*='ahcom'] h3[class~='xxxs-head-sspro'] *,
+[id*='khub'] h3[class~='xxxs-head-sspro'] *,
+[id*='ahcom'] h4[class~='xxxs-head-sspro'] *,
+[id*='khub'] h4[class~='xxxs-head-sspro'] *,
+[id*='ahcom'] h5[class~='xxxs-head-sspro'] *,
+[id*='khub'] h5[class~='xxxs-head-sspro'] *,
+[id*='ahcom'] h6[class~='xxxs-head-sspro'] *,
+[id*='khub'] h6[class~='xxxs-head-sspro'] *,
+[id*='ahcom'] div[class~='xxxs-head-sspro'] *,
+[id*='khub'] div[class~='xxxs-head-sspro'] *,
+[id*='ahcom'] p[class~='xxxs-head-sspro'] *,
+[id*='khub'] p[class~='xxxs-head-sspro'] *,
+[id*='ahcom'] span[class~='xxxs-head-sspro'] *,
+[id*='khub'] span[class~='xxxs-head-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='xl-sub-sspro'],
+[id*='khub'] h1[class~='xl-sub-sspro'],
+[id*='ahcom'] h2[class~='xl-sub-sspro'],
+[id*='khub'] h2[class~='xl-sub-sspro'],
+[id*='ahcom'] h3[class~='xl-sub-sspro'],
+[id*='khub'] h3[class~='xl-sub-sspro'],
+[id*='ahcom'] h4[class~='xl-sub-sspro'],
+[id*='khub'] h4[class~='xl-sub-sspro'],
+[id*='ahcom'] h5[class~='xl-sub-sspro'],
+[id*='khub'] h5[class~='xl-sub-sspro'],
+[id*='ahcom'] h6[class~='xl-sub-sspro'],
+[id*='khub'] h6[class~='xl-sub-sspro'],
+[id*='ahcom'] div[class~='xl-sub-sspro'],
+[id*='khub'] div[class~='xl-sub-sspro'],
+[id*='ahcom'] p[class~='xl-sub-sspro'],
+[id*='khub'] p[class~='xl-sub-sspro'],
+[id*='ahcom'] span[class~='xl-sub-sspro'],
+[id*='khub'] span[class~='xl-sub-sspro'] {
+    font-size: var(--ah-sh1-fs) !important;
+    line-height: var(--ah-sh1-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xl-sub-sspro'] *,
+[id*='khub'] h1[class~='xl-sub-sspro'] *,
+[id*='ahcom'] h2[class~='xl-sub-sspro'] *,
+[id*='khub'] h2[class~='xl-sub-sspro'] *,
+[id*='ahcom'] h3[class~='xl-sub-sspro'] *,
+[id*='khub'] h3[class~='xl-sub-sspro'] *,
+[id*='ahcom'] h4[class~='xl-sub-sspro'] *,
+[id*='khub'] h4[class~='xl-sub-sspro'] *,
+[id*='ahcom'] h5[class~='xl-sub-sspro'] *,
+[id*='khub'] h5[class~='xl-sub-sspro'] *,
+[id*='ahcom'] h6[class~='xl-sub-sspro'] *,
+[id*='khub'] h6[class~='xl-sub-sspro'] *,
+[id*='ahcom'] div[class~='xl-sub-sspro'] *,
+[id*='khub'] div[class~='xl-sub-sspro'] *,
+[id*='ahcom'] p[class~='xl-sub-sspro'] *,
+[id*='khub'] p[class~='xl-sub-sspro'] *,
+[id*='ahcom'] span[class~='xl-sub-sspro'] *,
+[id*='khub'] span[class~='xl-sub-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='l-sub-sspro'],
+[id*='khub'] h1[class~='l-sub-sspro'],
+[id*='ahcom'] h2[class~='l-sub-sspro'],
+[id*='khub'] h2[class~='l-sub-sspro'],
+[id*='ahcom'] h3[class~='l-sub-sspro'],
+[id*='khub'] h3[class~='l-sub-sspro'],
+[id*='ahcom'] h4[class~='l-sub-sspro'],
+[id*='khub'] h4[class~='l-sub-sspro'],
+[id*='ahcom'] h5[class~='l-sub-sspro'],
+[id*='khub'] h5[class~='l-sub-sspro'],
+[id*='ahcom'] h6[class~='l-sub-sspro'],
+[id*='khub'] h6[class~='l-sub-sspro'],
+[id*='ahcom'] div[class~='l-sub-sspro'],
+[id*='khub'] div[class~='l-sub-sspro'],
+[id*='ahcom'] p[class~='l-sub-sspro'],
+[id*='khub'] p[class~='l-sub-sspro'],
+[id*='ahcom'] span[class~='l-sub-sspro'],
+[id*='khub'] span[class~='l-sub-sspro'] {
+    font-size: var(--ah-sh2-fs) !important;
+    line-height: var(--ah-sh2-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='l-sub-sspro'] *,
+[id*='khub'] h1[class~='l-sub-sspro'] *,
+[id*='ahcom'] h2[class~='l-sub-sspro'] *,
+[id*='khub'] h2[class~='l-sub-sspro'] *,
+[id*='ahcom'] h3[class~='l-sub-sspro'] *,
+[id*='khub'] h3[class~='l-sub-sspro'] *,
+[id*='ahcom'] h4[class~='l-sub-sspro'] *,
+[id*='khub'] h4[class~='l-sub-sspro'] *,
+[id*='ahcom'] h5[class~='l-sub-sspro'] *,
+[id*='khub'] h5[class~='l-sub-sspro'] *,
+[id*='ahcom'] h6[class~='l-sub-sspro'] *,
+[id*='khub'] h6[class~='l-sub-sspro'] *,
+[id*='ahcom'] div[class~='l-sub-sspro'] *,
+[id*='khub'] div[class~='l-sub-sspro'] *,
+[id*='ahcom'] p[class~='l-sub-sspro'] *,
+[id*='khub'] p[class~='l-sub-sspro'] *,
+[id*='ahcom'] span[class~='l-sub-sspro'] *,
+[id*='khub'] span[class~='l-sub-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='m-sub-sspro'],
+[id*='khub'] h1[class~='m-sub-sspro'],
+[id*='ahcom'] h2[class~='m-sub-sspro'],
+[id*='khub'] h2[class~='m-sub-sspro'],
+[id*='ahcom'] h3[class~='m-sub-sspro'],
+[id*='khub'] h3[class~='m-sub-sspro'],
+[id*='ahcom'] h4[class~='m-sub-sspro'],
+[id*='khub'] h4[class~='m-sub-sspro'],
+[id*='ahcom'] h5[class~='m-sub-sspro'],
+[id*='khub'] h5[class~='m-sub-sspro'],
+[id*='ahcom'] h6[class~='m-sub-sspro'],
+[id*='khub'] h6[class~='m-sub-sspro'],
+[id*='ahcom'] div[class~='m-sub-sspro'],
+[id*='khub'] div[class~='m-sub-sspro'],
+[id*='ahcom'] p[class~='m-sub-sspro'],
+[id*='khub'] p[class~='m-sub-sspro'],
+[id*='ahcom'] span[class~='m-sub-sspro'],
+[id*='khub'] span[class~='m-sub-sspro'] {
+    font-size: var(--ah-sh3-fs) !important;
+    line-height: var(--ah-sh3-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='m-sub-sspro'] *,
+[id*='khub'] h1[class~='m-sub-sspro'] *,
+[id*='ahcom'] h2[class~='m-sub-sspro'] *,
+[id*='khub'] h2[class~='m-sub-sspro'] *,
+[id*='ahcom'] h3[class~='m-sub-sspro'] *,
+[id*='khub'] h3[class~='m-sub-sspro'] *,
+[id*='ahcom'] h4[class~='m-sub-sspro'] *,
+[id*='khub'] h4[class~='m-sub-sspro'] *,
+[id*='ahcom'] h5[class~='m-sub-sspro'] *,
+[id*='khub'] h5[class~='m-sub-sspro'] *,
+[id*='ahcom'] h6[class~='m-sub-sspro'] *,
+[id*='khub'] h6[class~='m-sub-sspro'] *,
+[id*='ahcom'] div[class~='m-sub-sspro'] *,
+[id*='khub'] div[class~='m-sub-sspro'] *,
+[id*='ahcom'] p[class~='m-sub-sspro'] *,
+[id*='khub'] p[class~='m-sub-sspro'] *,
+[id*='ahcom'] span[class~='m-sub-sspro'] *,
+[id*='khub'] span[class~='m-sub-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='m-sub-semi-sspro'],
+[id*='khub'] h1[class~='m-sub-semi-sspro'],
+[id*='ahcom'] h2[class~='m-sub-semi-sspro'],
+[id*='khub'] h2[class~='m-sub-semi-sspro'],
+[id*='ahcom'] h3[class~='m-sub-semi-sspro'],
+[id*='khub'] h3[class~='m-sub-semi-sspro'],
+[id*='ahcom'] h4[class~='m-sub-semi-sspro'],
+[id*='khub'] h4[class~='m-sub-semi-sspro'],
+[id*='ahcom'] h5[class~='m-sub-semi-sspro'],
+[id*='khub'] h5[class~='m-sub-semi-sspro'],
+[id*='ahcom'] h6[class~='m-sub-semi-sspro'],
+[id*='khub'] h6[class~='m-sub-semi-sspro'],
+[id*='ahcom'] div[class~='m-sub-semi-sspro'],
+[id*='khub'] div[class~='m-sub-semi-sspro'],
+[id*='ahcom'] p[class~='m-sub-semi-sspro'],
+[id*='khub'] p[class~='m-sub-semi-sspro'],
+[id*='ahcom'] span[class~='m-sub-semi-sspro'],
+[id*='khub'] span[class~='m-sub-semi-sspro'] {
+    font-size: var(--ah-sh3-fs) !important;
+    line-height: var(--ah-sh3-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='m-sub-semi-sspro'] *,
+[id*='khub'] h1[class~='m-sub-semi-sspro'] *,
+[id*='ahcom'] h2[class~='m-sub-semi-sspro'] *,
+[id*='khub'] h2[class~='m-sub-semi-sspro'] *,
+[id*='ahcom'] h3[class~='m-sub-semi-sspro'] *,
+[id*='khub'] h3[class~='m-sub-semi-sspro'] *,
+[id*='ahcom'] h4[class~='m-sub-semi-sspro'] *,
+[id*='khub'] h4[class~='m-sub-semi-sspro'] *,
+[id*='ahcom'] h5[class~='m-sub-semi-sspro'] *,
+[id*='khub'] h5[class~='m-sub-semi-sspro'] *,
+[id*='ahcom'] h6[class~='m-sub-semi-sspro'] *,
+[id*='khub'] h6[class~='m-sub-semi-sspro'] *,
+[id*='ahcom'] div[class~='m-sub-semi-sspro'] *,
+[id*='khub'] div[class~='m-sub-semi-sspro'] *,
+[id*='ahcom'] p[class~='m-sub-semi-sspro'] *,
+[id*='khub'] p[class~='m-sub-semi-sspro'] *,
+[id*='ahcom'] span[class~='m-sub-semi-sspro'] *,
+[id*='khub'] span[class~='m-sub-semi-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='s-sub-sspro'],
+[id*='khub'] h1[class~='s-sub-sspro'],
+[id*='ahcom'] h2[class~='s-sub-sspro'],
+[id*='khub'] h2[class~='s-sub-sspro'],
+[id*='ahcom'] h3[class~='s-sub-sspro'],
+[id*='khub'] h3[class~='s-sub-sspro'],
+[id*='ahcom'] h4[class~='s-sub-sspro'],
+[id*='khub'] h4[class~='s-sub-sspro'],
+[id*='ahcom'] h5[class~='s-sub-sspro'],
+[id*='khub'] h5[class~='s-sub-sspro'],
+[id*='ahcom'] h6[class~='s-sub-sspro'],
+[id*='khub'] h6[class~='s-sub-sspro'],
+[id*='ahcom'] div[class~='s-sub-sspro'],
+[id*='khub'] div[class~='s-sub-sspro'],
+[id*='ahcom'] p[class~='s-sub-sspro'],
+[id*='khub'] p[class~='s-sub-sspro'],
+[id*='ahcom'] span[class~='s-sub-sspro'],
+[id*='khub'] span[class~='s-sub-sspro'] {
+    font-size: var(--ah-sh4-fs) !important;
+    line-height: var(--ah-sh4-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='s-sub-sspro'] *,
+[id*='khub'] h1[class~='s-sub-sspro'] *,
+[id*='ahcom'] h2[class~='s-sub-sspro'] *,
+[id*='khub'] h2[class~='s-sub-sspro'] *,
+[id*='ahcom'] h3[class~='s-sub-sspro'] *,
+[id*='khub'] h3[class~='s-sub-sspro'] *,
+[id*='ahcom'] h4[class~='s-sub-sspro'] *,
+[id*='khub'] h4[class~='s-sub-sspro'] *,
+[id*='ahcom'] h5[class~='s-sub-sspro'] *,
+[id*='khub'] h5[class~='s-sub-sspro'] *,
+[id*='ahcom'] h6[class~='s-sub-sspro'] *,
+[id*='khub'] h6[class~='s-sub-sspro'] *,
+[id*='ahcom'] div[class~='s-sub-sspro'] *,
+[id*='khub'] div[class~='s-sub-sspro'] *,
+[id*='ahcom'] p[class~='s-sub-sspro'] *,
+[id*='khub'] p[class~='s-sub-sspro'] *,
+[id*='ahcom'] span[class~='s-sub-sspro'] *,
+[id*='khub'] span[class~='s-sub-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='xs-sub-sspro'],
+[id*='khub'] h1[class~='xs-sub-sspro'],
+[id*='ahcom'] h2[class~='xs-sub-sspro'],
+[id*='khub'] h2[class~='xs-sub-sspro'],
+[id*='ahcom'] h3[class~='xs-sub-sspro'],
+[id*='khub'] h3[class~='xs-sub-sspro'],
+[id*='ahcom'] h4[class~='xs-sub-sspro'],
+[id*='khub'] h4[class~='xs-sub-sspro'],
+[id*='ahcom'] h5[class~='xs-sub-sspro'],
+[id*='khub'] h5[class~='xs-sub-sspro'],
+[id*='ahcom'] h6[class~='xs-sub-sspro'],
+[id*='khub'] h6[class~='xs-sub-sspro'],
+[id*='ahcom'] div[class~='xs-sub-sspro'],
+[id*='khub'] div[class~='xs-sub-sspro'],
+[id*='ahcom'] p[class~='xs-sub-sspro'],
+[id*='khub'] p[class~='xs-sub-sspro'],
+[id*='ahcom'] span[class~='xs-sub-sspro'],
+[id*='khub'] span[class~='xs-sub-sspro'] {
+    font-size: var(--ah-sh4-fs) !important;
+    line-height: var(--ah-sh4-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xs-sub-sspro'] *,
+[id*='khub'] h1[class~='xs-sub-sspro'] *,
+[id*='ahcom'] h2[class~='xs-sub-sspro'] *,
+[id*='khub'] h2[class~='xs-sub-sspro'] *,
+[id*='ahcom'] h3[class~='xs-sub-sspro'] *,
+[id*='khub'] h3[class~='xs-sub-sspro'] *,
+[id*='ahcom'] h4[class~='xs-sub-sspro'] *,
+[id*='khub'] h4[class~='xs-sub-sspro'] *,
+[id*='ahcom'] h5[class~='xs-sub-sspro'] *,
+[id*='khub'] h5[class~='xs-sub-sspro'] *,
+[id*='ahcom'] h6[class~='xs-sub-sspro'] *,
+[id*='khub'] h6[class~='xs-sub-sspro'] *,
+[id*='ahcom'] div[class~='xs-sub-sspro'] *,
+[id*='khub'] div[class~='xs-sub-sspro'] *,
+[id*='ahcom'] p[class~='xs-sub-sspro'] *,
+[id*='khub'] p[class~='xs-sub-sspro'] *,
+[id*='ahcom'] span[class~='xs-sub-sspro'] *,
+[id*='khub'] span[class~='xs-sub-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='xl-body-sspro'],
+[id*='khub'] h1[class~='xl-body-sspro'],
+[id*='ahcom'] h2[class~='xl-body-sspro'],
+[id*='khub'] h2[class~='xl-body-sspro'],
+[id*='ahcom'] h3[class~='xl-body-sspro'],
+[id*='khub'] h3[class~='xl-body-sspro'],
+[id*='ahcom'] h4[class~='xl-body-sspro'],
+[id*='khub'] h4[class~='xl-body-sspro'],
+[id*='ahcom'] h5[class~='xl-body-sspro'],
+[id*='khub'] h5[class~='xl-body-sspro'],
+[id*='ahcom'] h6[class~='xl-body-sspro'],
+[id*='khub'] h6[class~='xl-body-sspro'],
+[id*='ahcom'] div[class~='xl-body-sspro'],
+[id*='khub'] div[class~='xl-body-sspro'],
+[id*='ahcom'] p[class~='xl-body-sspro'],
+[id*='khub'] p[class~='xl-body-sspro'],
+[id*='ahcom'] span[class~='xl-body-sspro'],
+[id*='khub'] span[class~='xl-body-sspro'] {
+    font-size: var(--ah-p1-fs) !important;
+    line-height: var(--ah-p1-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xl-body-sspro'] *,
+[id*='khub'] h1[class~='xl-body-sspro'] *,
+[id*='ahcom'] h2[class~='xl-body-sspro'] *,
+[id*='khub'] h2[class~='xl-body-sspro'] *,
+[id*='ahcom'] h3[class~='xl-body-sspro'] *,
+[id*='khub'] h3[class~='xl-body-sspro'] *,
+[id*='ahcom'] h4[class~='xl-body-sspro'] *,
+[id*='khub'] h4[class~='xl-body-sspro'] *,
+[id*='ahcom'] h5[class~='xl-body-sspro'] *,
+[id*='khub'] h5[class~='xl-body-sspro'] *,
+[id*='ahcom'] h6[class~='xl-body-sspro'] *,
+[id*='khub'] h6[class~='xl-body-sspro'] *,
+[id*='ahcom'] div[class~='xl-body-sspro'] *,
+[id*='khub'] div[class~='xl-body-sspro'] *,
+[id*='ahcom'] p[class~='xl-body-sspro'] *,
+[id*='khub'] p[class~='xl-body-sspro'] *,
+[id*='ahcom'] span[class~='xl-body-sspro'] *,
+[id*='khub'] span[class~='xl-body-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='xl-body-semibold-sspro'],
+[id*='khub'] h1[class~='xl-body-semibold-sspro'],
+[id*='ahcom'] h2[class~='xl-body-semibold-sspro'],
+[id*='khub'] h2[class~='xl-body-semibold-sspro'],
+[id*='ahcom'] h3[class~='xl-body-semibold-sspro'],
+[id*='khub'] h3[class~='xl-body-semibold-sspro'],
+[id*='ahcom'] h4[class~='xl-body-semibold-sspro'],
+[id*='khub'] h4[class~='xl-body-semibold-sspro'],
+[id*='ahcom'] h5[class~='xl-body-semibold-sspro'],
+[id*='khub'] h5[class~='xl-body-semibold-sspro'],
+[id*='ahcom'] h6[class~='xl-body-semibold-sspro'],
+[id*='khub'] h6[class~='xl-body-semibold-sspro'],
+[id*='ahcom'] div[class~='xl-body-semibold-sspro'],
+[id*='khub'] div[class~='xl-body-semibold-sspro'],
+[id*='ahcom'] p[class~='xl-body-semibold-sspro'],
+[id*='khub'] p[class~='xl-body-semibold-sspro'],
+[id*='ahcom'] span[class~='xl-body-semibold-sspro'],
+[id*='khub'] span[class~='xl-body-semibold-sspro'] {
+    font-size: var(--ah-p1-fs) !important;
+    line-height: var(--ah-p1-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xl-body-semibold-sspro'] *,
+[id*='khub'] h1[class~='xl-body-semibold-sspro'] *,
+[id*='ahcom'] h2[class~='xl-body-semibold-sspro'] *,
+[id*='khub'] h2[class~='xl-body-semibold-sspro'] *,
+[id*='ahcom'] h3[class~='xl-body-semibold-sspro'] *,
+[id*='khub'] h3[class~='xl-body-semibold-sspro'] *,
+[id*='ahcom'] h4[class~='xl-body-semibold-sspro'] *,
+[id*='khub'] h4[class~='xl-body-semibold-sspro'] *,
+[id*='ahcom'] h5[class~='xl-body-semibold-sspro'] *,
+[id*='khub'] h5[class~='xl-body-semibold-sspro'] *,
+[id*='ahcom'] h6[class~='xl-body-semibold-sspro'] *,
+[id*='khub'] h6[class~='xl-body-semibold-sspro'] *,
+[id*='ahcom'] div[class~='xl-body-semibold-sspro'] *,
+[id*='khub'] div[class~='xl-body-semibold-sspro'] *,
+[id*='ahcom'] p[class~='xl-body-semibold-sspro'] *,
+[id*='khub'] p[class~='xl-body-semibold-sspro'] *,
+[id*='ahcom'] span[class~='xl-body-semibold-sspro'] *,
+[id*='khub'] span[class~='xl-body-semibold-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='l-body-sspro'],
+[id*='khub'] h1[class~='l-body-sspro'],
+[id*='ahcom'] h2[class~='l-body-sspro'],
+[id*='khub'] h2[class~='l-body-sspro'],
+[id*='ahcom'] h3[class~='l-body-sspro'],
+[id*='khub'] h3[class~='l-body-sspro'],
+[id*='ahcom'] h4[class~='l-body-sspro'],
+[id*='khub'] h4[class~='l-body-sspro'],
+[id*='ahcom'] h5[class~='l-body-sspro'],
+[id*='khub'] h5[class~='l-body-sspro'],
+[id*='ahcom'] h6[class~='l-body-sspro'],
+[id*='khub'] h6[class~='l-body-sspro'],
+[id*='ahcom'] div[class~='l-body-sspro'],
+[id*='khub'] div[class~='l-body-sspro'],
+[id*='ahcom'] p[class~='l-body-sspro'],
+[id*='khub'] p[class~='l-body-sspro'],
+[id*='ahcom'] span[class~='l-body-sspro'],
+[id*='khub'] span[class~='l-body-sspro'] {
+    font-size: var(--ah-p2-fs) !important;
+    line-height: var(--ah-p2-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='l-body-sspro'] *,
+[id*='khub'] h1[class~='l-body-sspro'] *,
+[id*='ahcom'] h2[class~='l-body-sspro'] *,
+[id*='khub'] h2[class~='l-body-sspro'] *,
+[id*='ahcom'] h3[class~='l-body-sspro'] *,
+[id*='khub'] h3[class~='l-body-sspro'] *,
+[id*='ahcom'] h4[class~='l-body-sspro'] *,
+[id*='khub'] h4[class~='l-body-sspro'] *,
+[id*='ahcom'] h5[class~='l-body-sspro'] *,
+[id*='khub'] h5[class~='l-body-sspro'] *,
+[id*='ahcom'] h6[class~='l-body-sspro'] *,
+[id*='khub'] h6[class~='l-body-sspro'] *,
+[id*='ahcom'] div[class~='l-body-sspro'] *,
+[id*='khub'] div[class~='l-body-sspro'] *,
+[id*='ahcom'] p[class~='l-body-sspro'] *,
+[id*='khub'] p[class~='l-body-sspro'] *,
+[id*='ahcom'] span[class~='l-body-sspro'] *,
+[id*='khub'] span[class~='l-body-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='m-body-sspro'],
+[id*='khub'] h1[class~='m-body-sspro'],
+[id*='ahcom'] h2[class~='m-body-sspro'],
+[id*='khub'] h2[class~='m-body-sspro'],
+[id*='ahcom'] h3[class~='m-body-sspro'],
+[id*='khub'] h3[class~='m-body-sspro'],
+[id*='ahcom'] h4[class~='m-body-sspro'],
+[id*='khub'] h4[class~='m-body-sspro'],
+[id*='ahcom'] h5[class~='m-body-sspro'],
+[id*='khub'] h5[class~='m-body-sspro'],
+[id*='ahcom'] h6[class~='m-body-sspro'],
+[id*='khub'] h6[class~='m-body-sspro'],
+[id*='ahcom'] div[class~='m-body-sspro'],
+[id*='khub'] div[class~='m-body-sspro'],
+[id*='ahcom'] p[class~='m-body-sspro'],
+[id*='khub'] p[class~='m-body-sspro'],
+[id*='ahcom'] span[class~='m-body-sspro'],
+[id*='khub'] span[class~='m-body-sspro'] {
+    font-size: var(--ah-p3-fs) !important;
+    line-height: var(--ah-p3-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='m-body-sspro'] *,
+[id*='khub'] h1[class~='m-body-sspro'] *,
+[id*='ahcom'] h2[class~='m-body-sspro'] *,
+[id*='khub'] h2[class~='m-body-sspro'] *,
+[id*='ahcom'] h3[class~='m-body-sspro'] *,
+[id*='khub'] h3[class~='m-body-sspro'] *,
+[id*='ahcom'] h4[class~='m-body-sspro'] *,
+[id*='khub'] h4[class~='m-body-sspro'] *,
+[id*='ahcom'] h5[class~='m-body-sspro'] *,
+[id*='khub'] h5[class~='m-body-sspro'] *,
+[id*='ahcom'] h6[class~='m-body-sspro'] *,
+[id*='khub'] h6[class~='m-body-sspro'] *,
+[id*='ahcom'] div[class~='m-body-sspro'] *,
+[id*='khub'] div[class~='m-body-sspro'] *,
+[id*='ahcom'] p[class~='m-body-sspro'] *,
+[id*='khub'] p[class~='m-body-sspro'] *,
+[id*='ahcom'] span[class~='m-body-sspro'] *,
+[id*='khub'] span[class~='m-body-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='s-body-sspro'],
+[id*='khub'] h1[class~='s-body-sspro'],
+[id*='ahcom'] h2[class~='s-body-sspro'],
+[id*='khub'] h2[class~='s-body-sspro'],
+[id*='ahcom'] h3[class~='s-body-sspro'],
+[id*='khub'] h3[class~='s-body-sspro'],
+[id*='ahcom'] h4[class~='s-body-sspro'],
+[id*='khub'] h4[class~='s-body-sspro'],
+[id*='ahcom'] h5[class~='s-body-sspro'],
+[id*='khub'] h5[class~='s-body-sspro'],
+[id*='ahcom'] h6[class~='s-body-sspro'],
+[id*='khub'] h6[class~='s-body-sspro'],
+[id*='ahcom'] div[class~='s-body-sspro'],
+[id*='khub'] div[class~='s-body-sspro'],
+[id*='ahcom'] p[class~='s-body-sspro'],
+[id*='khub'] p[class~='s-body-sspro'],
+[id*='ahcom'] span[class~='s-body-sspro'],
+[id*='khub'] span[class~='s-body-sspro'] {
+    font-size: var(--ah-p4-fs) !important;
+    line-height: var(--ah-p4-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='s-body-sspro'] *,
+[id*='khub'] h1[class~='s-body-sspro'] *,
+[id*='ahcom'] h2[class~='s-body-sspro'] *,
+[id*='khub'] h2[class~='s-body-sspro'] *,
+[id*='ahcom'] h3[class~='s-body-sspro'] *,
+[id*='khub'] h3[class~='s-body-sspro'] *,
+[id*='ahcom'] h4[class~='s-body-sspro'] *,
+[id*='khub'] h4[class~='s-body-sspro'] *,
+[id*='ahcom'] h5[class~='s-body-sspro'] *,
+[id*='khub'] h5[class~='s-body-sspro'] *,
+[id*='ahcom'] h6[class~='s-body-sspro'] *,
+[id*='khub'] h6[class~='s-body-sspro'] *,
+[id*='ahcom'] div[class~='s-body-sspro'] *,
+[id*='khub'] div[class~='s-body-sspro'] *,
+[id*='ahcom'] p[class~='s-body-sspro'] *,
+[id*='khub'] p[class~='s-body-sspro'] *,
+[id*='ahcom'] span[class~='s-body-sspro'] *,
+[id*='khub'] span[class~='s-body-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='s-body-bold-sspro'],
+[id*='khub'] h1[class~='s-body-bold-sspro'],
+[id*='ahcom'] h2[class~='s-body-bold-sspro'],
+[id*='khub'] h2[class~='s-body-bold-sspro'],
+[id*='ahcom'] h3[class~='s-body-bold-sspro'],
+[id*='khub'] h3[class~='s-body-bold-sspro'],
+[id*='ahcom'] h4[class~='s-body-bold-sspro'],
+[id*='khub'] h4[class~='s-body-bold-sspro'],
+[id*='ahcom'] h5[class~='s-body-bold-sspro'],
+[id*='khub'] h5[class~='s-body-bold-sspro'],
+[id*='ahcom'] h6[class~='s-body-bold-sspro'],
+[id*='khub'] h6[class~='s-body-bold-sspro'],
+[id*='ahcom'] div[class~='s-body-bold-sspro'],
+[id*='khub'] div[class~='s-body-bold-sspro'],
+[id*='ahcom'] p[class~='s-body-bold-sspro'],
+[id*='khub'] p[class~='s-body-bold-sspro'],
+[id*='ahcom'] span[class~='s-body-bold-sspro'],
+[id*='khub'] span[class~='s-body-bold-sspro'] {
+    font-size: var(--ah-p4-fs) !important;
+    line-height: var(--ah-p4-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='s-body-bold-sspro'] *,
+[id*='khub'] h1[class~='s-body-bold-sspro'] *,
+[id*='ahcom'] h2[class~='s-body-bold-sspro'] *,
+[id*='khub'] h2[class~='s-body-bold-sspro'] *,
+[id*='ahcom'] h3[class~='s-body-bold-sspro'] *,
+[id*='khub'] h3[class~='s-body-bold-sspro'] *,
+[id*='ahcom'] h4[class~='s-body-bold-sspro'] *,
+[id*='khub'] h4[class~='s-body-bold-sspro'] *,
+[id*='ahcom'] h5[class~='s-body-bold-sspro'] *,
+[id*='khub'] h5[class~='s-body-bold-sspro'] *,
+[id*='ahcom'] h6[class~='s-body-bold-sspro'] *,
+[id*='khub'] h6[class~='s-body-bold-sspro'] *,
+[id*='ahcom'] div[class~='s-body-bold-sspro'] *,
+[id*='khub'] div[class~='s-body-bold-sspro'] *,
+[id*='ahcom'] p[class~='s-body-bold-sspro'] *,
+[id*='khub'] p[class~='s-body-bold-sspro'] *,
+[id*='ahcom'] span[class~='s-body-bold-sspro'] *,
+[id*='khub'] span[class~='s-body-bold-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='misc-ey-sspro'],
+[id*='khub'] h1[class~='misc-ey-sspro'],
+[id*='ahcom'] h2[class~='misc-ey-sspro'],
+[id*='khub'] h2[class~='misc-ey-sspro'],
+[id*='ahcom'] h3[class~='misc-ey-sspro'],
+[id*='khub'] h3[class~='misc-ey-sspro'],
+[id*='ahcom'] h4[class~='misc-ey-sspro'],
+[id*='khub'] h4[class~='misc-ey-sspro'],
+[id*='ahcom'] h5[class~='misc-ey-sspro'],
+[id*='khub'] h5[class~='misc-ey-sspro'],
+[id*='ahcom'] h6[class~='misc-ey-sspro'],
+[id*='khub'] h6[class~='misc-ey-sspro'],
+[id*='ahcom'] div[class~='misc-ey-sspro'],
+[id*='khub'] div[class~='misc-ey-sspro'],
+[id*='ahcom'] p[class~='misc-ey-sspro'],
+[id*='khub'] p[class~='misc-ey-sspro'],
+[id*='ahcom'] span[class~='misc-ey-sspro'],
+[id*='khub'] span[class~='misc-ey-sspro'] {
+    font-size: var(--ah-ey-fs) !important;
+    line-height: var(--ah-ey-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important;
+    letter-spacing: 4.48px;
+    text-transform: uppercase
+}
+
+[id*='ahcom'] h1[class~='misc-ey-sspro'] *,
+[id*='khub'] h1[class~='misc-ey-sspro'] *,
+[id*='ahcom'] h2[class~='misc-ey-sspro'] *,
+[id*='khub'] h2[class~='misc-ey-sspro'] *,
+[id*='ahcom'] h3[class~='misc-ey-sspro'] *,
+[id*='khub'] h3[class~='misc-ey-sspro'] *,
+[id*='ahcom'] h4[class~='misc-ey-sspro'] *,
+[id*='khub'] h4[class~='misc-ey-sspro'] *,
+[id*='ahcom'] h5[class~='misc-ey-sspro'] *,
+[id*='khub'] h5[class~='misc-ey-sspro'] *,
+[id*='ahcom'] h6[class~='misc-ey-sspro'] *,
+[id*='khub'] h6[class~='misc-ey-sspro'] *,
+[id*='ahcom'] div[class~='misc-ey-sspro'] *,
+[id*='khub'] div[class~='misc-ey-sspro'] *,
+[id*='ahcom'] p[class~='misc-ey-sspro'] *,
+[id*='khub'] p[class~='misc-ey-sspro'] *,
+[id*='ahcom'] span[class~='misc-ey-sspro'] *,
+[id*='khub'] span[class~='misc-ey-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='misc-link-sspro'],
+[id*='khub'] h1[class~='misc-link-sspro'],
+[id*='ahcom'] h2[class~='misc-link-sspro'],
+[id*='khub'] h2[class~='misc-link-sspro'],
+[id*='ahcom'] h3[class~='misc-link-sspro'],
+[id*='khub'] h3[class~='misc-link-sspro'],
+[id*='ahcom'] h4[class~='misc-link-sspro'],
+[id*='khub'] h4[class~='misc-link-sspro'],
+[id*='ahcom'] h5[class~='misc-link-sspro'],
+[id*='khub'] h5[class~='misc-link-sspro'],
+[id*='ahcom'] h6[class~='misc-link-sspro'],
+[id*='khub'] h6[class~='misc-link-sspro'],
+[id*='ahcom'] div[class~='misc-link-sspro'],
+[id*='khub'] div[class~='misc-link-sspro'],
+[id*='ahcom'] p[class~='misc-link-sspro'],
+[id*='khub'] p[class~='misc-link-sspro'],
+[id*='ahcom'] span[class~='misc-link-sspro'],
+[id*='khub'] span[class~='misc-link-sspro'] {
+    font-size: var(--ah-link-fs) !important;
+    line-height: var(--ah-link-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] h1[class~='misc-link-sspro'] *,
+[id*='khub'] h1[class~='misc-link-sspro'] *,
+[id*='ahcom'] h2[class~='misc-link-sspro'] *,
+[id*='khub'] h2[class~='misc-link-sspro'] *,
+[id*='ahcom'] h3[class~='misc-link-sspro'] *,
+[id*='khub'] h3[class~='misc-link-sspro'] *,
+[id*='ahcom'] h4[class~='misc-link-sspro'] *,
+[id*='khub'] h4[class~='misc-link-sspro'] *,
+[id*='ahcom'] h5[class~='misc-link-sspro'] *,
+[id*='khub'] h5[class~='misc-link-sspro'] *,
+[id*='ahcom'] h6[class~='misc-link-sspro'] *,
+[id*='khub'] h6[class~='misc-link-sspro'] *,
+[id*='ahcom'] div[class~='misc-link-sspro'] *,
+[id*='khub'] div[class~='misc-link-sspro'] *,
+[id*='ahcom'] p[class~='misc-link-sspro'] *,
+[id*='khub'] p[class~='misc-link-sspro'] *,
+[id*='ahcom'] span[class~='misc-link-sspro'] *,
+[id*='khub'] span[class~='misc-link-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='misc-nav-sspro'],
+[id*='khub'] h1[class~='misc-nav-sspro'],
+[id*='ahcom'] h2[class~='misc-nav-sspro'],
+[id*='khub'] h2[class~='misc-nav-sspro'],
+[id*='ahcom'] h3[class~='misc-nav-sspro'],
+[id*='khub'] h3[class~='misc-nav-sspro'],
+[id*='ahcom'] h4[class~='misc-nav-sspro'],
+[id*='khub'] h4[class~='misc-nav-sspro'],
+[id*='ahcom'] h5[class~='misc-nav-sspro'],
+[id*='khub'] h5[class~='misc-nav-sspro'],
+[id*='ahcom'] h6[class~='misc-nav-sspro'],
+[id*='khub'] h6[class~='misc-nav-sspro'],
+[id*='ahcom'] div[class~='misc-nav-sspro'],
+[id*='khub'] div[class~='misc-nav-sspro'],
+[id*='ahcom'] p[class~='misc-nav-sspro'],
+[id*='khub'] p[class~='misc-nav-sspro'],
+[id*='ahcom'] span[class~='misc-nav-sspro'],
+[id*='khub'] span[class~='misc-nav-sspro'] {
+    font-size: var(--ah-nav-fs) !important;
+    line-height: var(--ah-nav-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='misc-nav-sspro'] *,
+[id*='khub'] h1[class~='misc-nav-sspro'] *,
+[id*='ahcom'] h2[class~='misc-nav-sspro'] *,
+[id*='khub'] h2[class~='misc-nav-sspro'] *,
+[id*='ahcom'] h3[class~='misc-nav-sspro'] *,
+[id*='khub'] h3[class~='misc-nav-sspro'] *,
+[id*='ahcom'] h4[class~='misc-nav-sspro'] *,
+[id*='khub'] h4[class~='misc-nav-sspro'] *,
+[id*='ahcom'] h5[class~='misc-nav-sspro'] *,
+[id*='khub'] h5[class~='misc-nav-sspro'] *,
+[id*='ahcom'] h6[class~='misc-nav-sspro'] *,
+[id*='khub'] h6[class~='misc-nav-sspro'] *,
+[id*='ahcom'] div[class~='misc-nav-sspro'] *,
+[id*='khub'] div[class~='misc-nav-sspro'] *,
+[id*='ahcom'] p[class~='misc-nav-sspro'] *,
+[id*='khub'] p[class~='misc-nav-sspro'] *,
+[id*='ahcom'] span[class~='misc-nav-sspro'] *,
+[id*='khub'] span[class~='misc-nav-sspro'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='xxl-head-ptserif'],
+[id*='khub'] h1[class~='xxl-head-ptserif'],
+[id*='ahcom'] h2[class~='xxl-head-ptserif'],
+[id*='khub'] h2[class~='xxl-head-ptserif'],
+[id*='ahcom'] h3[class~='xxl-head-ptserif'],
+[id*='khub'] h3[class~='xxl-head-ptserif'],
+[id*='ahcom'] h4[class~='xxl-head-ptserif'],
+[id*='khub'] h4[class~='xxl-head-ptserif'],
+[id*='ahcom'] h5[class~='xxl-head-ptserif'],
+[id*='khub'] h5[class~='xxl-head-ptserif'],
+[id*='ahcom'] h6[class~='xxl-head-ptserif'],
+[id*='khub'] h6[class~='xxl-head-ptserif'],
+[id*='ahcom'] div[class~='xxl-head-ptserif'],
+[id*='khub'] div[class~='xxl-head-ptserif'],
+[id*='ahcom'] p[class~='xxl-head-ptserif'],
+[id*='khub'] p[class~='xxl-head-ptserif'],
+[id*='ahcom'] span[class~='xxl-head-ptserif'],
+[id*='khub'] span[class~='xxl-head-ptserif'] {
+    font-size: var(--ah-xxlh-pt-fs) !important;
+    line-height: var(--ah-xxlh-pt-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xxl-head-ptserif'] *,
+[id*='khub'] h1[class~='xxl-head-ptserif'] *,
+[id*='ahcom'] h2[class~='xxl-head-ptserif'] *,
+[id*='khub'] h2[class~='xxl-head-ptserif'] *,
+[id*='ahcom'] h3[class~='xxl-head-ptserif'] *,
+[id*='khub'] h3[class~='xxl-head-ptserif'] *,
+[id*='ahcom'] h4[class~='xxl-head-ptserif'] *,
+[id*='khub'] h4[class~='xxl-head-ptserif'] *,
+[id*='ahcom'] h5[class~='xxl-head-ptserif'] *,
+[id*='khub'] h5[class~='xxl-head-ptserif'] *,
+[id*='ahcom'] h6[class~='xxl-head-ptserif'] *,
+[id*='khub'] h6[class~='xxl-head-ptserif'] *,
+[id*='ahcom'] div[class~='xxl-head-ptserif'] *,
+[id*='khub'] div[class~='xxl-head-ptserif'] *,
+[id*='ahcom'] p[class~='xxl-head-ptserif'] *,
+[id*='khub'] p[class~='xxl-head-ptserif'] *,
+[id*='ahcom'] span[class~='xxl-head-ptserif'] *,
+[id*='khub'] span[class~='xxl-head-ptserif'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='xl-head-ptserif'],
+[id*='khub'] h1[class~='xl-head-ptserif'],
+[id*='ahcom'] h2[class~='xl-head-ptserif'],
+[id*='khub'] h2[class~='xl-head-ptserif'],
+[id*='ahcom'] h3[class~='xl-head-ptserif'],
+[id*='khub'] h3[class~='xl-head-ptserif'],
+[id*='ahcom'] h4[class~='xl-head-ptserif'],
+[id*='khub'] h4[class~='xl-head-ptserif'],
+[id*='ahcom'] h5[class~='xl-head-ptserif'],
+[id*='khub'] h5[class~='xl-head-ptserif'],
+[id*='ahcom'] h6[class~='xl-head-ptserif'],
+[id*='khub'] h6[class~='xl-head-ptserif'],
+[id*='ahcom'] div[class~='xl-head-ptserif'],
+[id*='khub'] div[class~='xl-head-ptserif'],
+[id*='ahcom'] p[class~='xl-head-ptserif'],
+[id*='khub'] p[class~='xl-head-ptserif'],
+[id*='ahcom'] span[class~='xl-head-ptserif'],
+[id*='khub'] span[class~='xl-head-ptserif'] {
+    font-size: var(--ah-h1-pt-fs) !important;
+    line-height: var(--ah-h1-pt-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xl-head-ptserif'] *,
+[id*='khub'] h1[class~='xl-head-ptserif'] *,
+[id*='ahcom'] h2[class~='xl-head-ptserif'] *,
+[id*='khub'] h2[class~='xl-head-ptserif'] *,
+[id*='ahcom'] h3[class~='xl-head-ptserif'] *,
+[id*='khub'] h3[class~='xl-head-ptserif'] *,
+[id*='ahcom'] h4[class~='xl-head-ptserif'] *,
+[id*='khub'] h4[class~='xl-head-ptserif'] *,
+[id*='ahcom'] h5[class~='xl-head-ptserif'] *,
+[id*='khub'] h5[class~='xl-head-ptserif'] *,
+[id*='ahcom'] h6[class~='xl-head-ptserif'] *,
+[id*='khub'] h6[class~='xl-head-ptserif'] *,
+[id*='ahcom'] div[class~='xl-head-ptserif'] *,
+[id*='khub'] div[class~='xl-head-ptserif'] *,
+[id*='ahcom'] p[class~='xl-head-ptserif'] *,
+[id*='khub'] p[class~='xl-head-ptserif'] *,
+[id*='ahcom'] span[class~='xl-head-ptserif'] *,
+[id*='khub'] span[class~='xl-head-ptserif'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='l-head-ptserif'],
+[id*='khub'] h1[class~='l-head-ptserif'],
+[id*='ahcom'] h2[class~='l-head-ptserif'],
+[id*='khub'] h2[class~='l-head-ptserif'],
+[id*='ahcom'] h3[class~='l-head-ptserif'],
+[id*='khub'] h3[class~='l-head-ptserif'],
+[id*='ahcom'] h4[class~='l-head-ptserif'],
+[id*='khub'] h4[class~='l-head-ptserif'],
+[id*='ahcom'] h5[class~='l-head-ptserif'],
+[id*='khub'] h5[class~='l-head-ptserif'],
+[id*='ahcom'] h6[class~='l-head-ptserif'],
+[id*='khub'] h6[class~='l-head-ptserif'],
+[id*='ahcom'] div[class~='l-head-ptserif'],
+[id*='khub'] div[class~='l-head-ptserif'],
+[id*='ahcom'] p[class~='l-head-ptserif'],
+[id*='khub'] p[class~='l-head-ptserif'],
+[id*='ahcom'] span[class~='l-head-ptserif'],
+[id*='khub'] span[class~='l-head-ptserif'] {
+    font-size: var(--ah-h2-pt-fs) !important;
+    line-height: var(--ah-h2-pt-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='l-head-ptserif'] *,
+[id*='khub'] h1[class~='l-head-ptserif'] *,
+[id*='ahcom'] h2[class~='l-head-ptserif'] *,
+[id*='khub'] h2[class~='l-head-ptserif'] *,
+[id*='ahcom'] h3[class~='l-head-ptserif'] *,
+[id*='khub'] h3[class~='l-head-ptserif'] *,
+[id*='ahcom'] h4[class~='l-head-ptserif'] *,
+[id*='khub'] h4[class~='l-head-ptserif'] *,
+[id*='ahcom'] h5[class~='l-head-ptserif'] *,
+[id*='khub'] h5[class~='l-head-ptserif'] *,
+[id*='ahcom'] h6[class~='l-head-ptserif'] *,
+[id*='khub'] h6[class~='l-head-ptserif'] *,
+[id*='ahcom'] div[class~='l-head-ptserif'] *,
+[id*='khub'] div[class~='l-head-ptserif'] *,
+[id*='ahcom'] p[class~='l-head-ptserif'] *,
+[id*='khub'] p[class~='l-head-ptserif'] *,
+[id*='ahcom'] span[class~='l-head-ptserif'] *,
+[id*='khub'] span[class~='l-head-ptserif'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='m-head-ptserif'],
+[id*='khub'] h1[class~='m-head-ptserif'],
+[id*='ahcom'] h2[class~='m-head-ptserif'],
+[id*='khub'] h2[class~='m-head-ptserif'],
+[id*='ahcom'] h3[class~='m-head-ptserif'],
+[id*='khub'] h3[class~='m-head-ptserif'],
+[id*='ahcom'] h4[class~='m-head-ptserif'],
+[id*='khub'] h4[class~='m-head-ptserif'],
+[id*='ahcom'] h5[class~='m-head-ptserif'],
+[id*='khub'] h5[class~='m-head-ptserif'],
+[id*='ahcom'] h6[class~='m-head-ptserif'],
+[id*='khub'] h6[class~='m-head-ptserif'],
+[id*='ahcom'] div[class~='m-head-ptserif'],
+[id*='khub'] div[class~='m-head-ptserif'],
+[id*='ahcom'] p[class~='m-head-ptserif'],
+[id*='khub'] p[class~='m-head-ptserif'],
+[id*='ahcom'] span[class~='m-head-ptserif'],
+[id*='khub'] span[class~='m-head-ptserif'] {
+    font-size: var(--ah-h3-pt-fs) !important;
+    line-height: var(--ah-h3-pt-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='m-head-ptserif'] *,
+[id*='khub'] h1[class~='m-head-ptserif'] *,
+[id*='ahcom'] h2[class~='m-head-ptserif'] *,
+[id*='khub'] h2[class~='m-head-ptserif'] *,
+[id*='ahcom'] h3[class~='m-head-ptserif'] *,
+[id*='khub'] h3[class~='m-head-ptserif'] *,
+[id*='ahcom'] h4[class~='m-head-ptserif'] *,
+[id*='khub'] h4[class~='m-head-ptserif'] *,
+[id*='ahcom'] h5[class~='m-head-ptserif'] *,
+[id*='khub'] h5[class~='m-head-ptserif'] *,
+[id*='ahcom'] h6[class~='m-head-ptserif'] *,
+[id*='khub'] h6[class~='m-head-ptserif'] *,
+[id*='ahcom'] div[class~='m-head-ptserif'] *,
+[id*='khub'] div[class~='m-head-ptserif'] *,
+[id*='ahcom'] p[class~='m-head-ptserif'] *,
+[id*='khub'] p[class~='m-head-ptserif'] *,
+[id*='ahcom'] span[class~='m-head-ptserif'] *,
+[id*='khub'] span[class~='m-head-ptserif'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='s-head-ptserif'],
+[id*='khub'] h1[class~='s-head-ptserif'],
+[id*='ahcom'] h2[class~='s-head-ptserif'],
+[id*='khub'] h2[class~='s-head-ptserif'],
+[id*='ahcom'] h3[class~='s-head-ptserif'],
+[id*='khub'] h3[class~='s-head-ptserif'],
+[id*='ahcom'] h4[class~='s-head-ptserif'],
+[id*='khub'] h4[class~='s-head-ptserif'],
+[id*='ahcom'] h5[class~='s-head-ptserif'],
+[id*='khub'] h5[class~='s-head-ptserif'],
+[id*='ahcom'] h6[class~='s-head-ptserif'],
+[id*='khub'] h6[class~='s-head-ptserif'],
+[id*='ahcom'] div[class~='s-head-ptserif'],
+[id*='khub'] div[class~='s-head-ptserif'],
+[id*='ahcom'] p[class~='s-head-ptserif'],
+[id*='khub'] p[class~='s-head-ptserif'],
+[id*='ahcom'] span[class~='s-head-ptserif'],
+[id*='khub'] span[class~='s-head-ptserif'] {
+    font-size: var(--ah-h4-pt-fs) !important;
+    line-height: var(--ah-h4-pt-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='s-head-ptserif'] *,
+[id*='khub'] h1[class~='s-head-ptserif'] *,
+[id*='ahcom'] h2[class~='s-head-ptserif'] *,
+[id*='khub'] h2[class~='s-head-ptserif'] *,
+[id*='ahcom'] h3[class~='s-head-ptserif'] *,
+[id*='khub'] h3[class~='s-head-ptserif'] *,
+[id*='ahcom'] h4[class~='s-head-ptserif'] *,
+[id*='khub'] h4[class~='s-head-ptserif'] *,
+[id*='ahcom'] h5[class~='s-head-ptserif'] *,
+[id*='khub'] h5[class~='s-head-ptserif'] *,
+[id*='ahcom'] h6[class~='s-head-ptserif'] *,
+[id*='khub'] h6[class~='s-head-ptserif'] *,
+[id*='ahcom'] div[class~='s-head-ptserif'] *,
+[id*='khub'] div[class~='s-head-ptserif'] *,
+[id*='ahcom'] p[class~='s-head-ptserif'] *,
+[id*='khub'] p[class~='s-head-ptserif'] *,
+[id*='ahcom'] span[class~='s-head-ptserif'] *,
+[id*='khub'] span[class~='s-head-ptserif'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='xs-head-ptserif'],
+[id*='khub'] h1[class~='xs-head-ptserif'],
+[id*='ahcom'] h2[class~='xs-head-ptserif'],
+[id*='khub'] h2[class~='xs-head-ptserif'],
+[id*='ahcom'] h3[class~='xs-head-ptserif'],
+[id*='khub'] h3[class~='xs-head-ptserif'],
+[id*='ahcom'] h4[class~='xs-head-ptserif'],
+[id*='khub'] h4[class~='xs-head-ptserif'],
+[id*='ahcom'] h5[class~='xs-head-ptserif'],
+[id*='khub'] h5[class~='xs-head-ptserif'],
+[id*='ahcom'] h6[class~='xs-head-ptserif'],
+[id*='khub'] h6[class~='xs-head-ptserif'],
+[id*='ahcom'] div[class~='xs-head-ptserif'],
+[id*='khub'] div[class~='xs-head-ptserif'],
+[id*='ahcom'] p[class~='xs-head-ptserif'],
+[id*='khub'] p[class~='xs-head-ptserif'],
+[id*='ahcom'] span[class~='xs-head-ptserif'],
+[id*='khub'] span[class~='xs-head-ptserif'] {
+    font-size: var(--ah-h5-pt-fs) !important;
+    line-height: var(--ah-h5-pt-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xs-head-ptserif'] *,
+[id*='khub'] h1[class~='xs-head-ptserif'] *,
+[id*='ahcom'] h2[class~='xs-head-ptserif'] *,
+[id*='khub'] h2[class~='xs-head-ptserif'] *,
+[id*='ahcom'] h3[class~='xs-head-ptserif'] *,
+[id*='khub'] h3[class~='xs-head-ptserif'] *,
+[id*='ahcom'] h4[class~='xs-head-ptserif'] *,
+[id*='khub'] h4[class~='xs-head-ptserif'] *,
+[id*='ahcom'] h5[class~='xs-head-ptserif'] *,
+[id*='khub'] h5[class~='xs-head-ptserif'] *,
+[id*='ahcom'] h6[class~='xs-head-ptserif'] *,
+[id*='khub'] h6[class~='xs-head-ptserif'] *,
+[id*='ahcom'] div[class~='xs-head-ptserif'] *,
+[id*='khub'] div[class~='xs-head-ptserif'] *,
+[id*='ahcom'] p[class~='xs-head-ptserif'] *,
+[id*='khub'] p[class~='xs-head-ptserif'] *,
+[id*='ahcom'] span[class~='xs-head-ptserif'] *,
+[id*='khub'] span[class~='xs-head-ptserif'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='xxs-head-ptserif'],
+[id*='khub'] h1[class~='xxs-head-ptserif'],
+[id*='ahcom'] h2[class~='xxs-head-ptserif'],
+[id*='khub'] h2[class~='xxs-head-ptserif'],
+[id*='ahcom'] h3[class~='xxs-head-ptserif'],
+[id*='khub'] h3[class~='xxs-head-ptserif'],
+[id*='ahcom'] h4[class~='xxs-head-ptserif'],
+[id*='khub'] h4[class~='xxs-head-ptserif'],
+[id*='ahcom'] h5[class~='xxs-head-ptserif'],
+[id*='khub'] h5[class~='xxs-head-ptserif'],
+[id*='ahcom'] h6[class~='xxs-head-ptserif'],
+[id*='khub'] h6[class~='xxs-head-ptserif'],
+[id*='ahcom'] div[class~='xxs-head-ptserif'],
+[id*='khub'] div[class~='xxs-head-ptserif'],
+[id*='ahcom'] p[class~='xxs-head-ptserif'],
+[id*='khub'] p[class~='xxs-head-ptserif'],
+[id*='ahcom'] span[class~='xxs-head-ptserif'],
+[id*='khub'] span[class~='xxs-head-ptserif'] {
+    font-size: var(--ah-h6-pt-fs) !important;
+    line-height: var(--ah-h6-pt-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='xxs-head-ptserif'] *,
+[id*='khub'] h1[class~='xxs-head-ptserif'] *,
+[id*='ahcom'] h2[class~='xxs-head-ptserif'] *,
+[id*='khub'] h2[class~='xxs-head-ptserif'] *,
+[id*='ahcom'] h3[class~='xxs-head-ptserif'] *,
+[id*='khub'] h3[class~='xxs-head-ptserif'] *,
+[id*='ahcom'] h4[class~='xxs-head-ptserif'] *,
+[id*='khub'] h4[class~='xxs-head-ptserif'] *,
+[id*='ahcom'] h5[class~='xxs-head-ptserif'] *,
+[id*='khub'] h5[class~='xxs-head-ptserif'] *,
+[id*='ahcom'] h6[class~='xxs-head-ptserif'] *,
+[id*='khub'] h6[class~='xxs-head-ptserif'] *,
+[id*='ahcom'] div[class~='xxs-head-ptserif'] *,
+[id*='khub'] div[class~='xxs-head-ptserif'] *,
+[id*='ahcom'] p[class~='xxs-head-ptserif'] *,
+[id*='khub'] p[class~='xxs-head-ptserif'] *,
+[id*='ahcom'] span[class~='xxs-head-ptserif'] *,
+[id*='khub'] span[class~='xxs-head-ptserif'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='subhead-ptserif'],
+[id*='khub'] h1[class~='subhead-ptserif'],
+[id*='ahcom'] h2[class~='subhead-ptserif'],
+[id*='khub'] h2[class~='subhead-ptserif'],
+[id*='ahcom'] h3[class~='subhead-ptserif'],
+[id*='khub'] h3[class~='subhead-ptserif'],
+[id*='ahcom'] h4[class~='subhead-ptserif'],
+[id*='khub'] h4[class~='subhead-ptserif'],
+[id*='ahcom'] h5[class~='subhead-ptserif'],
+[id*='khub'] h5[class~='subhead-ptserif'],
+[id*='ahcom'] h6[class~='subhead-ptserif'],
+[id*='khub'] h6[class~='subhead-ptserif'],
+[id*='ahcom'] div[class~='subhead-ptserif'],
+[id*='khub'] div[class~='subhead-ptserif'],
+[id*='ahcom'] p[class~='subhead-ptserif'],
+[id*='khub'] p[class~='subhead-ptserif'],
+[id*='ahcom'] span[class~='subhead-ptserif'],
+[id*='khub'] span[class~='subhead-ptserif'] {
+    font-size: var(--ah-sh-pt-fs) !important;
+    line-height: var(--ah-sh-pt-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-reg-fw) !important
+}
+
+[id*='ahcom'] h1[class~='subhead-ptserif'] *,
+[id*='khub'] h1[class~='subhead-ptserif'] *,
+[id*='ahcom'] h2[class~='subhead-ptserif'] *,
+[id*='khub'] h2[class~='subhead-ptserif'] *,
+[id*='ahcom'] h3[class~='subhead-ptserif'] *,
+[id*='khub'] h3[class~='subhead-ptserif'] *,
+[id*='ahcom'] h4[class~='subhead-ptserif'] *,
+[id*='khub'] h4[class~='subhead-ptserif'] *,
+[id*='ahcom'] h5[class~='subhead-ptserif'] *,
+[id*='khub'] h5[class~='subhead-ptserif'] *,
+[id*='ahcom'] h6[class~='subhead-ptserif'] *,
+[id*='khub'] h6[class~='subhead-ptserif'] *,
+[id*='ahcom'] div[class~='subhead-ptserif'] *,
+[id*='khub'] div[class~='subhead-ptserif'] *,
+[id*='ahcom'] p[class~='subhead-ptserif'] *,
+[id*='khub'] p[class~='subhead-ptserif'] *,
+[id*='ahcom'] span[class~='subhead-ptserif'] *,
+[id*='khub'] span[class~='subhead-ptserif'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='ban-h1-ptserif'],
+[id*='khub'] h1[class~='ban-h1-ptserif'],
+[id*='ahcom'] h2[class~='ban-h1-ptserif'],
+[id*='khub'] h2[class~='ban-h1-ptserif'],
+[id*='ahcom'] h3[class~='ban-h1-ptserif'],
+[id*='khub'] h3[class~='ban-h1-ptserif'],
+[id*='ahcom'] h4[class~='ban-h1-ptserif'],
+[id*='khub'] h4[class~='ban-h1-ptserif'],
+[id*='ahcom'] h5[class~='ban-h1-ptserif'],
+[id*='khub'] h5[class~='ban-h1-ptserif'],
+[id*='ahcom'] h6[class~='ban-h1-ptserif'],
+[id*='khub'] h6[class~='ban-h1-ptserif'],
+[id*='ahcom'] div[class~='ban-h1-ptserif'],
+[id*='khub'] div[class~='ban-h1-ptserif'],
+[id*='ahcom'] p[class~='ban-h1-ptserif'],
+[id*='khub'] p[class~='ban-h1-ptserif'],
+[id*='ahcom'] span[class~='ban-h1-ptserif'],
+[id*='khub'] span[class~='ban-h1-ptserif'] {
+    font-size: var(--ah-ban-h1-fs) !important;
+    line-height: var(--ah-ban-h1-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-black-fw) !important
+}
+
+[id*='ahcom'] h1[class~='ban-h1-ptserif'] *,
+[id*='khub'] h1[class~='ban-h1-ptserif'] *,
+[id*='ahcom'] h2[class~='ban-h1-ptserif'] *,
+[id*='khub'] h2[class~='ban-h1-ptserif'] *,
+[id*='ahcom'] h3[class~='ban-h1-ptserif'] *,
+[id*='khub'] h3[class~='ban-h1-ptserif'] *,
+[id*='ahcom'] h4[class~='ban-h1-ptserif'] *,
+[id*='khub'] h4[class~='ban-h1-ptserif'] *,
+[id*='ahcom'] h5[class~='ban-h1-ptserif'] *,
+[id*='khub'] h5[class~='ban-h1-ptserif'] *,
+[id*='ahcom'] h6[class~='ban-h1-ptserif'] *,
+[id*='khub'] h6[class~='ban-h1-ptserif'] *,
+[id*='ahcom'] div[class~='ban-h1-ptserif'] *,
+[id*='khub'] div[class~='ban-h1-ptserif'] *,
+[id*='ahcom'] p[class~='ban-h1-ptserif'] *,
+[id*='khub'] p[class~='ban-h1-ptserif'] *,
+[id*='ahcom'] span[class~='ban-h1-ptserif'] *,
+[id*='khub'] span[class~='ban-h1-ptserif'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='ban-h2-ptserif'],
+[id*='khub'] h1[class~='ban-h2-ptserif'],
+[id*='ahcom'] h2[class~='ban-h2-ptserif'],
+[id*='khub'] h2[class~='ban-h2-ptserif'],
+[id*='ahcom'] h3[class~='ban-h2-ptserif'],
+[id*='khub'] h3[class~='ban-h2-ptserif'],
+[id*='ahcom'] h4[class~='ban-h2-ptserif'],
+[id*='khub'] h4[class~='ban-h2-ptserif'],
+[id*='ahcom'] h5[class~='ban-h2-ptserif'],
+[id*='khub'] h5[class~='ban-h2-ptserif'],
+[id*='ahcom'] h6[class~='ban-h2-ptserif'],
+[id*='khub'] h6[class~='ban-h2-ptserif'],
+[id*='ahcom'] div[class~='ban-h2-ptserif'],
+[id*='khub'] div[class~='ban-h2-ptserif'],
+[id*='ahcom'] p[class~='ban-h2-ptserif'],
+[id*='khub'] p[class~='ban-h2-ptserif'],
+[id*='ahcom'] span[class~='ban-h2-ptserif'],
+[id*='khub'] span[class~='ban-h2-ptserif'] {
+    font-size: var(--ah-ban-h2-fs) !important;
+    line-height: var(--ah-ban-h2-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-black-fw) !important
+}
+
+[id*='ahcom'] h1[class~='ban-h2-ptserif'] *,
+[id*='khub'] h1[class~='ban-h2-ptserif'] *,
+[id*='ahcom'] h2[class~='ban-h2-ptserif'] *,
+[id*='khub'] h2[class~='ban-h2-ptserif'] *,
+[id*='ahcom'] h3[class~='ban-h2-ptserif'] *,
+[id*='khub'] h3[class~='ban-h2-ptserif'] *,
+[id*='ahcom'] h4[class~='ban-h2-ptserif'] *,
+[id*='khub'] h4[class~='ban-h2-ptserif'] *,
+[id*='ahcom'] h5[class~='ban-h2-ptserif'] *,
+[id*='khub'] h5[class~='ban-h2-ptserif'] *,
+[id*='ahcom'] h6[class~='ban-h2-ptserif'] *,
+[id*='khub'] h6[class~='ban-h2-ptserif'] *,
+[id*='ahcom'] div[class~='ban-h2-ptserif'] *,
+[id*='khub'] div[class~='ban-h2-ptserif'] *,
+[id*='ahcom'] p[class~='ban-h2-ptserif'] *,
+[id*='khub'] p[class~='ban-h2-ptserif'] *,
+[id*='ahcom'] span[class~='ban-h2-ptserif'] *,
+[id*='khub'] span[class~='ban-h2-ptserif'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+[id*='ahcom'] h1[class~='ban-h3-ptserif'],
+[id*='khub'] h1[class~='ban-h3-ptserif'],
+[id*='ahcom'] h2[class~='ban-h3-ptserif'],
+[id*='khub'] h2[class~='ban-h3-ptserif'],
+[id*='ahcom'] h3[class~='ban-h3-ptserif'],
+[id*='khub'] h3[class~='ban-h3-ptserif'],
+[id*='ahcom'] h4[class~='ban-h3-ptserif'],
+[id*='khub'] h4[class~='ban-h3-ptserif'],
+[id*='ahcom'] h5[class~='ban-h3-ptserif'],
+[id*='khub'] h5[class~='ban-h3-ptserif'],
+[id*='ahcom'] h6[class~='ban-h3-ptserif'],
+[id*='khub'] h6[class~='ban-h3-ptserif'],
+[id*='ahcom'] div[class~='ban-h3-ptserif'],
+[id*='khub'] div[class~='ban-h3-ptserif'],
+[id*='ahcom'] p[class~='ban-h3-ptserif'],
+[id*='khub'] p[class~='ban-h3-ptserif'],
+[id*='ahcom'] span[class~='ban-h3-ptserif'],
+[id*='khub'] span[class~='ban-h3-ptserif'] {
+    font-size: var(--ah-ban-h3-fs) !important;
+    line-height: var(--ah-ban-h3-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-black-fw) !important
+}
+
+[id*='ahcom'] h1[class~='ban-h3-ptserif'] *,
+[id*='khub'] h1[class~='ban-h3-ptserif'] *,
+[id*='ahcom'] h2[class~='ban-h3-ptserif'] *,
+[id*='khub'] h2[class~='ban-h3-ptserif'] *,
+[id*='ahcom'] h3[class~='ban-h3-ptserif'] *,
+[id*='khub'] h3[class~='ban-h3-ptserif'] *,
+[id*='ahcom'] h4[class~='ban-h3-ptserif'] *,
+[id*='khub'] h4[class~='ban-h3-ptserif'] *,
+[id*='ahcom'] h5[class~='ban-h3-ptserif'] *,
+[id*='khub'] h5[class~='ban-h3-ptserif'] *,
+[id*='ahcom'] h6[class~='ban-h3-ptserif'] *,
+[id*='khub'] h6[class~='ban-h3-ptserif'] *,
+[id*='ahcom'] div[class~='ban-h3-ptserif'] *,
+[id*='khub'] div[class~='ban-h3-ptserif'] *,
+[id*='ahcom'] p[class~='ban-h3-ptserif'] *,
+[id*='khub'] p[class~='ban-h3-ptserif'] *,
+[id*='ahcom'] span[class~='ban-h3-ptserif'] *,
+[id*='khub'] span[class~='ban-h3-ptserif'] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'MetricRegular';
+    src: url(/resources/777a82404a046d26d2f2.otf);
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'MetricMedium';
+    src: url(/resources/71e40b017d49389b205f.ttf);
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'MetricSemibold';
+    src: url(/resources/f53c2163d04a459e19c0.otf);
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'MetricItalic';
+    src: url(/resources/80ac158edbddd1d6d9a1.otf);
+    font-weight: normal;
+    font-style: normal
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal
+}
+
+* :focus {
+    outline: 0;
+    box-shadow: 0 0 0
+}
+
+* :focus-visible {
+    outline: 1px solid #015fcc
+}
+
+[data-reactroot] *:focus-visible {
+    outline: none !important
+}
+
+ul {
+    list-style: none
+}
+
+p,
+.XkANF,
+.G04XA,
+.pNnFm,
+.mgmqN,
+.jH8az,
+.nycVU,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    margin-bottom: 0
+}
+
+p {
+    font-family: inherit
+}
+
+p em,
+p span {
+    font-family: inherit;
+    font-size: inherit
+}
+
+p strong {
+    font-size: inherit
+}
+
+p a {
+    font-family: inherit;
+    color: var(--dark-green)
+}
+
+p a:hover {
+    color: var(--dark-green)
+}
+
+img {
+    width: 100%
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit
+}
+
+b,
+strong {
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: inherit
+}
+
+p[class~='ah_qt']:before,
+p[class~='ah_qt']:after {
+    content: '"'
+}
+
+@media screen and (min-width: 769px) {
+
+    h1 *,
+    h2 *,
+    h3 *,
+    h4 *,
+    h5 *,
+    h6 *,
+    [class~='p1'] *,
+    [class~='p2'] *,
+    [class~='p3'] *,
+    [class~='p4'] * {
+        font-size: inherit !important;
+        line-height: inherit !important;
+        font-family: inherit !important;
+        color: inherit
+    }
+
+    h1 {
+        font-size: var(--h1-fs) !important;
+        line-height: var(--h1-lh) !important
+    }
+
+    h2 {
+        font-size: var(--h2-fs) !important;
+        line-height: var(--h2-lh) !important
+    }
+
+    h3 {
+        font-size: var(--h3-fs) !important;
+        line-height: var(--h3-lh) !important
+    }
+
+    h4 {
+        font-size: var(--h4-fs) !important;
+        line-height: var(--h4-lh) !important
+    }
+
+    h5 {
+        font-size: var(--h5-fs) !important;
+        line-height: var(--h5-lh) !important
+    }
+
+    [class~='p1'] {
+        font-size: var(--p1-fs) !important;
+        line-height: var(--p1-lh) !important
+    }
+
+    [class~='p2'] {
+        font-size: var(--p2-fs) !important;
+        line-height: var(--p2-lh) !important
+    }
+
+    [class~='p3'] {
+        font-size: var(--p3-fs) !important;
+        line-height: var(--p3-lh) !important
+    }
+
+    [class~='p4'] {
+        font-size: var(--p4-fs) !important;
+        line-height: var(--p4-lh) !important
+    }
+}
+
+[class~='wrapper'] {
+    width: 100%;
+    padding: 45px 0 45px 0
+}
+
+[class~='container'] {
+    max-width: 1080px
+}
+
+[class~='center'] {
+    margin: 0 auto
+}
+
+a[class~='regular'] {
+    border: 2px var(--transparent);
+    display: inline-block;
+    text-align: center;
+    border-color: transparent;
+    padding: 2px 30px 0 30px;
+    width: fit-content;
+    cursor: pointer
+}
+
+a[class~='regular']:hover {
+    text-decoration: none;
+    background-color: var(--dark-green);
+    color: var(--white) !important;
+    border: 2px solid var(--dark-green)
+}
+
+a[class~='small'] {
+    min-width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 40px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -ms-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px
+}
+
+@media all and (min-width: 769px) {
+    [class~='small'] {
+        font-size: 16px;
+        line-height: 36px
+    }
+}
+
+[class~='small']:hover {
+    line-height: 36px
+}
+
+a[class~='large'] {
+    min-width: 220px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 40px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px
+}
+
+@media all and (min-width: 769px) {
+    a[class~='large'] {
+        font-size: 22px;
+        font-size: 1.375rem;
+        line-height: 56px
+    }
+}
+
+a[class~='large']:hover {
+    line-height: 36px
+}
+
+@media screen and (min-width: 769px) {
+    a[class~='large']:hover {
+        line-height: 56px
+    }
+}
+
+@media all and (max-width: 768px) {
+    [class~='small'] {
+        line-height: 36px
+    }
+
+    a[class~='large'] {
+        font-size: 40px;
+        line-height: 36px
+    }
+}
+
+[class~='btn'][class~='btn-hollow'] {
+    border-style: solid;
+    border-width: 2px;
+    background: transparent
+}
+
+[class~='alertGreen-cta'] {
+    border-color: var(--dark-green);
+    color: var(--dark-green)
+}
+
+[class~='link'] {
+    color: var(--dark-green);
+    font-size: 16px;
+    text-decoration: underline
+}
+
+@media all and (min-width: 769px) {
+    [class~='link'] {
+        font-size: 16px;
+        font-size: 1rem
+    }
+}
+
+[class~='link']:hover {
+    text-decoration: none
+}
+
+[class~='alertGreen'] {
+    background-color: var(--dark-green);
+    color: var(--white)
+}
+
+[class~='alertGreen']:not([href]):not([tabindex]) {
+    color: var(--white)
+}
+
+[class~='alertGreen']:not([href]):not([tabindex]):hover {
+    color: var(--dark-green)
+}
+
+[class~='ahpurple-txt'] {
+    color: var(--athena-purple)
+}
+
+[class~='black-txt'] {
+    color: #000
+}
+
+[class~='white-txt'] {
+    color: var(--white)
+}
+
+[class~='gray-txt'] {
+    color: var(--very-light-gray)
+}
+
+[class~='lightGray-txt'] {
+    color: #f4f4f4
+}
+
+[class~='gray-txt'] {
+    color: var(--gray)
+}
+
+[class~='spring-txt'] {
+    color: var(--spring)
+}
+
+[class~='forest-txt'] {
+    color: var(--forest)
+}
+
+[class~='teal-txt'] {
+    color: var(--teal)
+}
+
+[class~='ruby-txt'] {
+    color: var(--ruby)
+}
+
+[class~='darkGray-txt'] {
+    color: var(--dark-gray)
+}
+
+[class~='slate-txt'] {
+    color: #666
+}
+
+[class~='alertGreen-txt'] {
+    color: var(--dark-green)
+}
+
+[class~='errorRed-txt'] {
+    color: var(--error-red)
+}
+
+[class~='ahpurple-bg'] {
+    background-color: var(--athena-purple)
+}
+
+[class~='black-bg'] {
+    background-color: #000
+}
+
+[class~='white-bg'] {
+    background-color: var(--white)
+}
+
+[class~='gray-bg'] {
+    background-color: var(--very-light-gray)
+}
+
+[class~='lightGray-bg'] {
+    background-color: #f4f4f4
+}
+
+[class~='gray-bg'] {
+    background-color: var(--gray)
+}
+
+[class~='spring-bg'] {
+    background-color: var(--spring)
+}
+
+[class~='forest-bg'] {
+    background-color: var(--forest)
+}
+
+[class~='teal-bg'] {
+    background-color: var(--teal)
+}
+
+[class~='ruby-bg'] {
+    background-color: var(--ruby)
+}
+
+[class~='darkGray-bg'] {
+    background-color: var(--dark-gray)
+}
+
+[class~='slate-bg'] {
+    background-color: #666
+}
+
+[class~='alertGreen-bg'] {
+    background-color: var(--dark-green)
+}
+
+[class~='errorRed-bg'] {
+    background-color: var(--error-red)
+}
+
+[class~='arrow'] {
+    border: solid var(--dark-green);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px
+}
+
+[class~='right-arrow'] {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg)
+}
+
+[class~='left-arrow'] {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-right: 3px
+}
+
+[class~='up-arrow'] {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg)
+}
+
+[class~='down-arrow'] {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg)
+}
+
+[class~='alertGreen'] {
+    background-color: var(--dark-green) !important;
+    color: var(--white)
+}
+
+[class~='alertGreen']:hover {
+    background-color: var(--hover-green) !important;
+    border-color: var(--hover-green) !important
+}
+
+[class~='alertGreen'][class~='disabled'] {
+    color: var(--white);
+    background-color: var(--gray) !important
+}
+
+[class~='alertGreen'][class~='disabled']:hover {
+    background-color: var(--dark-gray) !important;
+    border-color: var(--dark-gray) !important
+}
+
+[class~='alertGreen'][class~='disabled']:hover {
+    background-color: var(--dark-gray) !important;
+    border-color: var(--dark-gray) !important
+}
+
+a[class~='alertGreen'][class~='small'],
+a[class*='reverseGreen'][class~='small'] {
+    font-size: var(--re-sh4-fs) !important;
+    line-height: 20px !important;
+    height: 38px !important;
+    min-width: 180px !important;
+    padding: 8px 30px 0 30px !important;
+    color: var(--white) !important
+}
+
+[class~='inline-link'] {
+    font-family: inherit;
+    color: var(--purple-int-100);
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[class~='inline-link']:hover {
+    text-decoration: underline;
+    color: var(--campaign-indigo)
+}
+
+[class~='inline-link']:active {
+    color: var(--purple-int-100);
+    text-decoration: underline
+}
+
+[class~='p1'] a,
+[class~='p2'] a,
+[class~='p3'] a,
+[class~='p4'] a {
+    color: var(--dark-green)
+}
+
+[class~='p1'] a:hover,
+[class~='p2'] a:hover,
+[class~='p3'] a:hover,
+[class~='p4'] a:hover {
+    text-decoration: underline !important
+}
+
+[class~='align-right'] {
+    float: right
+}
+
+[class~='align-left'] {
+    float: left
+}
+
+[class~='align-default-position'] {
+    margin: 0 auto
+}
+
+[class~='alertGreen']:hover,
+[class~='alertGreen']:not([href]):not([tabindex]):hover {
+    color: var(--dark-green)
+}
+
+@media screen and (min-width: 769px) {
+    [class~='overflowpage'] {
+        overflow: hidden
+    }
+}
+
+[class~='case-study-list'] div[class*=moreresources],
+[class~='whitepaper-list'] div[class*=moreresources] {
+    border-top: 0;
+    margin-top: 0;
+    padding: 50px 0 25px
+}
+
+[class~='popup'][class~='open'] {
+    display: block
+}
+
+[class~='popup'][class~='close'] {
+    display: none !important
+}
+
+[class~='transition-enter'] {
+    transform: scale(0)
+}
+
+[class~='transition-enter-active'] {
+    transform: scale(1);
+    transition: all .6s ease-in-out
+}
+
+[class~='transition-exit'] {
+    transform: scale(1)
+}
+
+[class~='transition-exit-active'] {
+    transform: scale(0);
+    -webkit-transition: top .7s, bottom .7s;
+    transition: all .6s ease-in-out
+}
+
+[class~='custom-overlay'] {
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: space-around
+}
+
+[class~='custom-modal'] button svg {
+    height: 40px;
+    width: 40px;
+    fill: var(--gray);
+    margin-top: 2rem;
+    margin-right: 3rem
+}
+
+[class~=''] button {
+    outline: 0
+}
+
+.qyW5H .ZfL9L .G9E_6>legend[class~='MuiFormLabel-focused'] {
+    color: rgba(0, 0, 0, 0.54)
+}
+
+[class~='custom-modal'] button svg {
+    display: none
+}
+
+[class~='custom-modal']>button {
+    width: 40px;
+    height: 40px;
+    text-indent: -999em;
+    right: 57px;
+    top: 57px;
+    margin: 0;
+    position: absolute;
+    cursor: pointer;
+    display: block
+}
+
+[class~='custom-modal']>button:after,
+[class~='custom-modal']>button:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: 19px;
+    width: 3px;
+    height: 54px;
+    background: var(--gray)
+}
+
+[class~='custom-modal']>button:before {
+    transform: rotate(-45deg)
+}
+
+[class~='custom-modal']>button:after {
+    transform: rotate(45deg)
+}
+
+[class~='embeddedServiceHelpButton'] [class~='helpButton'] [class~='uiButton'] {
+    font-family: 'Arial', sans-serif !important
+}
+
+[class~='embeddedServiceHelpButton'] [class~='helpButton'] [class~='uiButton']:focus {
+    outline: 1px solid var(--hero-purple) !important
+}
+
+[class*='showDockableContainer']>embeddedservice-chat-header {
+    background-color: var(--hero-purple) !important
+}
+
+[class*='showDockableContainer']>embeddedservice-chat-header>header>h2 {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+ul[class*="rich-menu-items"]>li>button {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+ul[class*="rich-menu-items"]>li>button:hover {
+    background: var(--purple-int-70) !important
+}
+
+[class*="iconAvatar"] {
+    background-color: unset !important
+}
+
+[class*="endChatContainer"]>button {
+    background-color: var(--purple-int-15) !important
+}
+
+[class*="endChatContainer"]>button:hover [class*="endChatContainer"]>button:focus {
+    background-color: var(--hero-purple) !important
+}
+
+[class*="endChatContainer"]>button>span {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+[class*="sidebarHeader"]>button:hover svg {
+    background: var(--purple-int-15) !important
+}
+
+[class*="sidebarHeader"]>button svg {
+    background: var(--hero-purple)
+}
+
+[class*="sidebarHeader"] span[id*="chatWindowCurrentDesc"] {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+div[class*="waitingGreetingContent"] div {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+div[class*="waitingStateButtonContainer"] button>span {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+div[class*="nameAndTimeContent"]>div {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+div[class*="chasitorControls"]>textarea {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: 400 !important
+}
+
+span[class*="slds-truncate"] {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+div[class*="dialogButtonContainer"] button>span {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+[class*="chatContent"]>div[class*="chasitor"] {
+    background: var(--hero-purple) !important;
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+[class*="chatContent"] div[class*="uiOutputRichText"] {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+[class*="chatContent"] div[class*="uiOutputRichText"]>a {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+div[class*="eventMessage"] div[class*="uiOutputRichText"] {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+span[id*="chatWindowCurrentDesc"] {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+div[class*="dialogTextContainer"] h3 {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+div[class*="dialogTextContainer"] div[class*="uiOutputRichText"] {
+    font-family: var(--sourcesanspro-ff) !important
+}
+
+div[class*="dialogButtonContainer"]>button[class*="uiButton"] {
+    background-color: var(--purple-int-15) !important
+}
+
+div[class*="dialogButtonContainer"]>button[class*="uiButton"]:hover,
+div[class*="dialogButtonContainer"]>button[class*="uiButton"]:focus {
+    background-color: var(--hero-purple) !important
+}
+
+@media screen and (max-width: 1080px) and (min-width:769px) {
+
+    [class~='ReactModalPortal'] fieldset[class*=ahffieldwrap],
+    [class~='ReactModal__Content'] fieldset[class*=ahffieldwrap] {
+        width: 30.2vw
+    }
+}
+
+[class~='custom-modal'] button svg {
+    display: none
+}
+
+[class~='custom-modal']>button {
+    width: 40px;
+    height: 40px;
+    text-indent: -999em;
+    right: 57px;
+    top: 57px;
+    margin: 0;
+    position: absolute;
+    cursor: pointer;
+    display: block
+}
+
+[class~='custom-modal']>button:after,
+[class~='custom-modal']>button:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: 19px;
+    width: 3px;
+    height: 54px;
+    background: var(--gray)
+}
+
+[class~='custom-modal']>button:before {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+[class~='custom-modal']>button:after {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+[class~='custom-modal']>button {
+    top: 49px;
+    right: 55px
+}
+
+main [class*='card'] {
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0
+}
+
+main [class*='card-header'] {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: inherit;
+    background-color: transparent
+}
+
+[class~='card-body'] {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+@media screen and (min-width: 1080px) {
+    [class~='mobile-hide'] {
+        display: none
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    [class~='desktop-hide'] {
+        display: none
+    }
+}
+
+@media screen and (min-width: 769px) {
+    [class*='display-desktop'] {
+        display: block
+    }
+
+    [class*='display-mobile'] {
+        display: none
+    }
+}
+
+[class*='align-component-']>section,
+[class*='align-component-']>div {
+    margin: 0;
+    padding: 0
+}
+
+[class~='align-component-right'] {
+    float: right
+}
+
+[class~='align-component-left'] {
+    float: left
+}
+
+[class~='slick-list'] {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+
+[class~='slick-slider'] {
+    position: relative;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent
+}
+
+[class~='slick-slider'] [class~='slick-list'],
+[class~='slick-slider'] [class~='slick-track'] {
+    transform: translate3d(0, 0, 0)
+}
+
+[class~='slick-dots'] {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 53.5px;
+    position: relative;
+    bottom: 0
+}
+
+[class~='slick-dots'] li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer
+}
+
+[class~='slick-dots'] li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: 0;
+    background: 0 0
+}
+
+[class~='slick-dots'] li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #000;
+    content: '';
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--hero-purple);
+    -webkit-border-radius: 100% 100% 100% 100%;
+    -moz-border-radius: 100% 100% 100% 100%;
+    -ms-border-radius: 100% 100% 100% 100%;
+    border-radius: 100% 100% 100% 100%;
+    background: 0 0
+}
+
+[class~='slick-dots'] li[class~='slick-active'] button:before {
+    background: var(--hero-purple)
+}
+
+[class~='slick-next'],
+[class~='slick-prev'] {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: 0;
+    background: 0 0;
+    z-index: 1
+}
+
+[class~='slick-next']:before,
+[class~='slick-prev']:before {
+    content: '\2192';
+    font-family: slick;
+    opacity: .75;
+    color: var(--white);
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 1;
+    outline: 0;
+    margin-right: 28px;
+    border-top: var(--transparent);
+    border-bottom: var(--transparent);
+    border-left: solid var(--gray);
+    border-width: 15px 0 15px 15px
+}
+
+[class~='slick-next'] {
+    right: -45px
+}
+
+[class~='slick-prev'] {
+    left: -45px
+}
+
+[class~='slick-prev']:before {
+    border-left: var(--transparent);
+    border-right: solid var(--gray);
+    border-width: 15px 15px 15px 0
+}
+
+[class~='slick-track'] {
+    display: flex
+}
+
+[class~='slick-arrow'] {
+    width: 90px;
+    height: 90px;
+    background: var(--white);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    box-shadow: -1px 0 9px 0 #e8e8e8;
+    top: 29vw;
+    outline: 0
+}
+
+[class~='slick-arrow']:focus {
+    outline: 0
+}
+
+@media screen and (min-width: 769px) {
+    [class~='slick-arrow'] {
+        width: 120px;
+        height: 120px;
+        top: 41%
+    }
+
+    [class~='slick-prev'] {
+        left: -60px
+    }
+
+    [class~='slick-prev']:before {
+        border-width: 20px 20px 20px 0;
+        margin-left: 40px
+    }
+
+    [class~='slick-next'] {
+        right: -60px
+    }
+
+    [class~='slick-next']:before {
+        border-width: 20px 0 20px 20px;
+        margin-right: 40px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    [class*='display-mobile'] {
+        display: block
+    }
+
+    [class*='display-desktop'] {
+        display: none
+    }
+
+    [class~='slick-dots'] {
+        margin-top: 40px
+    }
+
+    [class~='m_close'] {
+        right: 10px;
+        top: 20px
+    }
+
+    [class~='ReactModal__Overlay'] {
+        -webkit-overflow-scrolling: touch
+    }
+
+    [class~='ReactModal__Overlay'],
+    [class~='ReactModal__Content'] {
+        max-width: 100% !important
+    }
+
+    [class~='custom-modal'] button svg {
+        display: none
+    }
+
+    [class~='ReactModal__Content'] [class~='m_close'] {
+        right: 10px;
+        top: 20px
+    }
+
+    [class~='ReactModal__Content'] [class~='m_close']:after,
+    [class~='ReactModal__Content'] [class~='m_close']:before {
+        font-size: 12px;
+        height: 30px
+    }
+}
+
+[id*='ahcom'] [class~='inline-link'],
+[id*='khub'] [class~='inline-link'] {
+    font-family: inherit;
+    color: var(--purple-int-100);
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] [class~='inline-link']:hover,
+[id*='khub'] [class~='inline-link']:hover {
+    text-decoration: underline;
+    color: var(--campaign-indigo)
+}
+
+[id*='ahcom'] [class~='inline-link']:active,
+[id*='khub'] [class~='inline-link']:active {
+    color: var(--purple-int-100);
+    text-decoration: underline
+}
+
+[id*='ahcom'] em,
+[id*='khub'] em,
+[id*='ahcom'] em *,
+[id*='khub'] em * {
+    font-style: italic
+}
+
+[id*='ahcom'] p,
+[id*='khub'] p {
+    font-family: inherit
+}
+
+[id*='ahcom'] p em,
+[id*='khub'] p em,
+[id*='ahcom'] p span,
+[id*='khub'] p span {
+    font-family: inherit;
+    font-size: inherit
+}
+
+[id*='ahcom'] p strong,
+[id*='khub'] p strong {
+    font-family: var(--sourcesanspro-ff);
+    font-size: inherit
+}
+
+[id*='ahcom'] p a,
+[id*='khub'] p a {
+    font-family: inherit;
+    color: var(--purple-int-100);
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] p a:hover,
+[id*='khub'] p a:hover {
+    text-decoration: underline;
+    color: var(--campaign-indigo)
+}
+
+[id*='ahcom'] p a:active,
+[id*='khub'] p a:active {
+    color: var(--purple-int-100);
+    text-decoration: underline
+}
+
+[id*='ahcom'] [class~='p1'] a,
+[id*='khub'] [class~='p1'] a,
+[id*='ahcom'] [class~='p2'] a,
+[id*='khub'] [class~='p2'] a,
+[id*='ahcom'] [class~='p3'] a,
+[id*='khub'] [class~='p3'] a,
+[id*='ahcom'] [class~='p4'] a,
+[id*='khub'] [class~='p4'] a {
+    font-family: inherit;
+    color: var(--purple-int-100);
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] [class~='p1'] a:hover,
+[id*='khub'] [class~='p1'] a:hover,
+[id*='ahcom'] [class~='p2'] a:hover,
+[id*='khub'] [class~='p2'] a:hover,
+[id*='ahcom'] [class~='p3'] a:hover,
+[id*='khub'] [class~='p3'] a:hover,
+[id*='ahcom'] [class~='p4'] a:hover,
+[id*='khub'] [class~='p4'] a:hover {
+    text-decoration: underline;
+    color: var(--campaign-indigo)
+}
+
+[id*='ahcom'] [class~='p1'] a:active,
+[id*='khub'] [class~='p1'] a:active,
+[id*='ahcom'] [class~='p2'] a:active,
+[id*='khub'] [class~='p2'] a:active,
+[id*='ahcom'] [class~='p3'] a:active,
+[id*='khub'] [class~='p3'] a:active,
+[id*='ahcom'] [class~='p4'] a:active,
+[id*='khub'] [class~='p4'] a:active {
+    color: var(--purple-int-100);
+    text-decoration: underline
+}
+
+[id*='ahcom'] a[class~='alertGreen'][class~='small'],
+[id*='khub'] a[class~='alertGreen'][class~='small'],
+[id*='ahcom'] a[class*='reverseGreen'][class~='small'],
+[id*='khub'] a[class*='reverseGreen'][class~='small'] {
+    font-weight: var(--sspro-semibold-fw) !important
+}
+
+[class~='black-theme'] em,
+[class~='black-theme'] em * {
+    font-style: italic
+}
+
+[class~='black-theme'] [class~='alertGreen'] {
+    background-color: var(--teal) !important;
+    color: var(--white)
+}
+
+[class~='black-theme'] [class~='alertGreen']:hover {
+    background-color: var(--hover-teal) !important;
+    border-color: var(--hover-teal) !important
+}
+
+[class~='black-theme'] [class~='alertGreen'][class~='disabled'] {
+    color: var(--white);
+    background-color: var(--gray) !important
+}
+
+[class~='black-theme'] [class~='alertGreen'][class~='disabled']:hover {
+    background-color: var(--dark-gray) !important;
+    border-color: var(--dark-gray) !important
+}
+
+[class~='black-theme'] [class~='inline-link']:hover {
+    text-decoration: underline
+}
+
+[class~='black-theme'] [class~=p1] a,
+[class~='black-theme'] [class~=p2] a,
+[class~='black-theme'] [class~=p3] a,
+[class~='black-theme'] [class~=p4] a,
+[class~='black-theme'] a {
+    color: var(--teal)
+}
+
+[class~='black-theme'] [class~=p1] a:hover,
+[class~='black-theme'] [class~=p2] a:hover,
+[class~='black-theme'] [class~=p3] a:hover,
+[class~='black-theme'] [class~=p4] a:hover {
+    text-decoration: underline !important
+}
+
+[class~='black-theme'] [class~=p1] a:hover,
+[class~='black-theme'] [class~=p2] a:hover,
+[class~='black-theme'] [class~=p3] a:hover,
+[class~='black-theme'] [class~=p4] a:hover {
+    text-decoration: underline !important
+}
+
+[class~='black-theme'] a:hover {
+    color: var(--teal)
+}
+
+[class~='black-theme'] [class~='slick-dots'] li button:before,
+[class~='black-theme'] [class~='slick-dots'] [class~='slick-active'] button:before {
+    border-color: var(--teal) !important
+}
+
+[class~='athenanet-page'] [class~='header-wrapper'],
+[class~='athenanet-page'] [class~='footer-wrapper'] {
+    display: none
+}
+
+[class~='athenanet-page'] [class*='free-html-wrapper'] {
+    padding-top: unset
+}
+
+img[data-entity-type*="file"] {
+    width: auto !important;
+    max-width: 100%
+}

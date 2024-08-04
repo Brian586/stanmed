@@ -1,0 +1,392 @@
+.YA593 {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+.LS9KZ {
+    margin: 0 auto
+}
+
+.LS9KZ .LharN {
+    color: var(--dark-green) !important;
+    font-family: var(--metric-regular-ff);
+    display: flex;
+    font-size: 18px;
+    padding: 2px 0 30px 0
+}
+
+.LS9KZ .LharN:hover {
+    text-decoration: underline
+}
+
+.LS9KZ h2 {
+    color: var(--hero-purple);
+    font-family: var(--metric-medium-ff)
+}
+
+.LS9KZ .vqXHA {
+    margin: 10px 0 30px 0
+}
+
+.LS9KZ .nTi8I {
+    text-align: center;
+    color: var(--hero-purple);
+    font-family: var(--metric-medium-ff);
+    font-size: 36px
+}
+
+.LS9KZ .nTi8I p {
+    font-size: var(--re-h5-fs) !important;
+    line-height: var(--re-h5-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-bold-fw) !important
+}
+
+.LS9KZ .iB13v p {
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-bold-fw) !important;
+    font-size: var(--re-h6-fs) !important;
+    line-height: var(--re-h6-lh) !important
+}
+
+.LS9KZ .BX_eV {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important;
+    font-size: var(--re-sh4-fs) !important;
+    line-height: var(--re-sh4-lh) !important;
+    max-width: 682px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 12px;
+    margin-bottom: 44px
+}
+
+.LS9KZ ul {
+    list-style: inherit
+}
+
+.LS9KZ li {
+    padding: 10px 0
+}
+
+.LS9KZ li:first-child {
+    padding-top: 20px
+}
+
+[class~='black-theme'] .LS9KZ .nTi8I {
+    color: var(--teal)
+}
+
+[class~='black-theme'] .It_WS .USDoP,
+[class~='black-theme'] .It_WS .iB13v {
+    color: var(--teal)
+}
+
+.It_WS {
+    display: flex;
+    padding: 42px 53px;
+    margin: auto
+}
+
+.It_WS .iB13v {
+    color: var(--hero-purple);
+    font-family: var(--metric-medium-ff);
+    font-size: 28px
+}
+
+.It_WS .USDoP {
+    font-family: var(--metric-regular-ff);
+    color: var(--hero-purple);
+    font-size: 18px;
+    padding: 10px 0;
+    display: flex
+}
+
+.It_WS .Ltuc9 {
+    font-family: var(--metric-regular-ff);
+    font-size: 18px;
+    padding: 10px 0 15px 0
+}
+
+.It_WS .Ltuc9 p {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important;
+    font-size: var(--re-p2-fs) !important;
+    line-height: var(--re-p2-lh) !important
+}
+
+.It_WS .O3Ob3 {
+    margin: 10px 0 30px 0;
+    display: flex;
+    justify-content: center
+}
+
+.It_WS .K8bnd {
+    margin: 0;
+    padding: 0 3px;
+    flex-basis: 100%
+}
+
+.It_WS .Gk_0b {
+    padding-left: 80px
+}
+
+.It_WS .o46LQ {
+    border-bottom: 1px solid #d3d3d3;
+    display: flex;
+    margin-top: 34px;
+    padding-bottom: 15px
+}
+
+.It_WS .o46LQ:nth-last-child(1) {
+    border-bottom: 0
+}
+
+.It_WS .cAsNt {
+    padding-right: 17px
+}
+
+.It_WS .cAsNt img {
+    width: 169px;
+    height: 169px
+}
+
+.It_WS section .jpIKW h1,
+.It_WS section .jpIKW h2,
+.It_WS section .jpIKW h3,
+.It_WS section .jpIKW h4,
+.It_WS section .jpIKW h5 {
+    font-family: var(--metric-medium-ff);
+    margin: 0
+}
+
+.It_WS section .jpIKW h1 {
+    font-size: 22px !important
+}
+
+.It_WS section .jpIKW h2 {
+    font-size: 20px !important
+}
+
+.It_WS section .jpIKW h3 {
+    font-size: 18px !important
+}
+
+.It_WS section .jpIKW h4 {
+    font-size: 16px !important
+}
+
+.It_WS section .jpIKW h5 {
+    font-size: 14px !important
+}
+
+.It_WS section .jpIKW sup,
+.It_WS section .jpIKW sub {
+    font-size: 12px !important;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+.It_WS section .jpIKW strong {
+    font-weight: bold;
+    font-style: inherit
+}
+
+.It_WS section .jpIKW em {
+    font-family: var(--metric-italic-ff);
+    font-style: italic;
+    font-weight: inherit
+}
+
+.It_WS section .jpIKW a {
+    color: var(--dark-green);
+    text-decoration: none
+}
+
+.It_WS section .jpIKW a:hover span {
+    text-decoration: inherit
+}
+
+@media screen and (max-width: 1080px) {
+    .LS9KZ {
+        width: 100%
+    }
+
+    .LS9KZ .BX_eV {
+        width: 100%
+    }
+
+    .It_WS {
+        display: block;
+        padding: 0 13px;
+        margin: 0 auto
+    }
+
+    .It_WS .o46LQ {
+        display: block
+    }
+
+    .It_WS .rH2Yv {
+        padding-right: 0
+    }
+
+    .It_WS .Wox3x {
+        border-right: none
+    }
+
+    .It_WS .Gk_0b {
+        padding-left: 0
+    }
+
+    .It_WS .cAsNt img {
+        margin: 0 0 20px 0
+    }
+}
+
+.a556C *,
+.a556C p {
+    font-size: var(--re-p2-fs) !important;
+    line-height: var(--re-p2-lh) !important;
+    max-width: 713px;
+    margin: auto;
+    text-align: center;
+    padding-top: 11px;
+    margin-bottom: 44px
+}
+
+.eaaIR {
+    border-bottom: 3px solid #4e2d82;
+    margin: auto;
+    width: 40px;
+    padding-top: 11px
+}
+
+.wLqCu {
+    margin: auto;
+    max-width: 896px;
+    width: calc(100% - 60px)
+}
+
+.USDoP p {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important;
+    font-size: var(--re-sh5-fs) !important;
+    line-height: var(--re-sh5-lh) !important
+}
+
+[id*='ahcom'] .FR22N p>a,
+[id*='khub'] .FR22N p>a,
+[id*='ahcom'] .FR22N p>a span,
+[id*='khub'] .FR22N p>a span,
+[id*='ahcom'] .FR22N p a>span,
+[id*='khub'] .FR22N p a>span,
+[id*='ahcom'] .FR22N p a,
+[id*='khub'] .FR22N p a {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important;
+    background: transparent;
+    color: var(--orchid-int-30) !important;
+    display: inline-block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    line-height: 18px !important;
+    width: fit-content;
+    position: relative
+}
+
+[id*='ahcom'] .FR22N p>a:hover,
+[id*='khub'] .FR22N p>a:hover,
+[id*='ahcom'] .FR22N p>a span:hover,
+[id*='khub'] .FR22N p>a span:hover,
+[id*='ahcom'] .FR22N p a>span:hover,
+[id*='khub'] .FR22N p a>span:hover,
+[id*='ahcom'] .FR22N p a:hover,
+[id*='khub'] .FR22N p a:hover {
+    text-decoration-line: underline;
+    color: var(--white) !important
+}
+
+[id*='ahcom'] .FR22N p>a:active,
+[id*='khub'] .FR22N p>a:active,
+[id*='ahcom'] .FR22N p>a span:active,
+[id*='khub'] .FR22N p>a span:active,
+[id*='ahcom'] .FR22N p a>span:active,
+[id*='khub'] .FR22N p a>span:active,
+[id*='ahcom'] .FR22N p a:active,
+[id*='khub'] .FR22N p a:active {
+    color: var(--orchid-int-30) !important;
+    text-decoration-line: underline
+}
+
+[id*='ahcom'] .FR22N p>a:focus-visible,
+[id*='khub'] .FR22N p>a:focus-visible,
+[id*='ahcom'] .FR22N p>a span:focus-visible,
+[id*='khub'] .FR22N p>a span:focus-visible,
+[id*='ahcom'] .FR22N p a>span:focus-visible,
+[id*='khub'] .FR22N p a>span:focus-visible,
+[id*='ahcom'] .FR22N p a:focus-visible,
+[id*='khub'] .FR22N p a:focus-visible {
+    outline: none;
+    color: var(--orchid-int-30) !important;
+    padding: 2px 2px;
+    border: 2px solid var(--white)
+}
+
+[id*='ahcom'] .gfYZw p a,
+[id*='khub'] .gfYZw p a,
+[id*='ahcom'] .gfYZw p a>span,
+[id*='khub'] .gfYZw p a>span,
+[id*='ahcom'] .gfYZw p em a,
+[id*='khub'] .gfYZw p em a {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important;
+    background: transparent;
+    color: var(--purple-int-100) !important;
+    display: inline-block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    line-height: 18px !important;
+    width: fit-content
+}
+
+[id*='ahcom'] .gfYZw p a:hover,
+[id*='khub'] .gfYZw p a:hover,
+[id*='ahcom'] .gfYZw p a>span:hover,
+[id*='khub'] .gfYZw p a>span:hover,
+[id*='ahcom'] .gfYZw p em a:hover,
+[id*='khub'] .gfYZw p em a:hover {
+    text-decoration-line: underline;
+    color: var(--campaign-indigo) !important
+}
+
+[id*='ahcom'] .gfYZw p a:active,
+[id*='khub'] .gfYZw p a:active,
+[id*='ahcom'] .gfYZw p a>span:active,
+[id*='khub'] .gfYZw p a>span:active,
+[id*='ahcom'] .gfYZw p em a:active,
+[id*='khub'] .gfYZw p em a:active {
+    color: var(--purple-int-100) !important;
+    text-decoration: underline
+}
+
+[id*='ahcom'] .gfYZw p a:focus-visible,
+[id*='khub'] .gfYZw p a:focus-visible,
+[id*='ahcom'] .gfYZw p a>span:focus-visible,
+[id*='khub'] .gfYZw p a>span:focus-visible,
+[id*='ahcom'] .gfYZw p em a:focus-visible,
+[id*='khub'] .gfYZw p em a:focus-visible {
+    outline: none;
+    color: var(--purple-int-100) !important;
+    padding: 2px 2px;
+    border: 2px solid var(--purple-int-100)
+}

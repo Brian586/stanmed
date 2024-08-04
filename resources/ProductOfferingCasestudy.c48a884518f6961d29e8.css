@@ -1,0 +1,83 @@
+.uazqq {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+section {
+    max-width: 100% !important;
+    background-color: var(---purple-int-100)
+}
+
+section .gLM0T {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center
+}
+
+section .gLM0T .OdPdh {
+    background-color: var(--white);
+    width: 344px;
+    height: 301px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 50px 46px 49px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--cream)
+}
+
+section .gLM0T .OdPdh a {
+    margin-top: 24px;
+    letter-spacing: -.25px
+}
+
+section .gLM0T .OdPdh .pQr3O {
+    font-size: var(--ah-h6-fs) !important;
+    line-height: var(--ah-h6-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-reg-fw) !important;
+    width: 300px;
+    max-height: 27px;
+    text-align: center;
+    overflow: hidden;
+    flex-shrink: 0
+}
+
+section .gLM0T .OdPdh .lWzfc {
+    width: 245px;
+    text-align: center;
+    font-size: var(--ah-p1-fs) !important;
+    line-height: var(--ah-p1-lh) !important
+}
+
+section .gLM0T .OdPdh .lWzfc p {
+    max-height: 78px;
+    overflow: hidden;
+    flex-shrink: 0
+}
+
+section .gLM0T img {
+    width: 64px !important;
+    height: 64px !important
+}
+
+@media screen and (max-width: 769px) {
+    section .gLM0T {
+        display: flex;
+        flex-direction: column
+    }
+
+    section .gLM0T .OdPdh {
+        padding: 44px 43px 46px 49px
+    }
+}

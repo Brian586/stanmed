@@ -1,0 +1,1387 @@
+.UbIq6 {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+.YZnDS {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.YZnDS.ZF4dW {
+    opacity: 0
+}
+
+.YZnDS.ZF4dW .iIpVM {
+    padding: 0 0 148px
+}
+
+@media screen and (max-width: 767px) {
+    .YZnDS.ZF4dW {
+        padding-top: 32px !important
+    }
+}
+
+.YZnDS.ZF4dW [class~='slick-prev'] {
+    left: 0
+}
+
+.YZnDS.ZF4dW [class~='slick-next'] {
+    left: 20px
+}
+
+.YZnDS.ZF4dW .MmC23 {
+    font-size: 44px
+}
+
+@media screen and (max-width: 768px) {
+    .YZnDS.ZF4dW .Y1rd4 {
+        width: unset
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .YZnDS.ZF4dW .Y1rd4 .dNPZ4 {
+        width: 70%
+    }
+}
+
+.YZnDS.ZF4dW .Y1rd4 .TIQ2B {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.YZnDS.ZF4dW .Y1rd4 .TIQ2B .gOOqn p {
+    font-size: 32px !important;
+    line-height: 110% !important;
+    font-weight: bold !important
+}
+
+@media screen and (min-width: 769px) {
+    .YZnDS.ZF4dW .Y1rd4 .TIQ2B .gOOqn p {
+        font-size: var(--re-sh1-fs) !important;
+        line-height: var(--h3-fs) !important
+    }
+}
+
+.YZnDS.ZF4dW .Y1rd4 .TIQ2B .KCsuk {
+    margin-top: 12px;
+    color: #333 !important
+}
+
+@media screen and (min-width: 769px) {
+    .YZnDS.ZF4dW .MmC23 {
+        max-width: 276x
+    }
+
+    .YZnDS.ZF4dW .Y1rd4 .TIQ2B .KCsuk {
+        margin-top: 16px
+    }
+
+    .YZnDS.ZF4dW .Y1rd4 .TIQ2B .gOOqn {
+        margin-bottom: 0 !important
+    }
+}
+
+.YZnDS.ZF4dW[class*='bg-gray'] [class~='slick-arrow'],
+.YZnDS.ZF4dW[class*='bg-D8D8D8'] [class~='slick-arrow'],
+.YZnDS.ZF4dW[class*='bg-FFFFFF'] [class~='slick-arrow'],
+.YZnDS.ZF4dW[class*='bg-F8F8F8'] [class~='slick-arrow'],
+.YZnDS.ZF4dW[class*='bg-F4F4F4'] [class~='slick-arrow'],
+.YZnDS.ZF4dW[class*='bg-9E9E9E'] [class~='slick-arrow'],
+.YZnDS.ZF4dW[class*='bg-666666'] [class~='slick-arrow'] {
+    color: var(--purple-int-100)
+}
+
+.YZnDS.ZF4dW[class*='bg-gray'] [class~='slick-arrow']:after,
+.YZnDS.ZF4dW[class*='bg-D8D8D8'] [class~='slick-arrow']:after,
+.YZnDS.ZF4dW[class*='bg-FFFFFF'] [class~='slick-arrow']:after,
+.YZnDS.ZF4dW[class*='bg-F8F8F8'] [class~='slick-arrow']:after,
+.YZnDS.ZF4dW[class*='bg-F4F4F4'] [class~='slick-arrow']:after,
+.YZnDS.ZF4dW[class*='bg-9E9E9E'] [class~='slick-arrow']:after,
+.YZnDS.ZF4dW[class*='bg-666666'] [class~='slick-arrow']:after {
+    border-top: 2px solid var(--purple-int-100) !important;
+    border-right: 2px solid var(--purple-int-100) !important
+}
+
+.YZnDS.ZF4dW[class*='bg-gray'] [class~='slick-slider'] [class~='slick-dots'],
+.YZnDS.ZF4dW[class*='bg-D8D8D8'] [class~='slick-slider'] [class~='slick-dots'],
+.YZnDS.ZF4dW[class*='bg-FFFFFF'] [class~='slick-slider'] [class~='slick-dots'],
+.YZnDS.ZF4dW[class*='bg-F8F8F8'] [class~='slick-slider'] [class~='slick-dots'],
+.YZnDS.ZF4dW[class*='bg-F4F4F4'] [class~='slick-slider'] [class~='slick-dots'],
+.YZnDS.ZF4dW[class*='bg-9E9E9E'] [class~='slick-slider'] [class~='slick-dots'],
+.YZnDS.ZF4dW[class*='bg-666666'] [class~='slick-slider'] [class~='slick-dots'] {
+    width: 100%
+}
+
+.YZnDS.ZF4dW[class*='bg-gray'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+.YZnDS.ZF4dW[class*='bg-D8D8D8'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+.YZnDS.ZF4dW[class*='bg-FFFFFF'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+.YZnDS.ZF4dW[class*='bg-F8F8F8'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+.YZnDS.ZF4dW[class*='bg-F4F4F4'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+.YZnDS.ZF4dW[class*='bg-9E9E9E'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+.YZnDS.ZF4dW[class*='bg-666666'] [class~='slick-slider'] [class~='slick-dots'] li button:before {
+    border: 3px solid var(--redesign-heading-purple) !important;
+    width: 5px;
+    height: 5px;
+    display: block
+}
+
+.YZnDS.ZF4dW[class*='bg-gray'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+.YZnDS.ZF4dW[class*='bg-D8D8D8'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+.YZnDS.ZF4dW[class*='bg-FFFFFF'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+.YZnDS.ZF4dW[class*='bg-F8F8F8'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+.YZnDS.ZF4dW[class*='bg-F4F4F4'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+.YZnDS.ZF4dW[class*='bg-9E9E9E'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+.YZnDS.ZF4dW[class*='bg-666666'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before {
+    border: 5px solid var(--redesign-heading-purple) !important
+}
+
+.YZnDS.Xd1Wk {
+    opacity: 1;
+    animation: PrTvt 1s ease-out
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .YZnDS.Xd1Wk {
+        animation: Fhqdj 2s ease-out
+    }
+}
+
+@-moz-keyframes PrTvt {
+    0% {
+        transform: translateY(8%);
+        opacity: 0
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes PrTvt {
+    0% {
+        transform: translateY(8%);
+        opacity: 0
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@-o-keyframes PrTvt {
+    0% {
+        transform: translateY(8%);
+        opacity: 0
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@keyframes PrTvt {
+    0% {
+        transform: translateY(8%);
+        opacity: 0
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@-moz-keyframes Fhqdj {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes Fhqdj {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@-o-keyframes Fhqdj {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes Fhqdj {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.BqCF_ {
+    overflow: hidden
+}
+
+.BqCF_ [class*='slick-list'] {
+    z-index: 7
+}
+
+.BqCF_ .Y1rd4 {
+    filter: blur(5px)
+}
+
+.p0pjP,
+.sSsLe {
+    max-width: 713px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: var(--re-sh3-fs);
+    line-height: var(--re-sh3-lh);
+    color: var(--black);
+    margin: auto
+}
+
+.p0pjP {
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--hero-purple);
+    padding-top: 60px
+}
+
+.sSsLe {
+    padding-bottom: 48px
+}
+
+.iIpVM {
+    padding: 90px 0;
+    position: relative;
+    max-width: 1080px;
+    margin: auto
+}
+
+.iIpVM [class~='slick-slider'],
+.iIpVM [class~='slick-slider'] [class~='slick-list'],
+.iIpVM [class~='slick-slider'] [class~='slick-track'] {
+    overflow: visible;
+    height: 100%
+}
+
+.iIpVM [class~='slick-slide'] {
+    visibility: hidden
+}
+
+.iIpVM [class~='slick-slide'][class~='slick-current'] {
+    visibility: visible
+}
+
+.iIpVM [class~='slick-arrow'] {
+    width: 15px;
+    height: 15px;
+    bottom: -4px;
+    background: transparent;
+    box-shadow: 0 0 0;
+    top: auto
+}
+
+.iIpVM [class~='slick-arrow']:before {
+    display: none
+}
+
+.iIpVM [class~='slick-arrow']:after {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid var(--white);
+    border-right: 2px solid var(--white);
+    transform: rotate(45deg);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px
+}
+
+.iIpVM [class~='slick-prev'] {
+    left: 50px
+}
+
+.iIpVM [class~='slick-prev']:after {
+    transform: rotate(-135deg)
+}
+
+.iIpVM [class~='slick-next'] {
+    left: 70px
+}
+
+.iIpVM [class~='slick-slider'] [class~='slick-dots'] {
+    width: clamp(57vw, 58vw, 830px);
+    float: right;
+    margin: 0;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding-top: 67px
+}
+
+.iIpVM [class~='slick-slider'] [class~='slick-dots'] li {
+    width: 6px;
+    height: 6px;
+    display: flex
+}
+
+.iIpVM [class~='slick-slider'] [class~='slick-dots'] li button {
+    width: 6px;
+    height: 6px;
+    padding: 0;
+    display: flex
+}
+
+.iIpVM [class~='slick-slider'] [class~='slick-dots'] li button:before {
+    position: relative;
+    width: 6px;
+    height: 6px
+}
+
+.iIpVM [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] {
+    width: 12px;
+    height: 12px
+}
+
+.iIpVM [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button {
+    width: 12px;
+    height: 12px
+}
+
+.iIpVM [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before {
+    position: relative
+}
+
+.iIpVM .MmC23 {
+    font-size: var(--re-h5-lh) !important;
+    line-height: var(--re-h5-lh) !important;
+    color: var(--white);
+    padding-top: 21px;
+    width: 255px !important;
+    padding-bottom: 62px
+}
+
+.iIpVM .MmC23 h3 {
+    color: var(--redesign-heading-purple);
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+.iIpVM .MmC23 h3 span span {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+.iIpVM .kf28B {
+    width: 10px;
+    margin: 41px 0 0;
+    z-index: 5;
+    position: absolute;
+    display: none
+}
+
+.iIpVM .kf28B li {
+    color: var(--white);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 2.5;
+    opacity: .5
+}
+
+.iIpVM .kf28B li:before {
+    display: none
+}
+
+.iIpVM .kf28B li[class~='active-pagination'] {
+    color: var(--white);
+    opacity: 1
+}
+
+.iIpVM .Y1rd4 {
+    display: flex;
+    justify-content: space-between
+}
+
+.iIpVM .Y1rd4 .TIQ2B {
+    width: 31%;
+    max-width: 355px;
+    padding-left: 0;
+    padding-right: clamp(20px, 3em, 25px)
+}
+
+.iIpVM .Y1rd4 .TIQ2B .gOOqn {
+    margin: 0 0 20px;
+    width: 255px
+}
+
+.iIpVM .Y1rd4 .TIQ2B .gOOqn p {
+    color: var(--purple-int-100);
+    font-size: var(--re-sh1-fs) !important;
+    line-height: var(--h3-fs) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+.iIpVM .Y1rd4 .TIQ2B .gOOqn p span {
+    font-size: var(--re-sh1-fs) !important;
+    line-height: var(--h3-fs) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+.iIpVM .Y1rd4 .TIQ2B .KCsuk {
+    font-size: var(--re-sh3-fs);
+    line-height: var(--re-sh3-lh);
+    color: var(--white);
+    margin-bottom: 20px
+}
+
+.iIpVM .Y1rd4 .TIQ2B .KCsuk p {
+    color: #333 !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important;
+    font-size: var(--re-sh4-fs);
+    line-height: var(--re-sh4-lh);
+    width: 255px !important
+}
+
+.iIpVM .Y1rd4 .TIQ2B .KCsuk p span {
+    display: block;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important;
+    font-size: var(--re-sh4-fs);
+    line-height: var(--re-sh4-lh)
+}
+
+.iIpVM .Y1rd4 .TIQ2B .ImNVn {
+    font-size: 16px;
+    line-height: 1.33;
+    color: var(--dark-green)
+}
+
+.iIpVM .Y1rd4 .TIQ2B .ImNVn:hover {
+    text-decoration: underline
+}
+
+.iIpVM .Y1rd4 .dNPZ4 {
+    position: relative;
+    width: clamp(55vw, 58vw, 100%);
+    height: 100%;
+    padding-top: 32px !important
+}
+
+@media screen and (min-width: 769px) {
+    .iIpVM .Y1rd4 .dNPZ4 {
+        padding-top: 0 !important
+    }
+}
+
+.iIpVM .Y1rd4 .dNPZ4>img {
+    max-height: 515px;
+    max-width: 830px
+}
+
+.iIpVM .Y1rd4 .dNPZ4 .AORqk {
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    overflow: hidden;
+    display: flex
+}
+
+.iIpVM .Y1rd4 .dNPZ4 .AORqk>img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin: auto
+}
+
+.iIpVM .JFLlN {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -90px;
+    margin-top: -264px;
+    z-index: 6
+}
+
+@media screen and (max-width: 768px) {
+    .iIpVM .JFLlN {
+        right: auto
+    }
+}
+
+.iIpVM .JFLlN .bHMuC {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 27px;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    z-index: 9;
+    background: var(--white)
+}
+
+.iIpVM .JFLlN .bHMuC:before,
+.iIpVM .JFLlN .bHMuC:after {
+    position: absolute;
+    content: ' ';
+    height: 26px;
+    width: 2px;
+    background-color: var(--hero-purple);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    left: 51%
+}
+
+.iIpVM .JFLlN .bHMuC:before {
+    transform: rotate(45deg)
+}
+
+.iIpVM .JFLlN .bHMuC:after {
+    transform: rotate(-45deg)
+}
+
+.iIpVM .JFLlN>div {
+    background: var(--white);
+    position: absolute;
+    right: 0;
+    height: 100%;
+    overflow: scroll;
+    max-width: 600px
+}
+
+.iIpVM .JFLlN>div>div:first-child {
+    padding: 50px 65px 90px;
+    border-1: solid #000
+}
+
+.iIpVM .JFLlN>div>div:first-child [class~='MuiFormControl-root-MuiTextField-root'] {
+    width: 100% !important
+}
+
+@media screen and (max-width: 768px) {
+    .iIpVM .JFLlN>div>div:first-child {
+        padding: 50px 65px 30px
+    }
+}
+
+.iIpVM .JFLlN>div>div:first-child div[class*='ahffieldwrap'] {
+    max-width: 100%;
+    width: 100%;
+    margin: 0
+}
+
+.iIpVM .JFLlN>div a[class*='continue-step'] {
+    display: none
+}
+
+.iIpVM[class*='bg-gray'] .kf28B li,
+.iIpVM[class*='bg-D8D8D8'] .kf28B li,
+.iIpVM[class*='bg-FFFFFF'] .kf28B li,
+.iIpVM[class*='bg-F8F8F8'] .kf28B li,
+.iIpVM[class*='bg-F4F4F4'] .kf28B li,
+.iIpVM[class*='bg-9E9E9E'] .kf28B li,
+.iIpVM[class*='bg-666666'] .kf28B li {
+    color: #aeaeae;
+    opacity: 1
+}
+
+.iIpVM[class*='bg-gray'][class~='active-pagination'],
+.iIpVM[class*='bg-D8D8D8'][class~='active-pagination'],
+.iIpVM[class*='bg-FFFFFF'][class~='active-pagination'],
+.iIpVM[class*='bg-F8F8F8'][class~='active-pagination'],
+.iIpVM[class*='bg-F4F4F4'][class~='active-pagination'],
+.iIpVM[class*='bg-9E9E9E'][class~='active-pagination'],
+.iIpVM[class*='bg-666666'][class~='active-pagination'] {
+    color: var(--hero-purple)
+}
+
+.iIpVM[class*='bg-gray'] [class~='slick-arrow'],
+.iIpVM[class*='bg-D8D8D8'] [class~='slick-arrow'],
+.iIpVM[class*='bg-FFFFFF'] [class~='slick-arrow'],
+.iIpVM[class*='bg-F8F8F8'] [class~='slick-arrow'],
+.iIpVM[class*='bg-F4F4F4'] [class~='slick-arrow'],
+.iIpVM[class*='bg-9E9E9E'] [class~='slick-arrow'],
+.iIpVM[class*='bg-666666'] [class~='slick-arrow'] {
+    color: var(--hero-purple)
+}
+
+.iIpVM[class*='bg-gray'] [class~='slick-arrow']:after,
+.iIpVM[class*='bg-D8D8D8'] [class~='slick-arrow']:after,
+.iIpVM[class*='bg-FFFFFF'] [class~='slick-arrow']:after,
+.iIpVM[class*='bg-F8F8F8'] [class~='slick-arrow']:after,
+.iIpVM[class*='bg-F4F4F4'] [class~='slick-arrow']:after,
+.iIpVM[class*='bg-9E9E9E'] [class~='slick-arrow']:after,
+.iIpVM[class*='bg-666666'] [class~='slick-arrow']:after {
+    border-top: 2px solid var(--hero-purple);
+    border-right: 2px solid var(--hero-purple)
+}
+
+.iIpVM[class*='bg-gray'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+.iIpVM[class*='bg-D8D8D8'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+.iIpVM[class*='bg-FFFFFF'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+.iIpVM[class*='bg-F8F8F8'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+.iIpVM[class*='bg-F4F4F4'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+.iIpVM[class*='bg-9E9E9E'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+.iIpVM[class*='bg-666666'] [class~='slick-slider'] [class~='slick-dots'] li button:before {
+    border: 3px solid var(--hero-purple);
+    width: 5px;
+    height: 5px;
+    display: block
+}
+
+.iIpVM[class*='bg-gray'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+.iIpVM[class*='bg-D8D8D8'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+.iIpVM[class*='bg-FFFFFF'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+.iIpVM[class*='bg-F8F8F8'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+.iIpVM[class*='bg-F4F4F4'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+.iIpVM[class*='bg-9E9E9E'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+.iIpVM[class*='bg-666666'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before {
+    border: 5px solid var(--hero-purple)
+}
+
+@media screen and (min-width: 769px) {
+    .iIpVM .MmC23 {
+        position: absolute;
+        width: 31%;
+        max-width: 347px;
+        padding-left: 0;
+        padding-right: clamp(20px, 3em, 25px)
+    }
+
+    .iIpVM [class~='slick-slider'],
+    .iIpVM [class~='slick-slider'] [class~='slick-list'],
+    .iIpVM [class~='slick-slider'] [class~='slick-track'] {
+        overflow: visible;
+        height: 100%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .iIpVM {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 49px 30px 15px
+    }
+
+    .iIpVM [class~='slick-slider'],
+    .iIpVM [class~='slick-slider'] [class~='slick-list'],
+    .iIpVM [class~='slick-slider'] [class~='slick-track'] {
+        overflow: visible;
+        width: 100%
+    }
+
+    .iIpVM [class~='slick-slider'] [class~='slick-track'] {
+        width: 100vw
+    }
+
+    .iIpVM [class*='card'] {
+        background: transparent
+    }
+
+    .iIpVM [class~='slick-slider'] [class~='slick-dots'] {
+        bottom: 0;
+        width: 100%;
+        padding-top: 24px
+    }
+
+    .iIpVM [class~='slick-arrow'],
+    .iIpVM .kf28B {
+        display: none !important
+    }
+
+    .iIpVM .MmC23 {
+        padding: 0;
+        width: 100% !important
+    }
+
+    .iIpVM .MmC23:after {
+        margin-bottom: 38px
+    }
+
+    .iIpVM .Y1rd4 {
+        flex-direction: column;
+        width: calc(100vw - 60px)
+    }
+
+    .iIpVM .Y1rd4 .dNPZ4 {
+        padding: 0;
+        width: 100% !important;
+        z-index: 0
+    }
+
+    .iIpVM .Y1rd4 .dNPZ4:before {
+        content: '';
+        bottom: 29px;
+        height: 20px
+    }
+
+    .iIpVM .Y1rd4 .dNPZ4 .AORqk {
+        top: 20px;
+        height: calc(100% - 50px)
+    }
+
+    .iIpVM .Y1rd4 .TIQ2B {
+        width: 100%;
+        padding: 0;
+        margin: 0 !important;
+        max-width: 100%
+    }
+
+    .iIpVM .Y1rd4 .TIQ2B .gOOqn {
+        margin: 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        cursor: pointer;
+        width: 100%
+    }
+
+    .iIpVM .Y1rd4 .TIQ2B .GhmM2 {
+        max-height: 0;
+        transition: max-height .5s ease-in;
+        overflow: hidden
+    }
+
+    .iIpVM .Y1rd4 .TIQ2B .gOOqn[class*='active-desc']+.GhmM2 {
+        max-height: 400px;
+        transition: max-height .5s ease-out
+    }
+
+    .iIpVM .Y1rd4 .TIQ2B .KCsuk {
+        margin: 12px 0 0
+    }
+
+    .iIpVM .Y1rd4 .TIQ2B .KCsuk p {
+        width: 100% !important
+    }
+
+    .iIpVM .Y1rd4 .TIQ2B a {
+        margin: 24px 0 22px;
+        display: block
+    }
+
+    .iIpVM .JFLlN {
+        margin: -373px -30px -62px;
+        padding: 30px
+    }
+
+    .iIpVM .JFLlN .bHMuC {
+        right: 50px;
+        top: 50px
+    }
+
+    .iIpVM .JFLlN>div {
+        width: 100%;
+        max-width: 100%;
+        position: relative
+    }
+
+    .iIpVM .JFLlN>div>div:first-child {
+        padding: 50px 50px 30px
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width:769px) {
+    .iIpVM .dNPZ4 {
+        padding: 20px 0 30px
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width:769px) {
+    .iIpVM .KCsuk {
+        margin: 20px 0 4px
+    }
+}
+
+[class~='black-theme'] .YZnDS .p0pjP {
+    color: var(--teal)
+}
+
+[class~='black-theme'] .YZnDS .KCsuk {
+    display: block
+}
+
+[class~='black-theme'] .YZnDS [class*="ahf-rowwrap"] {
+    flex-wrap: wrap
+}
+
+[class~='black-theme'] .YZnDS .iIpVM .JFLlN .bHMuC:before,
+[class~='black-theme'] .YZnDS .iIpVM .JFLlN .bHMuC:after {
+    background-color: var(--teal)
+}
+
+[id*='ahcom'] .YZnDS .iIpVM,
+[id*='khub'] .YZnDS .iIpVM,
+[class~="black-theme"] .YZnDS .iIpVM {
+    padding: 87px 0 148px
+}
+
+[id*='ahcom'] .YZnDS .iIpVM [class~='slick-arrow'],
+[id*='khub'] .YZnDS .iIpVM [class~='slick-arrow'],
+[class~="black-theme"] .YZnDS .iIpVM [class~='slick-arrow'] {
+    bottom: -64px;
+    color: transparent !important
+}
+
+[id*='ahcom'] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li,
+[id*='khub'] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li,
+[class~="black-theme"] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li {
+    height: 5px;
+    width: 5px
+}
+
+[id*='ahcom'] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li button,
+[id*='khub'] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li button,
+[class~="black-theme"] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li button {
+    height: 5px;
+    width: 5px
+}
+
+[id*='ahcom'] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='khub'] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[class~="black-theme"] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li button:before {
+    border: 3px solid var(--white);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff
+}
+
+[id*='ahcom'] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'],
+[id*='khub'] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'],
+[class~="black-theme"] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] {
+    width: 11px;
+    height: 11px
+}
+
+[id*='ahcom'] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button,
+[id*='khub'] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button,
+[class~="black-theme"] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button {
+    width: 11px;
+    height: 11px
+}
+
+[id*='ahcom'] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='khub'] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[class~="black-theme"] .YZnDS .iIpVM [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before {
+    border: 5.5px solid var(--white)
+}
+
+[id*='ahcom'] .YZnDS .MmC23:after,
+[id*='khub'] .YZnDS .MmC23:after,
+[class~="black-theme"] .YZnDS .MmC23:after {
+    margin-top: 53px
+}
+
+[id*='ahcom'] .YZnDS .TIQ2B .gOOqn,
+[id*='khub'] .YZnDS .TIQ2B .gOOqn,
+[class~="black-theme"] .YZnDS .TIQ2B .gOOqn {
+    margin: 38px 0 11px
+}
+
+[id*='ahcom'] .YZnDS .dNPZ4,
+[id*='khub'] .YZnDS .dNPZ4,
+[class~="black-theme"] .YZnDS .dNPZ4 {
+    width: clamp(60.7vw, 58vw, 100%)
+}
+
+[id*='ahcom'] .YZnDS .JFLlN,
+[id*='khub'] .YZnDS .JFLlN,
+[class~="black-theme"] .YZnDS .JFLlN {
+    margin-bottom: -148px;
+    margin-top: -87px;
+    padding-bottom: 90px !important
+}
+
+@media screen and (max-width: 767px) {
+
+    [id*='ahcom'] .YZnDS .iIpVM,
+    [id*='khub'] .YZnDS .iIpVM,
+    [class~="black-theme"] .YZnDS .iIpVM {
+        padding: 49px 0 0
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    [id*='ahcom'] .YZnDS .MmC23,
+    [id*='khub'] .YZnDS .MmC23,
+    [class~="black-theme"] .YZnDS .MmC23 {
+        max-width: 355px
+    }
+}
+
+[id*='ahcom'] .iIpVM [class~='slick-slider'] [class~='slick-dots'] li,
+[id*='khub'] .iIpVM [class~='slick-slider'] [class~='slick-dots'] li {
+    display: inline-flex
+}
+
+[id*='ahcom'] .KCsuk,
+[id*='khub'] .KCsuk {
+    display: block
+}
+
+.FD5qL {
+    position: relative;
+    cursor: pointer
+}
+
+.FD5qL .bm9hW {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border: solid 4px var(--white);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.FD5qL .bm9hW:after {
+    content: '';
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border-top: var(--transparent);
+    border-bottom: var(--transparent);
+    border-right: var(--transparent);
+    border-left: solid var(--white);
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    border-width: 18px 0 18px 30px
+}
+
+.FD5qL .bm9hW:hover {
+    box-shadow: 0 4px 6px 0 var(--gray);
+    background-blend-mode: multiply;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
+
+.JFLlN [class*="new-design-wrap"],
+.JFLlN [class*="MuiFormControl-root-MuiTextField-root"],
+.JFLlN [class*="MuiFormControl-fullWidth"],
+.JFLlN [class*="web_form"] {
+    width: 100%
+}
+
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM .MmC23,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM .MmC23 {
+    font-size: var(--re-sh1-fs);
+    line-height: var(--re-sh1-lh);
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .gOOqn p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .gOOqn p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .gOOqn span p {
+    font-size: var(--re-sh6-fs);
+    line-height: 26px
+}
+
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .KCsuk,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .KCsuk {
+    font-size: var(--re-sh5-fs);
+    line-height: var(--re-sh5-lh)
+}
+
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] .MmC23,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] .MmC23,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] .MmC23,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] .MmC23,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] .MmC23,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] .MmC23,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] .MmC23,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] .MmC23,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] .MmC23,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] .MmC23,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] .MmC23,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] .MmC23,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] .MmC23,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] .MmC23,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] .MmC23,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] .MmC23,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] .MmC23,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] .MmC23 {
+    color: var(--redesign-heading-purple)
+}
+
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] .MmC23:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] .MmC23:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] .MmC23:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] .MmC23:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] .MmC23:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] .MmC23:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] .MmC23:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] .MmC23:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] .MmC23:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] .MmC23:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] .MmC23:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] .MmC23:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] .MmC23:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] .MmC23:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] .MmC23:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] .MmC23:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] .MmC23:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] .MmC23:after {
+    background: var(--hero-purple)
+}
+
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] .Y1rd4 .TIQ2B .gOOqn p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] .Y1rd4 .TIQ2B .gOOqn span p,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] .Y1rd4 .TIQ2B .gOOqn span p {
+    color: var(--purple-int-100)
+}
+
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] .Y1rd4 .TIQ2B .KCsuk,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] .Y1rd4 .TIQ2B .KCsuk {
+    color: var(--redesign-heading-purple)
+}
+
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] [class~='slick-arrow'],
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] [class~='slick-arrow'],
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] [class~='slick-arrow'],
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] [class~='slick-arrow'],
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] [class~='slick-arrow'],
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] [class~='slick-arrow'],
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] [class~='slick-arrow'],
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] [class~='slick-arrow'],
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] [class~='slick-arrow'],
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] [class~='slick-arrow'],
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] [class~='slick-arrow'],
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] [class~='slick-arrow'],
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] [class~='slick-arrow'],
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] [class~='slick-arrow'],
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] [class~='slick-arrow'],
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] [class~='slick-arrow'],
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] [class~='slick-arrow'],
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] [class~='slick-arrow'] {
+    color: var(--purple-int-100)
+}
+
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] [class~='slick-arrow']:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] [class~='slick-arrow']:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] [class~='slick-arrow']:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] [class~='slick-arrow']:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] [class~='slick-arrow']:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] [class~='slick-arrow']:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] [class~='slick-arrow']:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] [class~='slick-arrow']:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] [class~='slick-arrow']:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] [class~='slick-arrow']:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] [class~='slick-arrow']:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] [class~='slick-arrow']:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] [class~='slick-arrow']:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] [class~='slick-arrow']:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] [class~='slick-arrow']:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] [class~='slick-arrow']:after,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] [class~='slick-arrow']:after,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] [class~='slick-arrow']:after {
+    border-top: 2px solid var(--purple-int-100) !important;
+    border-right: 2px solid var(--purple-int-100) !important
+}
+
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] [class~='slick-slider'] [class~='slick-dots'] li button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] [class~='slick-slider'] [class~='slick-dots'] li button:before {
+    border: 3px solid var(--purple-int-100) !important;
+    width: 5px;
+    height: 5px;
+    display: block
+}
+
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-gray'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-D8D8D8'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FFFFFF'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F8F8F8'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-F4F4F4'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-9E9E9E'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-666666'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FCFAF5'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='ahcom'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before,
+[id*='khub'] .YZnDS.ig0Kj .iIpVM[class*='bg-FEFDFB'] [class~='slick-slider'] [class~='slick-dots'] li[class~='slick-active'] button:before {
+    border: 5px solid var(--redesign-heading-purple) !important
+}
+
+@media screen and (max-width: 768px) {
+
+    [id*='ahcom'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .dNPZ4,
+    [id*='khub'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .dNPZ4 {
+        width: 100% !important
+    }
+
+    [id*='ahcom'] .YZnDS.ig0Kj .iIpVM .MmC23,
+    [id*='khub'] .YZnDS.ig0Kj .iIpVM .MmC23 {
+        line-height: 120% !important;
+        width: 100% !important
+    }
+
+    [id*='ahcom'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .gOOqn,
+    [id*='khub'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .gOOqn {
+        width: 100% !important
+    }
+
+    [id*='ahcom'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .gOOqn p,
+    [id*='khub'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .gOOqn p,
+    [id*='ahcom'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .gOOqn span p,
+    [id*='khub'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .gOOqn span p {
+        line-height: 130% !important
+    }
+
+    [id*='ahcom'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .KCsuk,
+    [id*='khub'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .KCsuk {
+        font-size: var(--re-p2-fs);
+        line-height: 140%
+    }
+
+    [id*='ahcom'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .KCsuk p,
+    [id*='khub'] .YZnDS.ig0Kj .iIpVM .Y1rd4 .TIQ2B .KCsuk p {
+        width: 100% !important
+    }
+}
+
+[id*='ahcom'] .YZnDS .iIpVM .Y1rd4 .dNPZ4,
+[id*='khub'] .YZnDS .iIpVM .Y1rd4 .dNPZ4 {
+    max-width: 830px
+}
+
+[id*='ahcom'] .M1ul4 p>a,
+[id*='khub'] .M1ul4 p>a,
+[id*='ahcom'] .M1ul4 p>a span,
+[id*='khub'] .M1ul4 p>a span,
+[id*='ahcom'] .M1ul4 p a>span,
+[id*='khub'] .M1ul4 p a>span,
+[id*='ahcom'] .M1ul4 p a,
+[id*='khub'] .M1ul4 p a {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important;
+    background: transparent;
+    color: var(--orchid-int-30) !important;
+    display: inline-block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    line-height: 18px !important;
+    width: fit-content;
+    position: relative
+}
+
+[id*='ahcom'] .M1ul4 p>a:hover,
+[id*='khub'] .M1ul4 p>a:hover,
+[id*='ahcom'] .M1ul4 p>a span:hover,
+[id*='khub'] .M1ul4 p>a span:hover,
+[id*='ahcom'] .M1ul4 p a>span:hover,
+[id*='khub'] .M1ul4 p a>span:hover,
+[id*='ahcom'] .M1ul4 p a:hover,
+[id*='khub'] .M1ul4 p a:hover {
+    text-decoration-line: underline;
+    color: var(--white) !important
+}
+
+[id*='ahcom'] .M1ul4 p>a:active,
+[id*='khub'] .M1ul4 p>a:active,
+[id*='ahcom'] .M1ul4 p>a span:active,
+[id*='khub'] .M1ul4 p>a span:active,
+[id*='ahcom'] .M1ul4 p a>span:active,
+[id*='khub'] .M1ul4 p a>span:active,
+[id*='ahcom'] .M1ul4 p a:active,
+[id*='khub'] .M1ul4 p a:active {
+    color: var(--orchid-int-30) !important;
+    text-decoration-line: underline
+}
+
+[id*='ahcom'] .M1ul4 p>a:focus-visible,
+[id*='khub'] .M1ul4 p>a:focus-visible,
+[id*='ahcom'] .M1ul4 p>a span:focus-visible,
+[id*='khub'] .M1ul4 p>a span:focus-visible,
+[id*='ahcom'] .M1ul4 p a>span:focus-visible,
+[id*='khub'] .M1ul4 p a>span:focus-visible,
+[id*='ahcom'] .M1ul4 p a:focus-visible,
+[id*='khub'] .M1ul4 p a:focus-visible {
+    outline: none;
+    color: var(--orchid-int-30) !important;
+    padding: 2px 2px;
+    border: 2px solid var(--white)
+}
+
+[id*='ahcom'] .wW7YR p a,
+[id*='khub'] .wW7YR p a,
+[id*='ahcom'] .wW7YR p a>span,
+[id*='khub'] .wW7YR p a>span,
+[id*='ahcom'] .wW7YR p em a,
+[id*='khub'] .wW7YR p em a {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important;
+    background: transparent;
+    color: var(--purple-int-100) !important;
+    display: inline-block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    line-height: 18px !important;
+    width: fit-content
+}
+
+[id*='ahcom'] .wW7YR p a:hover,
+[id*='khub'] .wW7YR p a:hover,
+[id*='ahcom'] .wW7YR p a>span:hover,
+[id*='khub'] .wW7YR p a>span:hover,
+[id*='ahcom'] .wW7YR p em a:hover,
+[id*='khub'] .wW7YR p em a:hover {
+    text-decoration-line: underline;
+    color: var(--campaign-indigo) !important
+}
+
+[id*='ahcom'] .wW7YR p a:active,
+[id*='khub'] .wW7YR p a:active,
+[id*='ahcom'] .wW7YR p a>span:active,
+[id*='khub'] .wW7YR p a>span:active,
+[id*='ahcom'] .wW7YR p em a:active,
+[id*='khub'] .wW7YR p em a:active {
+    color: var(--purple-int-100) !important;
+    text-decoration: underline
+}
+
+[id*='ahcom'] .wW7YR p a:focus-visible,
+[id*='khub'] .wW7YR p a:focus-visible,
+[id*='ahcom'] .wW7YR p a>span:focus-visible,
+[id*='khub'] .wW7YR p a>span:focus-visible,
+[id*='ahcom'] .wW7YR p em a:focus-visible,
+[id*='khub'] .wW7YR p em a:focus-visible {
+    outline: none;
+    color: var(--purple-int-100) !important;
+    padding: 2px 2px;
+    border: 2px solid var(--purple-int-100)
+}
+
+[id*='ahcom'] .TIQ2B a,
+[id*='khub'] .TIQ2B a {
+    margin: 0 !important;
+    display: inline-block !important
+}

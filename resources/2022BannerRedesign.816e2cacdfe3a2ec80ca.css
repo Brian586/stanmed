@@ -1,0 +1,12 @@
+:root {
+    --hero-variable-height: calc(100vh - 233px);
+    --hero-variable-height-mobile: calc(100vh - 300px);
+    --hero-max-height: 960px;
+    --hero-min-height: 560px;
+    --hero-min-height-mobile: 400px;
+    --hero-image-variable-height: calc(var(--hero-variable-height-mobile) / 2);
+    --hero-image-max-height: 400px;
+    --hero-image-min-height-lg: 280px;
+    --hero-image-min-height-md: 200px;
+    --hero-image-min-height-sm: 180px
+}

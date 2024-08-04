@@ -1,0 +1,108 @@
+.F54ku {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+.jEzJk {
+    margin: 26px auto 0;
+    width: 100%;
+    background: var(--very-light-gray)
+}
+
+.T5hvl {
+    margin: 0 auto;
+    max-width: 713px;
+    padding: 60px 0 73px
+}
+
+.T5hvl * {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: var(--black);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased
+}
+
+.dURtT {
+    overflow: hidden;
+    border-bottom: 1px solid var(--gray);
+    margin-bottom: 40px;
+    padding-bottom: 51px
+}
+
+.dURtT:last-child {
+    padding: 0;
+    border: 0;
+    margin: 0
+}
+
+.T5hvl h1 {
+    color: var(--hero-purple);
+    font-size: 30px;
+    line-height: 1.27;
+    margin-bottom: 1px
+}
+
+[class~='black-theme'] .T5hvl h1 {
+    color: var(--teal)
+}
+
+.T5hvl p {
+    margin: 0 0 1px
+}
+
+[id*='ahcom'] .T5hvl [class~='subhead-3'] p,
+[id*='khub'] .T5hvl [class~='subhead-3'] p {
+    font-size: var(--re-p2-fs) !important;
+    line-height: var(--re-p2-lh) !important;
+    font-weight: var(--ptserif-reg-fw) !important
+}
+
+.ADTWF {
+    float: left;
+    width: 100%;
+    max-width: 347px;
+    margin-right: 20px
+}
+
+@media screen and (max-width: 768px) {
+    .jEzJk {
+        margin: 10px auto 0
+    }
+
+    .T5hvl {
+        max-width: 100%;
+        padding: 50px 20px 44px
+    }
+
+    .T5hvl p {
+        margin-bottom: 28px
+    }
+
+    .dURtT {
+        margin-bottom: 42px;
+        padding-bottom: 14px
+    }
+
+    .ADTWF {
+        float: none;
+        max-width: 100%;
+        width: 100%;
+        margin: 0 0 11px
+    }
+
+    .T5hvl h1 {
+        font-size: 24px;
+        line-height: 1.25;
+        letter-spacing: -.2px;
+        margin-bottom: 3px
+    }
+}

@@ -1,0 +1,709 @@
+.embeddedServiceIcon,
+.message {
+    font-family: MetricRegular;
+    font-size: 18px
+}
+
+.helpButtonLabel span.message::before {
+    font-size: 18px
+}
+
+.embeddedServiceHelpButton .helpButton .uiButton:focus,
+.helpButtonEnabled:focus .helpButtonLabel {
+    outline: 0 !important;
+    text-decoration: none !important
+}
+
+.rich-button-item span,
+button.helpButtonEnabled span {
+    color: #fff !important
+}
+
+.uiButton,
+.uiButton--default {
+    background: rgb(88 44 131 / 70%);
+    border: 1px solid #582c83;
+    margin-bottom: 5px !important
+}
+
+.uiButton--inverse {
+    background: 0 0;
+    color: #582c83 !important;
+    border: 1px solid #582c83
+}
+
+.embeddedServiceHelpButton .helpButton .helpButtonEnabled.uiButton span,
+.uiButton:active span,
+.uiButton:focus span,
+.uiButton:hover span {
+    color: #160f41 !important
+}
+
+.embeddedServiceSidebarButton:active span,
+.embeddedServiceSidebarButton:focus span,
+.embeddedServiceSidebarButton:hover span {
+    color: #ded5e6 !important
+}
+
+.uiButton:not(.embeddedService):not(.embeddedServiceSidebarButton):hover,
+.uiButton:not(.embeddedServiceSidebarButton):active,
+.uiButton:not(.embeddedServiceSidebarButton):focus {
+    background: #fff !important;
+    text-decoration: none !important;
+    opacity: 1
+}
+
+.embeddedServiceSidebarButton:active,
+.embeddedServiceSidebarButton:focus,
+.embeddedServiceSidebarButton:hover {
+    background: #582c83 !important;
+    text-decoration: none !important;
+    opacity: 1
+}
+
+.dockableContainer div,
+.dockableContainer h2,
+.dockableContainer p,
+.dockableContainer span,
+.embeddedServiceLiveAgentStateChatInputFooter .chasitorText,
+.embeddedServiceLiveAgentStateChatItem.chatMessage button {
+    font-family: MetricRegular
+}
+
+.messageArea:focus,
+.rich-menu-items li button {
+    border: 0 !important
+}
+
+.unseenMessageBubble {
+    background-color: #582c83 !important
+}
+
+.chatContent button,
+.rich-menu-items li {
+    border-color: #666 !important;
+    box-shadow: none !important
+}
+
+.chatContent button:hover,
+.rich-menu-items li button:hover {
+    background: rgb(88 44 131 / 70%) !important;
+    color: #fff !important;
+    opacity: 1 !important
+}
+
+.chatContent button:focus,
+.rich-menu-items li button:focus {
+    background: rgb(88 44 131 / 1) !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    opacity: 1 !important
+}
+
+.avatar,
+.sidebarHeader h2::before {
+    background-image: url(https://caas.athenahealth.com/sites/default/files/2023/06/athenahealth%20logo_RGB_leaf.svg)
+}
+
+.embeddedServiceLiveAgentStateChatItem.chatMessage button:focus span {
+    text-decoration: none !important
+}
+
+.iconAvatar::after {
+    top: -1px;
+    left: -1px;
+    width: 33px;
+    height: 33px;
+    background-size: 34px
+}
+
+.sidebarHeader {
+    margin-left: 10px
+}
+
+.sidebarHeader h2::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background-size: 60px;
+    border-radius: 50px;
+    background-position: -12px -4px
+}
+
+.sidebarHeader h2 {
+    font-size: 18px !important;
+    margin-left: 30px !important
+}
+
+.avatar {
+    font-size: 0
+}
+
+header.sidebarHeader>img {
+    display: none
+}
+
+.sidebarHeader button {
+    height: 20px !important;
+    min-height: 20px !important;
+    width: 20px !important;
+    min-width: 20px !important;
+    margin: 0 5px 5px;
+    padding-right: 5px
+}
+
+.sidebarHeader button svg {
+    padding: 5px
+}
+
+.sidebarHeader button:hover svg {
+    background: rgb(252 252 252 / 50%);
+    border-radius: 4px;
+    cursor: pointer
+}
+
+button:hover[embeddedService-chatHeader_chatHeader]:before {
+    content: unset !important
+}
+
+.sidebarHeader button:focus {
+    outline: 0 !important
+}
+
+button.closeButton {
+    padding-top: 0 !important;
+    margin-right: 10px !important
+}
+
+li.transferred~li.agent div.avatar {
+    background-image: none !important
+}
+
+.endChatContainer {
+    padding: 0 0 10px !important
+}
+
+/* SF Chat button css rel to AHD-10970 */
+.helpButton {
+    position: fixed;
+    right: 30px !important;
+    bottom: 145px !important;
+    border-radius: 50% !important;
+    box-shadow: 1px 1px 6px 0 rgb(0 0 0 / 50%) !important;
+    height: 56px !important;
+    width: 56px !important
+}
+
+.embeddedServiceHelpButton .helpButton .helpButtonEnabled {
+    height: 56px !important;
+    width: 56px !important;
+    background-color: #fff !important;
+    min-width: unset !important;
+    padding: 12px !important;
+    margin: auto !important;
+    box-shadow: none !important;
+    border: 8px solid #916dcb !important
+}
+
+.embeddedServiceHelpButton .helpButton .helpButtonEnabled:focus,
+.embeddedServiceHelpButton .helpButton .helpButtonEnabled:hover {
+    border: 8px solid #622fb4 !important
+}
+
+.uiButton:not(.helpButtonEnabled):not(.embeddedServiceSidebarButton) {
+    background-color: #f8f2ff !important;
+    box-shadow: 1px 1px 6px 0 rgb(0 0 0 / 50%) !important;
+    min-width: unset !important;
+    padding: 12px !important;
+    border-radius: 50%
+}
+
+@media screen and (min-width: 768px) {
+    .uiButton {
+        border-radius: 50% !important
+    }
+
+    .embeddedServiceSidebarButton {
+        border-radius: 8px !important
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .uiButton {
+        border-radius: 50% !important
+    }
+
+    .embeddedServiceSidebarButton {
+        border-radius: 8px !important
+    }
+
+    .helpButton {
+        position: fixed;
+        right: 12px !important;
+        bottom: 12px !important
+    }
+}
+
+@media screen and (max-width: 896px) and (min-width:890px) {
+    .helpButton {
+        position: fixed;
+        bottom: 267px !important
+    }
+}
+
+@media screen and (max-width: 889px) and (min-width:769px) {
+    .helpButton {
+        position: fixed;
+        bottom: 243px !important
+    }
+}
+
+/* SF Chat text disable */
+.helpButtonLabel {
+    display: none !important
+}
+
+.embeddedServiceIcon {
+    margin-left: -3.5px !important;
+    display: block !important
+}
+
+.uiButton:focus:before,
+.uiButton:hover:before {
+    background-color: transparent !important
+}
+
+/* BNTS fixes for AHD-11896 */
+.embeddedServiceHelpButton .helpButton .uiButton {
+    height: 56px !important;
+    width: 56px !important;
+    background-color: #fff !important;
+    min-width: unset !important;
+    padding: 12px !important;
+    margin: auto !important;
+    box-shadow: none !important;
+    border: 8px solid #916dcb !important
+}
+
+.embeddedServiceHelpButton .uiButton:not(.helpButtonEnabled):not(.embeddedServiceSidebarButton) {
+    background-color: #f8f2ff !important;
+    box-shadow: 1px 1px 6px 0 rgb(0 0 0 / 50%) !important;
+    min-width: unset !important;
+    padding: 12px !important;
+    border-radius: 50%
+}
+
+.embeddedServiceHelpButton .uiButton span.embeddedServiceIcon {
+    color: #160f41 !important;
+}
+
+/**
+ * Swiper 6.8.4
+ * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * https://swiperjs.com
+ *
+ * Copyright 2014-2021 Vladimir Kharlampidi
+ *
+ * Released under the MIT License
+ *
+ * Released on: August 23, 2021
+ */
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1
+}
+
+.swiper-container-vertical>.swiper-wrapper {
+    flex-direction: column
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box
+}
+
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+    transform: translate3d(0, 0, 0)
+}
+
+.swiper-container-multirow>.swiper-wrapper {
+    flex-wrap: wrap
+}
+
+.swiper-container-multirow-column>.swiper-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column
+}
+
+.swiper-container-free-mode>.swiper-wrapper {
+    transition-timing-function: ease-out;
+    margin: 0 auto
+}
+
+.swiper-container-pointer-events {
+    touch-action: pan-y
+}
+
+.swiper-container-pointer-events.swiper-container-vertical {
+    touch-action: pan-x
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform
+}
+
+.swiper-slide-invisible-blank {
+    visibility: hidden
+}
+
+.swiper-container-autoheight,
+.swiper-container-autoheight .swiper-slide {
+    height: auto
+}
+
+.swiper-container-autoheight .swiper-wrapper {
+    align-items: flex-start;
+    transition-property: transform, height
+}
+
+.swiper-container-3d {
+    perspective: 1200px
+}
+
+.swiper-container-3d .swiper-cube-shadow,
+.swiper-container-3d .swiper-slide,
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top,
+.swiper-container-3d .swiper-wrapper {
+    transform-style: preserve-3d
+}
+
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10
+}
+
+.swiper-container-3d .swiper-slide-shadow-left {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+}
+
+.swiper-container-3d .swiper-slide-shadow-right {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+}
+
+.swiper-container-3d .swiper-slide-shadow-top {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+}
+
+.swiper-container-3d .swiper-slide-shadow-bottom {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+}
+
+.swiper-container-css-mode>.swiper-wrapper {
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none
+}
+
+.swiper-container-css-mode>.swiper-wrapper::-webkit-scrollbar {
+    display: none
+}
+
+.swiper-container-css-mode>.swiper-wrapper>.swiper-slide {
+    scroll-snap-align: start start
+}
+
+.swiper-container-horizontal.swiper-container-css-mode>.swiper-wrapper {
+    scroll-snap-type: x mandatory
+}
+
+.swiper-container-vertical.swiper-container-css-mode>.swiper-wrapper {
+    scroll-snap-type: y mandatory
+}
+
+.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10
+}
+
+.swiper-pagination.swiper-pagination-hidden {
+    opacity: 0
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 10px;
+    left: 0;
+    width: 100%
+}
+
+.swiper-pagination-bullets-dynamic {
+    overflow: hidden;
+    font-size: 0
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    transform: scale(.33);
+    position: relative
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+    transform: scale(1)
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+    transform: scale(1)
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+    transform: scale(.66)
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+    transform: scale(.33)
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+    transform: scale(.66)
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+    transform: scale(.33)
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #000;
+    opacity: .2
+}
+
+button.swiper-pagination-bullet {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    -webkit-appearance: none;
+    appearance: none
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer
+}
+
+.swiper-pagination-bullet:only-child {
+    display: none !important
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: var(--swiper-pagination-color, var(--swiper-theme-color))
+}
+
+.swiper-container-vertical>.swiper-pagination-bullets {
+    right: 10px;
+    top: 50%;
+    transform: translate3d(0, -50%, 0)
+}
+
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 6px 0;
+    display: block
+}
+
+.swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px
+}
+
+.swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    display: inline-block;
+    transition: .2s transform, .2s top
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 4px
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    transition: .2s transform, .2s left
+}
+
+.swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    transition: .2s transform, .2s right
+}
+
+.swiper-pagination-progressbar {
+    background: rgba(0, 0, 0, .25);
+    position: absolute
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: var(--swiper-pagination-color, var(--swiper-theme-color));
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transform-origin: left top
+}
+
+.swiper-container-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    transform-origin: right top
+}
+
+.swiper-container-horizontal>.swiper-pagination-progressbar,
+.swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+    width: 100%;
+    height: 4px;
+    left: 0;
+    top: 0
+}
+
+.swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.swiper-container-vertical>.swiper-pagination-progressbar {
+    width: 4px;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.swiper-pagination-white {
+    --swiper-pagination-color: #ffffff
+}
+
+.swiper-pagination-black {
+    --swiper-pagination-color: #000000
+}
+
+.swiper-pagination-lock {
+    display: none
+}
+
+/* React modal css */
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+    display: flex;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1000;
+    padding: 1.2rem;
+    background: rgba(0, 0, 0, .8) !important;
+    justify-content: space-around;
+}
+
+.ReactModal__Content {
+    inset: 0 !important;
+    position: relative !important;
+    background: #ffffff;
+    background-clip: padding-box !important;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+    margin: auto;
+    max-width: 85%;
+    width: 100%;
+    margin-top: 5%;
+    min-height: 120px !important;
+    padding: 0 !important;
+}
+
+.m_close {
+    width: 40px;
+    height: 40px;
+    text-indent: -999em;
+    margin: 0;
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    outline: 0 !important;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    top: 49px;
+    right: 55px;
+}
+
+.m_close::before,
+.m_close::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: 19px;
+    width: 3px;
+    height: 54px;
+    background: var(--gray);
+}
+
+.m_close::before {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.m_close::after {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+    transition: opacity 2000ms ease-in-out;
+    opacity: 0;
+}

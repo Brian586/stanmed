@@ -1,0 +1,359 @@
+.zVVUJ {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+.Oepcj {
+    padding: 70px 0 70px 0
+}
+
+.Oepcj.wnlHR {
+    padding: 80px 0
+}
+
+@media screen and (max-width: 768px) {
+    .Oepcj {
+        padding: 50px 20px 50px 20px
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .Oepcj {
+        padding: 70px 20px 70px 20px
+    }
+}
+
+.Oepcj .feAXY {
+    padding: 0%
+}
+
+.Oepcj ._7i7j7 {
+    background-color: var(--hero-purple);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 54px 46px 70px 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.Oepcj.wnlHR ._7i7j7 {
+    padding: 59px 50px 57px
+}
+
+[class~='black-theme'] .Oepcj ._7i7j7 {
+    background-color: var(--black)
+}
+
+.Oepcj ._7i7j7:after,
+.Oepcj.wnlHR ._7i7j7:after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.Oepcj ._7i7j7 a:not([href]):not([tabindex]),
+.Oepcj.wnlHR ._7i7j7 a:not([href]):not([tabindex]) {
+    color: var(--white)
+}
+
+.Oepcj.wnlHR ._7i7j7 .EwX7R {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    word-break: break-word;
+    -ms-word-break: break-all
+}
+
+.Oepcj ._7i7j7 .BC2FI {
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-reg-fw) !important;
+    font-size: var(--re-h5-fs) !important;
+    line-height: var(--re-h5-lh) !important
+}
+
+.Oepcj ._7i7j7 .JEP64 {
+    max-width: 713px;
+    margin: 0 auto;
+    margin-bottom: 30px
+}
+
+.Oepcj ._7i7j7 .JEP64 p {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-size: var(--re-p1-fs) !important;
+    line-height: var(--re-p1-lh) !important
+}
+
+.Oepcj [id^=g_cta][class~=prim] {
+    margin: 0 auto
+}
+
+.Oepcj ._7i7j7 .BC2FI,
+.Oepcj ._7i7j7 .JEP64 p {
+    line-height: normal;
+    color: var(--white)
+}
+
+@media all and (min-width: 769px) {
+
+    .Oepcj ._7i7j7 .BC2FI,
+    .Oepcj ._7i7j7 .JEP64 p {
+        font-size: 20px;
+        font-size: 1.25rem;
+        line-height: 1.33
+    }
+
+    .Oepcj ._7i7j7 .JEP64 p {
+        line-height: 1.4
+    }
+
+    .Oepcj ._7i7j7 .BC2FI {
+        font-size: 36px;
+        line-height: 2.25rem
+    }
+}
+
+.Oepcj ._7i7j7 .BC2FI {
+    font-size: var(--re-h5-fs) !important;
+    line-height: var(--re-h5-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-bold-fw) !important;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased
+}
+
+.Oepcj ._7i7j7 .JEP64 p {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--ptserif-reg-fw) !important;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: var(--re-p1-fs) !important;
+    line-height: var(--re-p1-lh) !important;
+    letter-spacing: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    line-height: normal;
+    margin: 20px 0 23px 0
+}
+
+.Oepcj.wnlHR .EwX7R .BC2FI {
+    font-size: var(--re-h5-fs) !important;
+    line-height: var(--re-h5-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-bold-fw) !important;
+    color: var(--white)
+}
+
+.Oepcj.wnlHR .EwX7R .BC2FI {
+    margin-bottom: 0;
+    margin-right: 50px;
+    text-align: left;
+    max-width: 565px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    align-self: center;
+    font-size: var(--re-h5-fs) !important;
+    line-height: var(--re-h5-lh) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-bold-fw) !important
+}
+
+.Oepcj.wnlHR .EwX7R .bgCOa {
+    align-self: center;
+    left: -11px;
+    position: relative
+}
+
+@media screen and (max-width: 1120px) {
+    .Oepcj.wnlHR {
+        padding: 80px 20px 80px
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .Oepcj.wnlHR ._7i7j7 {
+        padding: 41px 92px 41px 91px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Oepcj.wnlHR {
+        padding: 60px 30px
+    }
+
+    .Oepcj.wnlHR ._7i7j7 {
+        padding: 59px 0 90px
+    }
+
+    .Oepcj.wnlHR .EwX7R {
+        max-width: 68vw
+    }
+
+    .Oepcj.wnlHR ._7i7j7 .EwX7R {
+        margin-right: auto;
+        margin-left: auto;
+        flex-direction: column
+    }
+
+    .Oepcj.wnlHR .EwX7R .BC2FI {
+        margin-right: 0;
+        margin-bottom: 21px;
+        text-align: center;
+        max-width: 68vw
+    }
+}
+
+.znuCl {
+    margin: auto;
+    max-width: 896px;
+    width: calc(100% - 60px)
+}
+
+.EwX7R [class*='globalhead-wrap'] {
+    margin: unset !important;
+    text-align: left
+}
+
+[class*='standard'] {
+    margin: 0 auto 24px !important
+}
+
+[id*='ahcom'] [class*='des-default'] p:not([class*='globalhead-wrap'] p),
+[id*='ahcom'] [class*='des-default'] p:not([class*='globalhead-wrap'] p) * {
+    font-size: var(--re-p1-fs) !important;
+    line-height: var(--re-p1-lh) !important;
+    font-family: var(--sourcesanspro-ff)
+}
+
+[id*='khub'] [class*='des-default'] p,
+[class*='black-theme'] [class*='des-default'] p,
+[id*='khub'] [class*='des-default'] p *,
+[class*='black-theme'] [class*='des-default'] p * {
+    font-size: var(--re-p1-fs) !important;
+    line-height: var(--re-p1-lh) !important;
+    font-family: var(--sourcesanspro-ff)
+}
+
+[id*='khub'] .H4DRZ p>a,
+[id*='ahcom'] .H4DRZ p>a,
+[id*='khub'] .H4DRZ p>a span,
+[id*='ahcom'] .H4DRZ p>a span,
+[id*='khub'] .H4DRZ p a>span,
+[id*='ahcom'] .H4DRZ p a>span,
+[id*='khub'] .H4DRZ p a,
+[id*='ahcom'] .H4DRZ p a {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important;
+    background: transparent;
+    color: var(--orchid-int-30) !important;
+    display: inline-block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    line-height: 18px !important;
+    width: fit-content;
+    position: relative
+}
+
+[id*='khub'] .H4DRZ p>a:hover,
+[id*='ahcom'] .H4DRZ p>a:hover,
+[id*='khub'] .H4DRZ p>a span:hover,
+[id*='ahcom'] .H4DRZ p>a span:hover,
+[id*='khub'] .H4DRZ p a>span:hover,
+[id*='ahcom'] .H4DRZ p a>span:hover,
+[id*='khub'] .H4DRZ p a:hover,
+[id*='ahcom'] .H4DRZ p a:hover {
+    text-decoration-line: underline;
+    color: var(--white) !important
+}
+
+[id*='khub'] .H4DRZ p>a:active,
+[id*='ahcom'] .H4DRZ p>a:active,
+[id*='khub'] .H4DRZ p>a span:active,
+[id*='ahcom'] .H4DRZ p>a span:active,
+[id*='khub'] .H4DRZ p a>span:active,
+[id*='ahcom'] .H4DRZ p a>span:active,
+[id*='khub'] .H4DRZ p a:active,
+[id*='ahcom'] .H4DRZ p a:active {
+    color: var(--orchid-int-30) !important;
+    text-decoration-line: underline
+}
+
+[id*='khub'] .H4DRZ p>a:focus-visible,
+[id*='ahcom'] .H4DRZ p>a:focus-visible,
+[id*='khub'] .H4DRZ p>a span:focus-visible,
+[id*='ahcom'] .H4DRZ p>a span:focus-visible,
+[id*='khub'] .H4DRZ p a>span:focus-visible,
+[id*='ahcom'] .H4DRZ p a>span:focus-visible,
+[id*='khub'] .H4DRZ p a:focus-visible,
+[id*='ahcom'] .H4DRZ p a:focus-visible {
+    outline: none;
+    color: var(--orchid-int-30) !important;
+    padding: 2px 2px;
+    border: 2px solid var(--white)
+}
+
+[id*='khub'] .jfGtp p a,
+[id*='ahcom'] .jfGtp p a,
+[id*='khub'] .jfGtp p a>span,
+[id*='ahcom'] .jfGtp p a>span,
+[id*='khub'] .jfGtp p em a,
+[id*='ahcom'] .jfGtp p em a {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important;
+    background: transparent;
+    color: var(--purple-int-100) !important;
+    display: inline-block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    line-height: 18px !important;
+    width: fit-content
+}
+
+[id*='khub'] .jfGtp p a:hover,
+[id*='ahcom'] .jfGtp p a:hover,
+[id*='khub'] .jfGtp p a>span:hover,
+[id*='ahcom'] .jfGtp p a>span:hover,
+[id*='khub'] .jfGtp p em a:hover,
+[id*='ahcom'] .jfGtp p em a:hover {
+    text-decoration-line: underline;
+    color: var(--campaign-indigo) !important
+}
+
+[id*='khub'] .jfGtp p a:active,
+[id*='ahcom'] .jfGtp p a:active,
+[id*='khub'] .jfGtp p a>span:active,
+[id*='ahcom'] .jfGtp p a>span:active,
+[id*='khub'] .jfGtp p em a:active,
+[id*='ahcom'] .jfGtp p em a:active {
+    color: var(--purple-int-100) !important;
+    text-decoration: underline
+}
+
+[id*='khub'] .jfGtp p a:focus-visible,
+[id*='ahcom'] .jfGtp p a:focus-visible,
+[id*='khub'] .jfGtp p a>span:focus-visible,
+[id*='ahcom'] .jfGtp p a>span:focus-visible,
+[id*='khub'] .jfGtp p em a:focus-visible,
+[id*='ahcom'] .jfGtp p em a:focus-visible {
+    outline: none;
+    color: var(--purple-int-100) !important;
+    padding: 2px 2px;
+    border: 2px solid var(--purple-int-100)
+}

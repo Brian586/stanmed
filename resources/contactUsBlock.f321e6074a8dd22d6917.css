@@ -1,0 +1,287 @@
+.Vfu8I {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+.GM9jO {
+    width: 100%
+}
+
+.SaLBQ {
+    max-width: 713px;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0 60px
+}
+
+.aSuJH {
+    max-width: 530px;
+    width: auto;
+    margin-bottom: 21px
+}
+
+.zd9iv,
+.HQxZZ,
+.vvg8w {
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-bold-fw) !important;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal
+}
+
+.zd9iv {
+    font-size: var(--re-h5-fs) !important;
+    line-height: var(--re-h5-lh) !important;
+    color: var(--purple-int-100)
+}
+
+[class~='black-theme'] .zd9iv {
+    color: var(--black);
+    font-size: var(--re-h5-fs) !important;
+    line-height: var(--re-h5-lh) !important
+}
+
+.HQxZZ {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important;
+    font-size: var(--re-p2-fs) !important;
+    line-height: var(--re-p2-lh) !important;
+    color: var(--black);
+    padding: 16px 0 22px
+}
+
+.zd9iv *,
+.HQxZZ * {
+    font-size: inherit;
+    font-family: inherit
+}
+
+.zd9iv p,
+.zd9iv span,
+.HQxZZ p,
+.HQxZZ span,
+.HQxZZ a {
+    font-family: inherit
+}
+
+.HQxZZ a {
+    color: var(--dark-green)
+}
+
+[class~='black-theme'] .HQxZZ a {
+    color: var(--teal)
+}
+
+.HQxZZ a:hover {
+    text-decoration: underline;
+    color: var(--dark-green)
+}
+
+[class~='black-theme'] .HQxZZ a:hover {
+    color: var(--teal)
+}
+
+.vvg8w {
+    font-size: 20px;
+    color: var(--dark-green)
+}
+
+[class~='black-theme'] .vvg8w {
+    color: var(--teal)
+}
+
+.vvg8w:hover {
+    text-decoration: underline;
+    color: var(--dark-green)
+}
+
+[class~='black-theme'] .vvg8w:hover {
+    color: var(--teal)
+}
+
+@media screen and (max-width: 768px) {
+    .GM9jO {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+    .aSuJH {
+        max-width: 221px
+    }
+
+    .GM9jO .SaLBQ .zd9iv {
+        font-size: var(--re-h5-m-fs) !important;
+        line-height: var(--re-h5-m-lh) !important
+    }
+
+    .HQxZZ {
+        padding: 11px 0 21px
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .GM9jO {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+}
+
+[id*='ahcom'] .SaLBQ,
+[id*='khub'] .SaLBQ {
+    max-width: 897px
+}
+
+[id*='ahcom'] .zd9iv,
+[id*='khub'] .zd9iv {
+    max-width: 713px;
+    width: 100%;
+    margin: auto
+}
+
+[id*='ahcom'] .SSjFO p>a,
+[id*='khub'] .SSjFO p>a,
+[id*='ahcom'] .SSjFO p>a span,
+[id*='khub'] .SSjFO p>a span,
+[id*='ahcom'] .SSjFO p a>span,
+[id*='khub'] .SSjFO p a>span,
+[id*='ahcom'] .SSjFO p a,
+[id*='khub'] .SSjFO p a {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important;
+    background: transparent;
+    color: var(--orchid-int-30) !important;
+    display: inline-block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    line-height: 18px !important;
+    width: fit-content;
+    position: relative
+}
+
+[id*='ahcom'] .SSjFO p>a:hover,
+[id*='khub'] .SSjFO p>a:hover,
+[id*='ahcom'] .SSjFO p>a span:hover,
+[id*='khub'] .SSjFO p>a span:hover,
+[id*='ahcom'] .SSjFO p a>span:hover,
+[id*='khub'] .SSjFO p a>span:hover,
+[id*='ahcom'] .SSjFO p a:hover,
+[id*='khub'] .SSjFO p a:hover {
+    text-decoration-line: underline;
+    color: var(--white) !important
+}
+
+[id*='ahcom'] .SSjFO p>a:active,
+[id*='khub'] .SSjFO p>a:active,
+[id*='ahcom'] .SSjFO p>a span:active,
+[id*='khub'] .SSjFO p>a span:active,
+[id*='ahcom'] .SSjFO p a>span:active,
+[id*='khub'] .SSjFO p a>span:active,
+[id*='ahcom'] .SSjFO p a:active,
+[id*='khub'] .SSjFO p a:active {
+    color: var(--orchid-int-30) !important;
+    text-decoration-line: underline
+}
+
+[id*='ahcom'] .SSjFO p>a:focus-visible,
+[id*='khub'] .SSjFO p>a:focus-visible,
+[id*='ahcom'] .SSjFO p>a span:focus-visible,
+[id*='khub'] .SSjFO p>a span:focus-visible,
+[id*='ahcom'] .SSjFO p a>span:focus-visible,
+[id*='khub'] .SSjFO p a>span:focus-visible,
+[id*='ahcom'] .SSjFO p a:focus-visible,
+[id*='khub'] .SSjFO p a:focus-visible {
+    outline: none;
+    color: var(--orchid-int-30) !important;
+    padding: 2px 2px;
+    border: 2px solid var(--white)
+}
+
+[id*='ahcom'] .DyUh7 p a,
+[id*='khub'] .DyUh7 p a,
+[id*='ahcom'] .DyUh7 p a>span,
+[id*='khub'] .DyUh7 p a>span,
+[id*='ahcom'] .DyUh7 p em a,
+[id*='khub'] .DyUh7 p em a {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important;
+    background: transparent;
+    color: var(--purple-int-100) !important;
+    display: inline-block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    line-height: 18px !important;
+    width: fit-content
+}
+
+[id*='ahcom'] .DyUh7 p a:hover,
+[id*='khub'] .DyUh7 p a:hover,
+[id*='ahcom'] .DyUh7 p a>span:hover,
+[id*='khub'] .DyUh7 p a>span:hover,
+[id*='ahcom'] .DyUh7 p em a:hover,
+[id*='khub'] .DyUh7 p em a:hover {
+    text-decoration-line: underline;
+    color: var(--campaign-indigo) !important
+}
+
+[id*='ahcom'] .DyUh7 p a:active,
+[id*='khub'] .DyUh7 p a:active,
+[id*='ahcom'] .DyUh7 p a>span:active,
+[id*='khub'] .DyUh7 p a>span:active,
+[id*='ahcom'] .DyUh7 p em a:active,
+[id*='khub'] .DyUh7 p em a:active {
+    color: var(--purple-int-100) !important;
+    text-decoration: underline
+}
+
+[id*='ahcom'] .DyUh7 p a:focus-visible,
+[id*='khub'] .DyUh7 p a:focus-visible,
+[id*='ahcom'] .DyUh7 p a>span:focus-visible,
+[id*='khub'] .DyUh7 p a>span:focus-visible,
+[id*='ahcom'] .DyUh7 p em a:focus-visible,
+[id*='khub'] .DyUh7 p em a:focus-visible {
+    outline: none;
+    color: var(--purple-int-100) !important;
+    padding: 2px 2px;
+    border: 2px solid var(--purple-int-100)
+}
+
+[id*='ahcom'] .HQxZZ,
+[id*='khub'] .HQxZZ {
+    padding: 17px 0 48px
+}
+
+[id*='ahcom'] .vvg8w,
+[id*='khub'] .vvg8w {
+    color: var(--dark-green) !important;
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-bold-fw) !important;
+    font-size: var(--re-p2-fs) !important;
+    line-height: var(--re-p2-lh) !important
+}
+
+[id*='ahcom'] .GM9jO .SaLBQ .zd9iv span,
+[id*='khub'] .GM9jO .SaLBQ .zd9iv span {
+    font-family: var(--ptserif-ff) !important;
+    font-weight: var(--ptserif-bold-fw) !important;
+    font-size: var(--re-h5-fs) !important;
+    line-height: var(--re-h5-lh) !important
+}
+
+[id*='ahcom'] .GM9jO .SaLBQ .HQxZZ p span,
+[id*='khub'] .GM9jO .SaLBQ .HQxZZ p span {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important;
+    font-size: var(--re-sh4-fs) !important;
+    line-height: var(--re-sh4-lh) !important
+}

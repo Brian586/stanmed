@@ -1,0 +1,328 @@
+.t9NLA {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+.WFrEq {
+    width: 100%
+}
+
+.WFrEq .oSbyW {
+    margin: 0 auto
+}
+
+.WFrEq .oSbyW a span {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-semibold-fw) !important
+}
+
+.WFrEq .oSbyW a:hover span {
+    color: unset !important
+}
+
+.WFrEq .oSbyW a {
+    text-decoration: none !important
+}
+
+.WFrEq .oSbyW ul {
+    list-style-type: disc;
+    margin-left: 20px
+}
+
+.WFrEq .oSbyW ul li {
+    margin-left: 20px;
+    font-family: var(--sourcesanspro-ff);
+    font-weight: var(--sspro-reg-fw)
+}
+
+.WFrEq .oSbyW ul li a {
+    text-decoration: underline;
+    display: inline-block;
+    color: var(--dark-green)
+}
+
+.WFrEq .LOOKb {
+    max-width: 1080px
+}
+
+.WFrEq .vbxO4 {
+    max-width: 897px
+}
+
+.WFrEq .wNfSw {
+    max-width: 713px
+}
+
+.WFrEq .vUG8_ {
+    max-width: 532px
+}
+
+.WFrEq .T63MP {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important;
+    font-size: var(--re-p2-fs);
+    line-height: var(--re-p2-lh)
+}
+
+.WFrEq .T63MP::after {
+    content: '';
+    clear: both;
+    display: table
+}
+
+.WFrEq .T63MP a {
+    text-decoration: underline;
+    display: inline-block
+}
+
+.WFrEq .T63MP img {
+    max-width: 23px;
+    width: auto;
+    margin-right: 10px
+}
+
+.WFrEq .T63MP img[data-align='right'] {
+    float: right
+}
+
+.WFrEq .T63MP img[data-align='left'] {
+    float: left
+}
+
+.WFrEq .T63MP img[data-align='center'] {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.WFrEq .cUkky,
+.WFrEq .cUkky p:not([class*="subhead"]) {
+    font-size: var(--re-p2-fs) !important;
+    line-height: var(--re-p2-lh) !important;
+    font-family: var(--sourcesanspro-ff);
+    font-weight: var(--sspro-reg-fw)
+}
+
+.WFrEq .cUkky a span,
+.WFrEq .cUkky p:not([class*="subhead"]) a span {
+    font-size: var(--re-p2-fs) !important;
+    line-height: var(--re-p2-lh) !important
+}
+
+.WFrEq .cUkky span strong,
+.WFrEq .cUkky p:not([class*="subhead"]) span strong {
+    font-weight: var(--sspro-bold-fw)
+}
+
+.WFrEq .vva_s,
+.WFrEq .vva_s p {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important;
+    font-size: var(--re-sh4-fs) !important;
+    line-height: var(--re-sh4-lh) !important
+}
+
+.WFrEq .vva_s strong,
+.WFrEq .vva_s p strong {
+    line-height: var(--re-sh4-lh) !important;
+    font-weight: var(--sspro-bold-fw) !important
+}
+
+.WFrEq .vva_s a span,
+.WFrEq .vva_s p a span {
+    font-size: var(--re-sh4-fs) !important;
+    line-height: var(--re-sh4-lh) !important
+}
+
+.WFrEq .CvOdm,
+.WFrEq .CvOdm p {
+    font-size: var(--re-sh2-fs) !important;
+    line-height: var(--re-sh2-lh) !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important
+}
+
+.WFrEq .CvOdm a span,
+.WFrEq .CvOdm p a span {
+    font-size: var(--re-sh2-fs) !important;
+    line-height: var(--re-sh2-lh) !important
+}
+
+.WFrEq .NJlwV,
+.WFrEq .NJlwV p {
+    font-size: var(--re-h4-fs) !important;
+    line-height: var(--re-h4-lh) !important
+}
+
+.WFrEq .NJlwV strong,
+.WFrEq .NJlwV p strong {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important
+}
+
+.WFrEq .NJlwV a span,
+.WFrEq .NJlwV p a span {
+    font-size: var(--re-h4-fs) !important;
+    line-height: var(--re-h4-lh) !important
+}
+
+.WFrEq .qbL25,
+.WFrEq .qbL25 p {
+    font-size: var(--re-sh4-fs) !important;
+    line-height: 20px !important;
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-reg-fw) !important
+}
+
+.WFrEq .qbL25 a span,
+.WFrEq .qbL25 p a span {
+    font-size: var(--re-p3-fs) !important;
+    line-height: var(--re-p3-lh) !important
+}
+
+[class~='black-theme'] .WFrEq .T63MP a {
+    color: inherit;
+    text-decoration: underline !important
+}
+
+[class~='black-theme'] .WFrEq .T63MP a:link {
+    color: inherit
+}
+
+[class~='black-theme'] .WFrEq .T63MP a:hover {
+    color: var(--teal)
+}
+
+[class~='black-theme'] .WFrEq .T63MP a:focus {
+    color: var(--blue-sapphire) !important
+}
+
+[class~='black-theme'] .WFrEq .T63MP a:active {
+    color: var(--blue-sapphire)
+}
+
+[class~='black-theme'] .WFrEq .T63MP a:visited {
+    color: var(--blue-sapphire)
+}
+
+@media screen and (max-width: 1080px) {
+    .WFrEq .oSbyW {
+        padding: 0 20px
+    }
+}
+
+[id*='ahcom'] .WFrEq .Nl33t p>a,
+[id*='khub'] .WFrEq .Nl33t p>a,
+[id*='ahcom'] .WFrEq .Nl33t p>a span,
+[id*='khub'] .WFrEq .Nl33t p>a span,
+[id*='ahcom'] .WFrEq .Nl33t p a>span,
+[id*='khub'] .WFrEq .Nl33t p a>span,
+[id*='ahcom'] .WFrEq .Nl33t p a,
+[id*='khub'] .WFrEq .Nl33t p a {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important;
+    background: transparent;
+    color: var(--orchid-int-30) !important;
+    display: inline-block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    line-height: 18px !important;
+    width: fit-content;
+    position: relative
+}
+
+[id*='ahcom'] .WFrEq .Nl33t p>a:hover,
+[id*='khub'] .WFrEq .Nl33t p>a:hover,
+[id*='ahcom'] .WFrEq .Nl33t p>a span:hover,
+[id*='khub'] .WFrEq .Nl33t p>a span:hover,
+[id*='ahcom'] .WFrEq .Nl33t p a>span:hover,
+[id*='khub'] .WFrEq .Nl33t p a>span:hover,
+[id*='ahcom'] .WFrEq .Nl33t p a:hover,
+[id*='khub'] .WFrEq .Nl33t p a:hover {
+    text-decoration-line: underline;
+    color: var(--white) !important
+}
+
+[id*='ahcom'] .WFrEq .Nl33t p>a:active,
+[id*='khub'] .WFrEq .Nl33t p>a:active,
+[id*='ahcom'] .WFrEq .Nl33t p>a span:active,
+[id*='khub'] .WFrEq .Nl33t p>a span:active,
+[id*='ahcom'] .WFrEq .Nl33t p a>span:active,
+[id*='khub'] .WFrEq .Nl33t p a>span:active,
+[id*='ahcom'] .WFrEq .Nl33t p a:active,
+[id*='khub'] .WFrEq .Nl33t p a:active {
+    color: var(--orchid-int-30) !important;
+    text-decoration-line: underline
+}
+
+[id*='ahcom'] .WFrEq .Nl33t p>a:focus-visible,
+[id*='khub'] .WFrEq .Nl33t p>a:focus-visible,
+[id*='ahcom'] .WFrEq .Nl33t p>a span:focus-visible,
+[id*='khub'] .WFrEq .Nl33t p>a span:focus-visible,
+[id*='ahcom'] .WFrEq .Nl33t p a>span:focus-visible,
+[id*='khub'] .WFrEq .Nl33t p a>span:focus-visible,
+[id*='ahcom'] .WFrEq .Nl33t p a:focus-visible,
+[id*='khub'] .WFrEq .Nl33t p a:focus-visible {
+    outline: none;
+    color: var(--orchid-int-30) !important;
+    padding: 2px 2px;
+    border: 2px solid var(--white)
+}
+
+[id*='ahcom'] .WFrEq .YXNjY p a,
+[id*='khub'] .WFrEq .YXNjY p a,
+[id*='ahcom'] .WFrEq .YXNjY p a>span,
+[id*='khub'] .WFrEq .YXNjY p a>span,
+[id*='ahcom'] .WFrEq .YXNjY p em a,
+[id*='khub'] .WFrEq .YXNjY p em a {
+    font-family: var(--sourcesanspro-ff) !important;
+    font-weight: var(--sspro-bold-fw) !important;
+    background: transparent;
+    color: var(--purple-int-100) !important;
+    display: inline-block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    line-height: 18px !important;
+    width: fit-content
+}
+
+[id*='ahcom'] .WFrEq .YXNjY p a:hover,
+[id*='khub'] .WFrEq .YXNjY p a:hover,
+[id*='ahcom'] .WFrEq .YXNjY p a>span:hover,
+[id*='khub'] .WFrEq .YXNjY p a>span:hover,
+[id*='ahcom'] .WFrEq .YXNjY p em a:hover,
+[id*='khub'] .WFrEq .YXNjY p em a:hover {
+    text-decoration-line: underline;
+    color: var(--campaign-indigo) !important
+}
+
+[id*='ahcom'] .WFrEq .YXNjY p a:active,
+[id*='khub'] .WFrEq .YXNjY p a:active,
+[id*='ahcom'] .WFrEq .YXNjY p a>span:active,
+[id*='khub'] .WFrEq .YXNjY p a>span:active,
+[id*='ahcom'] .WFrEq .YXNjY p em a:active,
+[id*='khub'] .WFrEq .YXNjY p em a:active {
+    color: var(--purple-int-100) !important;
+    text-decoration: underline
+}
+
+[id*='ahcom'] .WFrEq .YXNjY p a:focus-visible,
+[id*='khub'] .WFrEq .YXNjY p a:focus-visible,
+[id*='ahcom'] .WFrEq .YXNjY p a>span:focus-visible,
+[id*='khub'] .WFrEq .YXNjY p a>span:focus-visible,
+[id*='ahcom'] .WFrEq .YXNjY p em a:focus-visible,
+[id*='khub'] .WFrEq .YXNjY p em a:focus-visible {
+    outline: none;
+    color: var(--purple-int-100) !important;
+    padding: 2px 2px;
+    border: 2px solid var(--purple-int-100)
+}
