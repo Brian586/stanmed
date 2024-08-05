@@ -1,3 +1,63 @@
+const name = "StanMed";
+const logo = "/assets/images/logo_name.png";
+
+const contactUs = "/about/contact-us.html";
+const leadership = "/about/leadership.html";
+const whoWeAre = "/about/who-we-are.html";
+
+const advisoryServices = "/solutions/advisory-services.html";
+const electronicHealthRecords = "/solutions/electronic-health-records.html";
+const marketplaceProgram = "/solutions/marketplace-program.html";
+const patientEngagement = "/solutions/patient-engagement.html";
+const payers = "/solutions/payers.html";
+const platformServices = "/solutions/platform-services.html";
+const practiceManagement = "/solutions/practice-management.html";
+const revenueCycleManagement = "/solutions/revenue-cycle-management.html";
+const stanmed = "/solutions/stanmed.html";
+
+const behavioralHealth = "/who-we-for/behavioral-health.html";
+const enterpriseMedicalOperation = "/who-we-for/enterprise-medical-operation.html";
+const fqhc = "/who-we-for/fqhc.html";
+const internalAndFamilyMedicine = "/who-we-for/internal-and-family-medicine.html";
+const marketplacePartners = "/who-we-for/marketplace-partners.html";
+const medicalOrderTransmission = "/who-we-for/medical-order-transmission.html";
+const mediumLargeMedicalPractices = "/who-we-for/medium-large-medical-practices.html";
+const memberCentricCare = "/who-we-for/member-centric-care.html";
+const orthopedics = "/who-we-for/orthopedics.html";
+const pediatrics = "/who-we-for/pediatrics.html";
+const smallMedicalPractices = "/who-we-for/small-medical-practices.html";
+const specialtyPractices = "/who-we-for/specialty-practices.html";
+const startUps = "/who-we-for/start-ups.html";
+const urgentCare = "/who-we-for/urgent-care.html";
+const womensHealth = "/who-we-for/womens-health.html";
+
+const caseStudies = "/case-studies.html";
+const index = "/index.html";
+const knowledgeHub = "/knowledge-hub.html";
+const pressReleases = "/press-releases.html";
+const customerSupport = "";
+
+const privacyPolicy = "";
+const termsOfUse = "";
+const termsAndConditions = "";
+const codeOfConduct = "";
+const transparencyInCoverage = "";
+
+const email = "";
+const phone = "";
+const emailLink = `mailto:${email}`;
+const phoneLink = `tel:${phone}`;
+
+const facebookIcon = "/assets/socials/fb.png";
+const facebookLink = "";
+const xIcon = "/assets/socials/x.png";
+const xLink = "";
+const linkedinIcon = "/assets/socials/in.png";
+const linkedinLink = "";
+const youtubeIcon = "/assets/socials/yt.png";
+const youtubeLink = "";
+
+
 window.__PRELOADED_STATE__GLOBAL_ = {
     "megaMenuNav": {
         "menu-0": {
@@ -24,22 +84,22 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "columnData": [{
                         "title": null,
                         "desc": null,
-                        "link": "/about/who-we-are.html",
+                        "link": whoWeAre,
                         "lebal": "Who We Are",
                         "link_type": "link"
                     },
                     {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/about/leadership",
+                        "link": "/about/leadership.html",
                         "lebal": "Leadership",
                         "link_type": "link"
                     },
                         // {
                         //     "title": null,
                         //     "desc": null,
-                        //     "link": "https://www.athenahealth.com/about/athenagives",
-                        //     "lebal": "athenaGives",
+                        //     "link": "",
+                        //     "lebal": "",
                         //     "link_type": "link"
                         // }
                     ],
@@ -53,14 +113,14 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "columnData": [{
                         "title": null,
                         "desc": null,
-                        "link": "/about/contact-us.html",
+                        "link": contactUs,
                         "lebal": "Contact Us",
                         "link_type": "link"
                     },
                         // {
                         //     "title": null,
                         //     "desc": null,
-                        //     "link": "https://www.athenahealth.com/careers",
+                        //     "link": "",
                         //     "lebal": "Careers",
                         //     "link_type": "link"
                         // }
@@ -76,14 +136,14 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                         //     {
                         //     "title": null,
                         //     "desc": null,
-                        //     "link": "https://www.athenahealth.com/newsroom",
+                        //     "link": "",
                         //     "lebal": "Newsroom",
                         //     "link_type": "link"
                         // }, 
                         {
                             "title": null,
                             "desc": null,
-                            "link": "https://www.athenahealth.com/press-releases",
+                            "link": pressReleases,
                             "lebal": "Press Releases",
                             "link_type": "link"
                         }],
@@ -114,13 +174,13 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "field_mega_disable_mobile": "0",
                     "field_disable_desc_desktop": "0",
                     "columnData": [{
-                        "title": "athenaOne",
+                        "title": "StanMed",
                         "desc": "<p><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">An all-in-one solution that improves clinical effectiveness, patient experience, and financial performance.&nbsp;</span></p>",
-                        "link": "https://www.athenahealth.com/solutions/athenaone",
-                        "lebal": "athenaOne",
+                        "link": stanmed,
+                        "lebal": "StanMed",
                         "link_type": "link"
                     }],
-                    "uri": "https://www.athenahealth.com/solutions/athenaone",
+                    "uri": stanmed,
                     "name": "Our Platform"
                 },
                 "menu-1": {
@@ -130,19 +190,19 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "columnData": [{
                         "title": "Electronic Health Record",
                         "desc": "<p>A connected, tailorable EHR solution that empowers clinicians.</p>",
-                        "link": "https://www.athenahealth.com/solutions/electronic-health-records",
+                        "link": electronicHealthRecords,
                         "lebal": "Electronic Health Record",
                         "link_type": "link"
                     }, {
                         "title": "Revenue Cycle Management",
                         "desc": "<p>RCM software and services that boost efficiency and profitability.</p>",
-                        "link": "https://www.athenahealth.com/solutions/practice-management",
+                        "link": revenueCycleManagement,
                         "lebal": "Revenue Cycle Management",
                         "link_type": "link"
                     }, {
                         "title": "Patient Engagement",
                         "desc": "<p>Communication and care tools that improve patient relationships.</p>",
-                        "link": "https://www.athenahealth.com/solutions/patient-engagement",
+                        "link": patientEngagement,
                         "lebal": "Patient Engagement",
                         "link_type": "link"
                     }],
@@ -156,32 +216,32 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "columnData": [{
                         "title": "Additional Offerings",
                         "desc": "<p><span style=\"white-space:pre-wrap;\">Technology that helps improve patient outcomes and reduce costs.</span></p>",
-                        "link": "https://www.athenahealth.com/who-we-serve/payers",
+                        "link": payers,
                         "lebal": "Payer Solutions",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": "<p>Expert consulting and support to help improve performance and ROI.</p>",
-                        "link": "https://www.athenahealth.com/solutions/advisory-services",
+                        "link": advisoryServices,
                         "lebal": "Advisory Services",
                         "link_type": "link"
                     }, {
                         "title": null,
-                        "desc": "<p>Easily connect to athenaOne and extend its capabilities.</p>",
-                        "link": "https://www.athenahealth.com/solutions/platform-services",
+                        "desc": "<p>Easily connect to StanMed and extend its capabilities.</p>",
+                        "link": platformServices,
                         "lebal": "Platform Services",
                         "link_type": "link"
                     }, {
                         "title": null,
-                        "desc": "<p>Tailor your athenahealth experience with industry-leading partners.</p>",
-                        "link": "https://www.athenahealth.com/solutions/marketplace-program",
+                        "desc": "<p>Tailor your StanMed experience with industry-leading partners.</p>",
+                        "link": marketplaceProgram,
                         "lebal": "Marketplace Program",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": "<p>Enterprise RCM software that maximizes collections with less work.</p>",
-                        "link": "https://www.athenahealth.com/solutions/revenue-cycle-management",
-                        "lebal": "athenaIDX ",
+                        "link": electronicHealthRecords,
+                        "lebal": "StanMedDX ",
                         "link_type": "link"
                     }],
                     "uri": "/solutions/marketplace-program",
@@ -213,37 +273,37 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "columnData": [{
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/start-ups",
+                        "link": startUps,
                         "lebal": "Startup Practices",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/small-medical-practices",
+                        "link": smallMedicalPractices,
                         "lebal": "Small Medical Practices",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/medium-large-medical-practices",
+                        "link": mediumLargeMedicalPractices,
                         "lebal": "Medium to Large Medical Groups",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/enterprise-medical-operation",
+                        "link": enterpriseMedicalOperation,
                         "lebal": "Enterprises & Health Systems",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/fqhc",
+                        "link": fqhc,
                         "lebal": "Federally Qualified Health Centers",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/member-centric-care",
+                        "link": memberCentricCare,
                         "lebal": "Member-centric Care Organizations",
                         "link_type": "link"
                     }],
@@ -257,43 +317,43 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "columnData": [{
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/behavioral-health",
+                        "link": behavioralHealth,
                         "lebal": "Behavioral Health",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/orthopedics",
+                        "link": orthopedics,
                         "lebal": "Orthopedics",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/pediatrics",
+                        "link": pediatrics,
                         "lebal": "Pediatrics",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/internal-and-family-medicine",
+                        "link": internalAndFamilyMedicine,
                         "lebal": "Primary Care",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/urgent-care",
+                        "link": urgentCare,
                         "lebal": " Urgent Care",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/womens-health",
+                        "link": womensHealth,
                         "lebal": "Women's Health",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/specialty-practices",
+                        "link": specialtyPractices,
                         "lebal": "View All Specialties",
                         "link_type": "link"
                     }],
@@ -307,13 +367,13 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "columnData": [{
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/payers",
+                        "link": payers,
                         "lebal": "Healthcare Payers",
                         "link_type": "link"
                     }, {
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/who-we-serve/medical-order-transmission",
+                        "link": medicalOrderTransmission,
                         "lebal": "Labs and Imaging Centers",
                         "link_type": "link"
                     }],
@@ -328,14 +388,14 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                         {
                             "title": null,
                             "desc": null,
-                            "link": "https://www.athenahealth.com/solutions/marketplace-partners",
+                            "link": marketplacePartners,
                             "lebal": "Marketplace Partners",
                             "link_type": "link"
                         },
                         // {
                         //     "title": null,
                         //     "desc": null,
-                        //     "link": "https://www.athenahealth.com/developer-portal",
+                        //     "link": "",
                         //     "lebal": "Developers",
                         //     "link_type": "link"
                         // }
@@ -369,7 +429,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "columnData": [{
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/knowledge-hub",
+                        "link": knowledgeHub,
                         "lebal": "Our Insights",
                         "link_type": "link"
                     }],
@@ -383,7 +443,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "columnData": [{
                         "title": null,
                         "desc": null,
-                        "link": "https://www.athenahealth.com/case-studies",
+                        "link": caseStudies,
                         "lebal": "Case Studies",
                         "link_type": "link"
                     }],
@@ -421,7 +481,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
             //         "value": "utility-nav"
             //     }],
             //     "link": [{
-            //         "uri": "https://www.athenahealth.com/patient-login",
+            //         "uri": "",
             //         "title": "",
             //         "options": []
             //     }],
@@ -430,14 +490,14 @@ window.__PRELOADED_STATE__GLOBAL_ = {
             // },
             // "926": {
             //     "title": [{
-            //         "value": "athenaOne Login"
+            //         "value": " Login"
             //     }],
             //     "description": [],
             //     "menu_name": [{
             //         "value": "utility-nav"
             //     }],
             //     "link": [{
-            //         "uri": "https://athenanet.athenahealth.com/1/26/login.esp",
+            //         "uri": "",
             //         "title": "",
             //         "options": []
             //     }],
@@ -465,9 +525,9 @@ window.__PRELOADED_STATE__GLOBAL_ = {
             "child_count": 9,
             "child": {
                 "menu-0": {
-                    "name": "athenaOne",
+                    "name": "StanMed",
                     "tid": "menu-0",
-                    "url_str": "https://www.athenahealth.com/solutions/athenaone",
+                    "url_str": stanmed,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -477,7 +537,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-1": {
                     "name": "Electronic Health Record",
                     "tid": "menu-1",
-                    "url_str": "https://www.athenahealth.com/solutions/electronic-health-records",
+                    "url_str": electronicHealthRecords,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -487,7 +547,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-2": {
                     "name": "Revenue Cycle Management",
                     "tid": "menu-2",
-                    "url_str": "https://www.athenahealth.com/solutions/practice-management",
+                    "url_str": revenueCycleManagement,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -497,7 +557,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-3": {
                     "name": "Patient Engagement",
                     "tid": "menu-3",
-                    "url_str": "https://www.athenahealth.com/solutions/patient-engagement",
+                    "url_str": patientEngagement,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -507,7 +567,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-4": {
                     "name": "Payer Solutions",
                     "tid": "menu-4",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/payers",
+                    "url_str": payers,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -517,7 +577,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-5": {
                     "name": "Advisory Services",
                     "tid": "menu-5",
-                    "url_str": "https://www.athenahealth.com/solutions/advisory-services",
+                    "url_str": advisoryServices,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "/solutions/telehealth-services",
@@ -527,7 +587,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-6": {
                     "name": "Platform Services",
                     "tid": "menu-6",
-                    "url_str": "https://www.athenahealth.com/solutions/platform-services",
+                    "url_str": platformServices,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -537,7 +597,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-7": {
                     "name": "Our Marketplace Program",
                     "tid": "menu-7",
-                    "url_str": "https://www.athenahealth.com/solutions/marketplace-program",
+                    "url_str": marketplaceProgram,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -545,9 +605,9 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "attached_modal_popup": []
                 },
                 "menu-8": {
-                    "name": "athenaIDX",
+                    "name": "StanMedDX",
                     "tid": "menu-8",
-                    "url_str": "https://www.athenahealth.com/solutions/revenue-cycle-management",
+                    "url_str": electronicHealthRecords,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -575,7 +635,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-0": {
                     "name": "Startup Practices",
                     "tid": "menu-0",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/start-ups",
+                    "url_str": startUps,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -585,7 +645,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-1": {
                     "name": "Small Medical Practices",
                     "tid": "menu-1",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/small-medical-practices",
+                    "url_str": smallMedicalPractices,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -595,7 +655,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-2": {
                     "name": "Medium to Large Medical Practices",
                     "tid": "menu-2",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/medium-large-medical-practices",
+                    "url_str": mediumLargeMedicalPractices,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -605,7 +665,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-3": {
                     "name": "Enterprise Health Systems",
                     "tid": "menu-3",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/enterprise-medical-operation",
+                    "url_str": enterpriseMedicalOperation,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -615,7 +675,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-4": {
                     "name": "Federally Qualified Health Centers",
                     "tid": "menu-4",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/fqhc",
+                    "url_str": fqhc,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -625,7 +685,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-5": {
                     "name": "Member-centric Care Organizations",
                     "tid": "menu-5",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/member-centric-care",
+                    "url_str": memberCentricCare,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -635,7 +695,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-6": {
                     "name": "Behavioral Health",
                     "tid": "menu-6",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/behavioral-health",
+                    "url_str": behavioralHealth,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -645,7 +705,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-7": {
                     "name": "Orthopedics",
                     "tid": "menu-7",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/orthopedics",
+                    "url_str": orthopedics,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -655,7 +715,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-8": {
                     "name": "Primary Care",
                     "tid": "menu-8",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/internal-and-family-medicine",
+                    "url_str": internalAndFamilyMedicine,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -665,7 +725,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-9": {
                     "name": "Urgent Care",
                     "tid": "menu-9",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/urgent-care",
+                    "url_str": urgentCare,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -675,7 +735,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-10": {
                     "name": "Women's Health",
                     "tid": "menu-10",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/womens-health",
+                    "url_str": womensHealth,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -685,7 +745,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-11": {
                     "name": "Healthcare Payers",
                     "tid": "menu-11",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/payers",
+                    "url_str": payers,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -695,7 +755,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-12": {
                     "name": "Labs and Imaging Centers",
                     "tid": "menu-12",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/medical-order-transmission",
+                    "url_str": medicalOrderTransmission,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -705,7 +765,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-13": {
                     "name": "View All Specialties",
                     "tid": "menu-13",
-                    "url_str": "https://www.athenahealth.com/who-we-serve/specialty-practices",
+                    "url_str": specialtyPractices,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -715,7 +775,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-14": {
                     "name": "Marketplace Partners",
                     "tid": "menu-14",
-                    "url_str": "https://www.athenahealth.com/solutions/marketplace-partners",
+                    "url_str": marketplacePartners,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -725,7 +785,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 // "menu-15": {
                 //     "name": "Developers",
                 //     "tid": "menu-15",
-                //     "url_str": "https://www.athenahealth.com/developer-portal",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
@@ -738,7 +798,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
             "name": "Insights",
             "menu_size": "",
             "tid": "menu-0",
-            "url_str": "//www.athenahealth.com/resources",
+            "url_str": "",
             "description": null,
             "unique_name": "",
             "unique_name_footer": "",
@@ -753,27 +813,27 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-0": {
                     "name": "Our Insights",
                     "tid": "menu-0",
-                    "url_str": "https://www.athenahealth.com/knowledge-hub",
+                    "url_str": knowledgeHub,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
                     "isdefault": "0",
                     "attached_modal_popup": []
                 },
-                // "menu-1": {
-                //     "name": "Case Studies",
-                //     "tid": "menu-1",
-                //     "url_str": "https://www.athenahealth.com/case-studies",
-                //     "description": null,
-                //     "unique_name": "",
-                //     "unique_name_footer": "",
-                //     "isdefault": "0",
-                //     "attached_modal_popup": []
-                // },
+                "menu-1": {
+                    "name": "Case Studies",
+                    "tid": "menu-1",
+                    "url_str": caseStudies,
+                    "description": null,
+                    "unique_name": "",
+                    "unique_name_footer": "",
+                    "isdefault": "0",
+                    "attached_modal_popup": []
+                },
                 // "menu-2": {
                 //     "name": "Whitepapers",
                 //     "tid": "menu-2",
-                //     "url_str": "https://www.athenahealth.com/white-papers",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
@@ -783,7 +843,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 // "menu-3": {
                 //     "name": "Real-Time Care Notifications",
                 //     "tid": "menu-3",
-                //     "url_str": "https://patientping.com/route-athenahealth/",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
@@ -793,7 +853,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 // "menu-4": {
                 //     "name": "Patient Resources",
                 //     "tid": "menu-4",
-                //     "url_str": "https://www.athenahealth.com/patient-login",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
@@ -801,9 +861,9 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 //     "attached_modal_popup": []
                 // },
                 // "menu-5": {
-                //     "name": "The athenahealth network",
+                //     "name": "The network",
                 //     "tid": "menu-5",
-                //     "url_str": "https://www.athenahealth.com/why-choose-us/healthcare-network",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
@@ -813,7 +873,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 // "menu-6": {
                 //     "name": "Cost and Value",
                 //     "tid": "menu-6",
-                //     "url_str": "https://www.athenahealth.com/why-choose-us/cost-value",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
@@ -823,7 +883,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 // "menu-7": {
                 //     "name": "Increase Revenue",
                 //     "tid": "menu-7",
-                //     "url_str": "https://www.athenahealth.com/why-choose-us/increase-revenue",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
@@ -833,7 +893,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 // "menu-8": {
                 //     "name": "Interoperability",
                 //     "tid": "menu-8",
-                //     "url_str": "https://www.athenahealth.com/why-choose-us/interoperability",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
@@ -843,7 +903,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 // "menu-9": {
                 //     "name": "Improved Efficiency",
                 //     "tid": "menu-9",
-                //     "url_str": "https://www.athenahealth.com/why-choose-us/improved-efficiency",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
@@ -853,23 +913,23 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 // "menu-10": {
                 //     "name": "Mastering MACRA and MIPS",
                 //     "tid": "menu-10",
-                //     "url_str": "https://www.athenahealth.com/why-choose-us/macra-and-mips",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
                 //     "isdefault": "0",
                 //     "attached_modal_popup": []
                 // },
-                // "menu-11": {
-                //     "name": "Customer Support",
-                //     "tid": "menu-11",
-                //     "url_str": "https://www.athenahealth.com/why-choose-us/client-support",
-                //     "description": null,
-                //     "unique_name": "",
-                //     "unique_name_footer": "",
-                //     "isdefault": "0",
-                //     "attached_modal_popup": []
-                // }
+                "menu-11": {
+                    "name": "Customer Support",
+                    "tid": "menu-11",
+                    "url_str": customerSupport,
+                    "description": null,
+                    "unique_name": "",
+                    "unique_name_footer": "",
+                    "isdefault": "0",
+                    "attached_modal_popup": []
+                }
             }
         }],
         "menu-0": [{
@@ -901,7 +961,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-1": {
                     "name": "Leadership",
                     "tid": "menu-1",
-                    "url_str": "https://www.athenahealth.com/about/leadership",
+                    "url_str": leadership,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -909,9 +969,9 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "attached_modal_popup": []
                 },
                 // "menu-2": {
-                //     "name": "athenaGives",
+                //     "name": "",
                 //     "tid": "menu-2",
-                //     "url_str": "https://www.athenahealth.com/about/athenagives",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
@@ -921,7 +981,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 // "menu-3": {
                 //     "name": "Careers",
                 //     "tid": "menu-3",
-                //     "url_str": "https://www.athenahealth.com/careers",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
@@ -931,7 +991,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-4": {
                     "name": "Contact Us",
                     "tid": "menu-4",
-                    "url_str": "/about/contact-us.html",
+                    "url_str": contactUs,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -941,7 +1001,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 // "menu-5": {
                 //     "name": "Newsroom",
                 //     "tid": "menu-5",
-                //     "url_str": "https://www.athenahealth.com/newsroom",
+                //     "url_str": "",
                 //     "description": null,
                 //     "unique_name": "",
                 //     "unique_name_footer": "",
@@ -951,7 +1011,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                 "menu-6": {
                     "name": "Press Releases",
                     "tid": "menu-6",
-                    "url_str": "https://www.athenahealth.com/press-releases",
+                    "url_str": pressReleases,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -973,7 +1033,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "value": "footer-bottom-menu"
                 }],
                 "link": [{
-                    "uri": "https://athenahealth.com/privacy-rights",
+                    "uri": privacyPolicy,
                     "title": "",
                     "options": []
                 }]
@@ -989,7 +1049,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "value": "footer-bottom-menu"
                 }],
                 "link": [{
-                    "uri": "https://www.athenahealth.com/terms-and-conditions/terms-of-use",
+                    "uri": termsOfUse,
                     "title": "",
                     "options": []
                 }]
@@ -1003,27 +1063,27 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "value": "footer-bottom-menu"
                 }],
                 "link": [{
-                    "uri": "https://www.athenahealth.com/terms-and-conditions",
+                    "uri": termsAndConditions,
                     "title": "",
                     "options": []
                 }]
             },
-            "611": {
-                "title": [{
-                    "value": "Do Not Sell or Share My Personal Information"
-                }],
-                "description": [{
-                    "value": "Do Not Sell or Share My Personal Information"
-                }],
-                "menu_name": [{
-                    "value": "footer-bottom-menu"
-                }],
-                "link": [{
-                    "uri": "https://privacyportal.onetrust.com/webform/e154ad6e-22c7-4d9c-919c-b5cabfd10d9c/cb37657f-a291-4caa-bdaa-b13cbd18dbdc",
-                    "title": "",
-                    "options": []
-                }]
-            },
+            // "611": {
+            //     "title": [{
+            //         "value": "Do Not Sell or Share My Personal Information"
+            //     }],
+            //     "description": [{
+            //         "value": "Do Not Sell or Share My Personal Information"
+            //     }],
+            //     "menu_name": [{
+            //         "value": "footer-bottom-menu"
+            //     }],
+            //     "link": [{
+            //         "uri": "https://privacyportal.onetrust.com/webform/e154ad6e-22c7-4d9c-919c-b5cabfd10d9c/cb37657f-a291-4caa-bdaa-b13cbd18dbdc",
+            //         "title": "",
+            //         "options": []
+            //     }]
+            // },
             "621": {
                 "title": [{
                     "value": "Code of Conduct"
@@ -1033,7 +1093,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "value": "footer-bottom-menu"
                 }],
                 "link": [{
-                    "uri": "https://www.athenahealth.com/sites/default/files/media_docs/athenahealth-Code-of-Conduct.pdf",
+                    "uri": codeOfConduct,
                     "title": "",
                     "options": []
                 }]
@@ -1047,7 +1107,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "value": "footer-bottom-menu"
                 }],
                 "link": [{
-                    "uri": "https://www.athenahealth.com/resources/transparency-in-coverage",
+                    "uri": transparencyInCoverage,
                     "title": "",
                     "options": []
                 }]
@@ -1056,12 +1116,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
         "schedule_meeting": {
             "sm_cta_type": "Link",
             "sm_cta_text": "Let's Connect",
-            "sm_cta_link": "/resources/schedule-meeting",
+            "sm_cta_link": emailLink,
             "sm_cta_link_target": 0,
             "sm_label": "Let's connect",
-            "sm_link": "/resources/schedule-meeting"
+            "sm_link": emailLink
         },
-        "footer_call_us": "Call us anytime <span>800.981.5084</span>",
+        "footer_call_us": `Call us anytime <span>${phone}</span>`,
         "ah_social_media_links": {
             "Facebook": [{
                 "name": [{
@@ -1076,12 +1136,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                         "target_id": "20456"
                     },
                     "image_details": {
-                        "rel_url": "https://caas.athenahealth.com/sites/default/files/2024/02/Social%201.png",
-                        "webp_image_url": "https://caas.athenahealth.com/sites/default/files/styles/webp_image_style/public/2024/02/Social%201.webp?itok=cXMfei3A",
-                        "image_name": "Social 1.png",
+                        "rel_url": facebookIcon,
+                        "webp_image_url": facebookIcon,
+                        "image_name": "fb.png",
                         "options": {
                             "target_id": "37366",
-                            "alt": "Social%201",
+                            "alt": "FB",
                             "title": null,
                             "width": "60",
                             "height": "60"
@@ -1089,12 +1149,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     }
                 },
                 "field_social_media_link": [{
-                    "value": "https://www.facebook.com/athenahealth"
+                    "value": facebookLink
                 }]
             }],
             "Twitter": [{
                 "name": [{
-                    "value": "Twitter"
+                    "value": "X"
                 }],
                 "description": [{
                     "value": null,
@@ -1105,12 +1165,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                         "target_id": "20461"
                     },
                     "image_details": {
-                        "rel_url": "https://caas.athenahealth.com/sites/default/files/2024/02/Social%202.png",
-                        "webp_image_url": "https://caas.athenahealth.com/sites/default/files/styles/webp_image_style/public/2024/02/Social%202.webp?itok=YQPOBYJm",
-                        "image_name": "Social 2.png",
+                        "rel_url": xIcon,
+                        "webp_image_url": xIcon,
+                        "image_name": "x.png",
                         "options": {
                             "target_id": "37371",
-                            "alt": "Social%202",
+                            "alt": "X",
                             "title": null,
                             "width": "60",
                             "height": "60"
@@ -1118,7 +1178,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     }
                 },
                 "field_social_media_link": [{
-                    "value": "https://twitter.com/athenahealth"
+                    "value": xLink
                 }]
             }],
             "linkedin": [{
@@ -1134,12 +1194,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                         "target_id": "20471"
                     },
                     "image_details": {
-                        "rel_url": "https://caas.athenahealth.com/sites/default/files/2024/02/Social%204.png",
-                        "webp_image_url": "https://caas.athenahealth.com/sites/default/files/styles/webp_image_style/public/2024/02/Social%204.webp?itok=TbEtfwQv",
+                        "rel_url": linkedinIcon,
+                        "webp_image_url": linkedinIcon,
                         "image_name": "Social 4.png",
                         "options": {
                             "target_id": "37381",
-                            "alt": "Social%204",
+                            "alt": "In",
                             "title": null,
                             "width": "60",
                             "height": "60"
@@ -1147,7 +1207,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     }
                 },
                 "field_social_media_link": [{
-                    "value": "https://www.linkedin.com/company/athenahealth/"
+                    "value": linkedinLink
                 }]
             }],
             "youtube": [{
@@ -1163,12 +1223,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                         "target_id": "20466"
                     },
                     "image_details": {
-                        "rel_url": "https://caas.athenahealth.com/sites/default/files/2024/02/Social%203.png",
-                        "webp_image_url": "https://caas.athenahealth.com/sites/default/files/styles/webp_image_style/public/2024/02/Social%203.webp?itok=FZ8TBZCq",
-                        "image_name": "Social 3.png",
+                        "rel_url": youtubeIcon,
+                        "webp_image_url": youtubeIcon,
+                        "image_name": "yt.png",
                         "options": {
                             "target_id": "37376",
-                            "alt": "Social%203",
+                            "alt": "yt",
                             "title": null,
                             "width": "60",
                             "height": "60"
@@ -1176,41 +1236,41 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     }
                 },
                 "field_social_media_link": [{
-                    "value": "https://www.youtube.com/user/athenahealth"
+                    "value": youtubeLink
                 }]
             }]
         }
     },
     "webform_config": {
-        "webservice_url": "https://webformservice.athenahealth.com/WebServices/wfs.svc/WebFormHandler",
+        "webservice_url": "",
         "global_cta_type": "Link",
         "global_cta_text": "Let's Connect",
-        "global_cta_link": "/resources/schedule-meeting",
+        "global_cta_link": emailLink,
         "global_cta_link_target": 0,
         "schedule_meeting": "2016",
         "schedule_meeting_label": "Let's connect",
-        "schedule_meeting_page_url": "/resources/schedule-meeting",
-        "eloqua_service_url": "https://s1227305179.t.eloqua.com/e/f2",
+        "schedule_meeting_page_url": emailLink,
+        "eloqua_service_url": emailLink,
         "global_cta_style": "redesign_primary_light_mini"
     },
     "global_theme_settings": "default-theme",
     "ah_mega_header": 1,
-    "loading_animation": "athenahealth",
-    "athena_login": {
-        "anet_login": 0,
-        "anet_login_text": "Login",
-        "anet_login_link": "https://athenanet.athenahealth.com",
-        "login_newtab": 1
-    },
-    "athena_patient": {
-        "anet_patient": 1,
-        "anet_patient_text": "Patients",
-        "anet_patient_link": "/patient-login",
-        "patient_newtab": 0
-    },
+    "loading_animation": "",
+    // "athena_login": {
+    //     "anet_login": 0,
+    //     "anet_login_text": "Login",
+    //     "anet_login_link": "",
+    //     "login_newtab": 1
+    // },
+    // "athena_patient": {
+    //     "anet_patient": 1,
+    //     "anet_patient_text": "Patients",
+    //     "anet_patient_link": "/patient-login",
+    //     "patient_newtab": 0
+    // },
     "site_logo": {
-        "rel_url": "https://caas.athenahealth.com/sites/default/files/styles/jpg_image_style/public/athenahealth_logo.jpg?itok=ks1gx4Bp",
-        "webp_image_url": "https://caas.athenahealth.com/sites/default/files/athenahealth_logo.webp"
+        "rel_url": logo,
+        "webp_image_url": logo
     },
     "meganav_footer_menu": {
         "ah_social_media_links": {
@@ -1227,12 +1287,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                         "target_id": "20476"
                     },
                     "image_details": {
-                        "rel_url": "https://caas.athenahealth.com/sites/default/files/2024/02/Frame%2039602.png",
-                        "webp_image_url": "https://caas.athenahealth.com/sites/default/files/styles/webp_image_style/public/2024/02/Frame%2039602.webp?itok=BpwGLP1P",
-                        "image_name": "Frame 39602.png",
+                        "rel_url": facebookIcon,
+                        "webp_image_url": facebookIcon,
+                        "image_name": "fb.png",
                         "options": {
                             "target_id": "37386",
-                            "alt": "Frame%2039602",
+                            "alt": "fb",
                             "title": null,
                             "width": "48",
                             "height": "48"
@@ -1240,12 +1300,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     }
                 },
                 "field_social_media_link": [{
-                    "value": "https://www.facebook.com/athenahealth"
+                    "value": facebookLink
                 }]
             }],
             "Twitter": [{
                 "name": [{
-                    "value": "Twitter"
+                    "value": "X"
                 }],
                 "description": [{
                     "value": null,
@@ -1256,12 +1316,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                         "target_id": "20481"
                     },
                     "image_details": {
-                        "rel_url": "https://caas.athenahealth.com/sites/default/files/2024/02/Frame%2039603.png",
-                        "webp_image_url": "https://caas.athenahealth.com/sites/default/files/styles/webp_image_style/public/2024/02/Frame%2039603.webp?itok=xb8m9GxE",
-                        "image_name": "Frame 39603.png",
+                        "rel_url": xIcon,
+                        "webp_image_url": xIcon,
+                        "image_name": "x.png",
                         "options": {
                             "target_id": "37391",
-                            "alt": "Frame%2039603",
+                            "alt": "x",
                             "title": null,
                             "width": "48",
                             "height": "48"
@@ -1269,7 +1329,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     }
                 },
                 "field_social_media_link": [{
-                    "value": "https://twitter.com/athenahealth"
+                    "value": xLink
                 }]
             }],
             "linkedin": [{
@@ -1285,12 +1345,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                         "target_id": "20491"
                     },
                     "image_details": {
-                        "rel_url": "https://caas.athenahealth.com/sites/default/files/2024/02/Frame%2039605.png",
-                        "webp_image_url": "https://caas.athenahealth.com/sites/default/files/styles/webp_image_style/public/2024/02/Frame%2039605.webp?itok=kTOeufVg",
-                        "image_name": "Frame 39605.png",
+                        "rel_url": linkedinIcon,
+                        "webp_image_url": linkedinIcon,
+                        "image_name": "in.png",
                         "options": {
                             "target_id": "37401",
-                            "alt": "Frame%2039605",
+                            "alt": "In",
                             "title": null,
                             "width": "48",
                             "height": "48"
@@ -1298,7 +1358,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     }
                 },
                 "field_social_media_link": [{
-                    "value": "https://www.linkedin.com/company/athenahealth/"
+                    "value": linkedinLink
                 }]
             }],
             "youtube": [{
@@ -1314,12 +1374,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                         "target_id": "20486"
                     },
                     "image_details": {
-                        "rel_url": "https://caas.athenahealth.com/sites/default/files/2024/02/Frame%2039604.png",
-                        "webp_image_url": "https://caas.athenahealth.com/sites/default/files/styles/webp_image_style/public/2024/02/Frame%2039604.webp?itok=jpVOcgzW",
-                        "image_name": "Frame 39604.png",
+                        "rel_url": youtubeIcon,
+                        "webp_image_url": youtubeIcon,
+                        "image_name": "yt.png",
                         "options": {
                             "target_id": "37396",
-                            "alt": "Frame%2039604",
+                            "alt": "yt",
                             "title": null,
                             "width": "48",
                             "height": "48"
@@ -1327,7 +1387,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     }
                 },
                 "field_social_media_link": [{
-                    "value": "https://www.youtube.com/user/athenahealth"
+                    "value": youtubeLink
                 }]
             }]
         }
@@ -1340,7 +1400,8 @@ window.__PRELOADED_STATE__GLOBAL_ = {
         "popup_bg_hex": null,
         "popup_text_hex": null
     },
-    "dtmscript_config": "//assets.adobedtm.com/launch-ENeb6fb71821d24b93aecdad86de50d194.min.js",
+    "dtmscript_config": "",
+    // "dtmscript_config": "//assets.adobedtm.com/launch-ENeb6fb71821d24b93aecdad86de50d194.min.js",
     "nojs_cheq_config": "",
     "chat_config": {
         "enabled": false,
