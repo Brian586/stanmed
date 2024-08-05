@@ -1,5 +1,6 @@
 const name = "StanMed";
 const logo = "/assets/images/logo_name.png";
+const siteUrl = "";
 
 const contactUs = "/about/contact-us.html";
 const leadership = "/about/leadership.html";
@@ -91,7 +92,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     {
                         "title": null,
                         "desc": null,
-                        "link": "/about/leadership.html",
+                        "link": leadership,
                         "lebal": "Leadership",
                         "link_type": "link"
                     },
@@ -465,7 +466,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "value": "utility-nav"
                 }],
                 "link": [{
-                    "uri": "/",
+                    "uri": "",
                     "title": "",
                     "options": []
                 }],
