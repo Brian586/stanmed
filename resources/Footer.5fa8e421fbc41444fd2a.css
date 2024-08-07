@@ -252,7 +252,7 @@ footer {
 }
 
 .sDyQx .IR_KQ li a:hover {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .sDyQx footer .nG4Zg {
@@ -291,7 +291,7 @@ footer {
     }
 
     .sDyQx footer .KiYNi a.l2ldQ span:hover {
-        border-bottom: .1px solid var(--slate)
+        border-bottom: .1px solid white
     }
 }
 
@@ -1015,8 +1015,8 @@ footer {
 
 [id*='ahcom'] .V3AxV .exWdb div[class~='para-xs'] .IR_KQ li a:hover,
 [id*='khub'] .V3AxV .exWdb div[class~='para-xs'] .IR_KQ li a:hover {
-    color: var(--purple-int-50) !important;
-    text-decoration: none !important;
+    color: white !important;
+    text-decoration: underline !important;
     font-weight: 600 !important;
     border-left: 2px solid var(--purple-int-50)
 }
@@ -1301,7 +1301,7 @@ footer {
 
 [id*='ahcom'] .V3AxV .XTaG5 footer [class~='card'] .PBpWj [class~='card-body'] ul .Xck94:last-child,
 [id*='khub'] .V3AxV .XTaG5 footer [class~='card'] .PBpWj [class~='card-body'] ul .Xck94:last-child {
-    padding-botttom: 24px
+    padding-bottom: 24px
 }
 
 [id*='ahcom'] .V3AxV .XTaG5 footer [class~='card'] .PBpWj [class~='card-body'] ul .Xck94 a,

@@ -186,6 +186,7 @@ a[id^='g_cta'].xQ7Or {
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     border-radius: 30px;
+    border: white solid 2px;
     min-width: 110px !important
 }
 
@@ -868,7 +869,8 @@ a[id^='g_cta'][class*="cta-icon-none"]>svg {
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
-    border-radius: 30px
+    border-radius: 30px;
+    border: #0077b6 solid 2px;
 }
 
 .qdkCf,

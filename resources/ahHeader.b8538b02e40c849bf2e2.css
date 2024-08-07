@@ -479,7 +479,7 @@ body {
         transition: .5s ease-in-out;
         z-index: 11;
         float: left;
-        margin-right: 9px
+        margin-right: 9px;
     }
 
     .o10_r span {
@@ -1053,7 +1053,7 @@ div.P3F0C a.mGcqv svg {
 }
 
 div.P3F0C a.mGcqv:hover {
-    color: var(--Purple-int-30) !important
+    color: rgba(255, 255, 255, 0.7) !important
 }
 
 div.P3F0C a.mGcqv:hover svg path {

@@ -455,7 +455,7 @@ section[class*="static-variant"] {
     justify-content: space-between;
     height: 100%;
     width: 414px;
-    background: linear-gradient(to top right, #3d207d, var(--purple-int-100) 75%) !important;
+    background: linear-gradient(to top right, #0077b6, var(--purple-int-100) 75%) !important;
     font-family: var(--sourcesanspro-ff);
     transition: box-shadow 300ms ease-out
 }

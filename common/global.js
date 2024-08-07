@@ -54,7 +54,7 @@ const facebookLink = "";
 const xIcon = "/assets/socials/x.png";
 const xLink = "";
 const linkedinIcon = "/assets/socials/in.png";
-const linkedinLink = "";
+const linkedinLink = "https://www.linkedin.com/company/medstanafrica/";
 const youtubeIcon = "/assets/socials/yt.png";
 const youtubeLink = "";
 
