@@ -45,7 +45,7 @@ const codeOfConduct = "";
 const transparencyInCoverage = "";
 
 const email = "";
-const phone = "";
+const phone = "+254 701 007 005";
 const emailLink = `mailto:${email}`;
 const phoneLink = `tel:${phone}`;
 
@@ -55,7 +55,7 @@ const xIcon = "/assets/socials/x.png";
 const xLink = "";
 const linkedinIcon = "/assets/socials/in.png";
 const linkedinLink = "https://www.linkedin.com/company/medstanafrica/";
-const youtubeIcon = "/assets/socials/yt.png";
+const youtubeIcon = "/assets/socials/ig.png";
 const youtubeLink = "";
 
 

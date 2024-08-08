@@ -404,7 +404,7 @@
                                 href: "/"
                             }, o.createElement("img", {
                                 src: u,
-                                width: "157",
+                                width: "48",
                                 height: "17",
                                 alt: "Athenahealth",
                                 className: m()["icon-image"]

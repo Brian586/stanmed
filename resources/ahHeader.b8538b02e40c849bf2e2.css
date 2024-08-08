@@ -888,7 +888,7 @@ body {
 
 [id*='ahcom'] [class~='header-redesign'] .YxLnJ .o10_r>span,
 [id*='khub'] [class~='header-redesign'] .YxLnJ .o10_r>span {
-    background-color: var(--white)
+    background-color: grey
 }
 
 [id*='ahcom'] [class~='header-redesign'] .Pcd68 .UYAWj,

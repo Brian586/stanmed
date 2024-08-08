@@ -240,7 +240,8 @@
     opacity: 0;
     transition: opacity .6s;
     background: #fff;
-    background: var(--purple-int-100) linear-gradient(215deg, rgba(22, 15, 65, 0.4) 33.3%, rgba(0, 0, 0, 0) 77.83%);
+    /* background: var(--purple-int-100) linear-gradient(215deg, rgba(22, 15, 65, 0.4) 33.3%, rgba(0, 0, 0, 0) 77.83%); */
+    background: var(--purple-int-100);
     width: 100%;
     height: 100%;
     justify-content: center;

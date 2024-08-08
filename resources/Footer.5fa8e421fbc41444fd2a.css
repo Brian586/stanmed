@@ -1136,7 +1136,7 @@ footer {
 
 [id*='ahcom'] .V3AxV .XTaG5 footer .Zkkt9,
 [id*='khub'] .V3AxV .XTaG5 footer .Zkkt9 {
-    width: 157px;
+    width: 48px;
     margin: 48px auto 0
 }
 
@@ -1265,7 +1265,7 @@ footer {
 
 [id*='ahcom'] .V3AxV .XTaG5 footer [class~='card'] .PBpWj .Qadqx.f5u9N span,
 [id*='khub'] .V3AxV .XTaG5 footer [class~='card'] .PBpWj .Qadqx.f5u9N span {
-    color: var(--purple-int-50)
+    color: white
 }
 
 [id*='ahcom'] .V3AxV .XTaG5 footer [class~='card'] .PBpWj .Qadqx.f5u9N:after,

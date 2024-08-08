@@ -21,7 +21,7 @@
             var da_pgLoadStarted = window.da_pgLoadStarted ? window.da_pgLoadStarted : null;
             da_pgLoadStarted && (window.appEventData = window.appEventData || [],
                 window.appEventData.push(da_pgLoadStarted)),
-                "http:" == location.protocol && (location.href.startsWith("http://www.athenahealth.com") || location.href.startsWith("http://stg.athenahealth.com")) && (location.protocol = "https:")
+                "http:" == location.protocol && (location.href.startsWith("http://www.stanmed.co.ke")) && (location.protocol = "https:")
         }
         function deserialize(serializedJavascript) {
             return eval("(" + serializedJavascript + ")")
@@ -183,7 +183,7 @@
                         if (this.props.metainfo) {
                             var e = JSON.parse(this.props.metainfo)
                                 , t = e.canonical ? e.canonical : "";
-                            return e.canonical && !e.canonical.startsWith("http") && e.canonical.startsWith("/") && (t = ("epoc" == this.props.siteName ? "https://www.epocrates.com" : "https://www.athenahealth.com") + t),
+                            return e.canonical && !e.canonical.startsWith("http") && e.canonical.startsWith("/") && (t = ("epoc" == this.props.siteName ? "https://www.stanmed.co.ke" : "https://www.stanmed.co.ke") + t),
                                 a.createElement(r.Ay, null, e.title ? a.createElement("title", null, e.title) : "", e.title ? a.createElement("meta", {
                                     name: "title",
                                     content: e.title

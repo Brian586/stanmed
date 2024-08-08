@@ -171,14 +171,14 @@ a[id^='g_cta'].oowrI {
     -ms-border-radius: 30px;
     border-radius: 30px;
     min-width: 110px !important;
-    background: var(--purple-int-10);
-    color: var(--purple-int-100) !important;
+    background: rgba(255, 255, 255, 0.1);
+    color: white !important;
     line-height: 22px !important;
     padding: 9px 25px !important
 }
 
 a[id^='g_cta'].oowrI:hover {
-    background: var(--Purple-int-30) !important
+    background: rgba(255, 255, 255, 0.3) !important
 }
 
 a[id^='g_cta'].xQ7Or {
