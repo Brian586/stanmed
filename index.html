@@ -27,7 +27,6 @@
         content="https://firebasestorage.googleapis.com/v0/b/stanmed1.appspot.com/o/App%20Logo%2FWhatsApp%20Image%202024-07-24%20at%2015.20.40.jpeg?alt=media&token=04cfffa1-d84a-4a35-a3f3-b0f202dad312" />
 
     <link rel="stylesheet" href="/common/global.css">
-    <!-- <link rel="stylesheet" href="https://unpkg.com/nice-forms.css/nice-forms.css"> -->
     <link rel="stylesheet" href="/common/nice-forms.css">
     <link rel="preconnect" href="https://fonts.googleapis.com?display=swap">
     <link rel="preconnect" href="https://fonts.gstatic.com?display=swap" crossorigin>
@@ -4139,7 +4138,8 @@
     <script async data-chunk="disclaimer" src="/resources/disclaimer.49e8364b86e36dd6294b.js"></script>
     <script async data-chunk="freeHtml" src="/resources/freeHtml.833f2b90141d83302de6.js"></script>
     <script async data-chunk="Footer" src="/resources/Footer.c8ab2195ab80b3043306.js"></script>
-    <script src="/common/stanmed-form.js"></script>
+    <script type="module" src="/common/stanmed-form.js"></script>
+    <script type="module" src="/common/firebase-config.js"></script>
 
     <div class="default-theme" aria-hidden="true">
         <div id="stanmed-form" class="ReactModal__Overlay ReactModal__Overlay--before-close"
@@ -4219,8 +4219,8 @@
                                                 <div class="WMDX2 pEbYi" style="width: 48%;">
                                                     <div class="nice-form-group">
                                                         <label>Name of Organization<span> *</span></label>
-                                                        <input id="org" type="text" placeholder="Organization" value=""
-                                                            required />
+                                                        <input id="org-name" type="text" placeholder="Organization"
+                                                            value="" required />
                                                     </div>
 
                                                 </div>
@@ -4231,13 +4231,13 @@
                                                     <div class="nice-form-group">
                                                         <label>Number of physicians in your organization<span>
                                                                 *</span></label>
-                                                        <select required>
-                                                            <option> </option>
-                                                            <option>1 - 5</option>
-                                                            <option>6 - 30</option>
-                                                            <option>31 - 300</option>
-                                                            <option>301+</option>
-                                                            <option>None</option>
+                                                        <select id="physicians-no" required>
+                                                            <option value=""></option>
+                                                            <option value="1 - 5">1 - 5</option>
+                                                            <option value="6 - 30">6 - 30</option>
+                                                            <option value="31 - 300">31 - 300</option>
+                                                            <option value="301+">301+</option>
+                                                            <option value="None">None</option>
                                                         </select>
                                                     </div>
 
@@ -4248,18 +4248,22 @@
                                                     label="Type of organization (optional)" backndstyl="" value="">
                                                     <div class="nice-form-group">
                                                         <label>Type of organization (optional)</label>
-                                                        <select>
-                                                            <option> </option>
-                                                            <option>Ancillary Service Organizations</option>
-                                                            <option>Digital Health</option>
-                                                            <option>Employers</option>
-                                                            <option>Hospital & Health Systems</option>
-                                                            <option>Medical Practice</option>
-                                                            <option>MSO</option>
-                                                            <option>Partners</option>
-                                                            <option>Payers</option>
-                                                            <option>Speciality Organization</option>
-                                                            <option>Startup Medical Practice</option>
+                                                        <select id="org-type">
+                                                            <option value=""></option>
+                                                            <option value="Ancillary Service Organizations">Ancillary
+                                                                Service Organizations</option>
+                                                            <option value="Digital Health">Digital Health</option>
+                                                            <option value="Employers">Employers</option>
+                                                            <option value="Hospital & Health Systems">Hospital & Health
+                                                                Systems</option>
+                                                            <option value="Medical Practice">Medical Practice</option>
+                                                            <option value="MSO">MSO</option>
+                                                            <option value="Partners">Partners</option>
+                                                            <option value="Payers">Payers</option>
+                                                            <option value="Speciality Organization">Speciality
+                                                                Organization</option>
+                                                            <option value="Startup Medical Practice">Startup Medical
+                                                                Practice</option>
                                                         </select>
                                                     </div>
 
@@ -4270,18 +4274,25 @@
                                                     value="">
                                                     <div class="nice-form-group">
                                                         <label>Biggest challenge (optional)</label>
-                                                        <select>
-                                                            <option> </option>
-                                                            <option>Dispersed Patient Data</option>
-                                                            <option>Excessive Paperwork</option>
-                                                            <option>Inefficient Workflow</option>
-                                                            <option>Operational Inefficiencies</option>
-                                                            <option>Physician & Staff Burnout</option>
-                                                            <option>Patient Retention</option>
-                                                            <option>Regulatory Changes</option>
-                                                            <option>Revenue Collection</option>
-                                                            <option>Value-Based Care</option>
-                                                            <option>Other</option>
+                                                        <select id="biggest-challenge">
+                                                            <option value=""></option>
+                                                            <option value="Dispersed Patient Data">Dispersed Patient
+                                                                Data</option>
+                                                            <option value="Excessive Paperwork">Excessive Paperwork
+                                                            </option>
+                                                            <option value="Inefficient Workflow">Inefficient Workflow
+                                                            </option>
+                                                            <option value="Operational Inefficiencies">Operational
+                                                                Inefficiencies</option>
+                                                            <option value="Physician & Staff Burnout">Physician & Staff
+                                                                Burnout</option>
+                                                            <option value="Patient Retention">Patient Retention</option>
+                                                            <option value="Regulatory Changes">Regulatory Changes
+                                                            </option>
+                                                            <option value="Revenue Collection">Revenue Collection
+                                                            </option>
+                                                            <option value="Value-Based Care">Value-Based Care</option>
+                                                            <option value="Other">Other</option>
                                                         </select>
                                                     </div>
 
@@ -4294,12 +4305,12 @@
                                                         Are you a patient?</legend>
                                                     <fieldset class="nice-form-group">
                                                         <div class="nice-form-group">
-                                                            <input type="radio" name="radio" id="r-1" />
+                                                            <input type="radio" name="radio" id="r-1" value="Yes" />
                                                             <label for="r-1">Yes</label>
                                                         </div>
 
                                                         <div class="nice-form-group">
-                                                            <input type="radio" name="radio" id="r-2" />
+                                                            <input type="radio" name="radio" id="r-2" value="No" />
                                                             <label for="r-2">
                                                                 No
                                                             </label>
@@ -4316,7 +4327,8 @@
                                                                 target="_blank">&nbsp;Terms&nbsp;of Use.</a></p>
                                                     </div>
 
-                                                    <a class="bn60" href="">
+                                                    <a id="submit-btn" class="bn60"
+                                                        href="javascript:submitFormDetails()">
                                                         Submit
                                                     </a>
                                                 </div>

@@ -26,6 +26,7 @@
         content="https://firebasestorage.googleapis.com/v0/b/stanmed1.appspot.com/o/App%20Logo%2FWhatsApp%20Image%202024-07-24%20at%2015.20.40.jpeg?alt=media&token=04cfffa1-d84a-4a35-a3f3-b0f202dad312" />
 
     <link rel="stylesheet" href="../common/global.css">
+    <link rel="stylesheet" href="../common/nice-forms.css">
     <link rel="preconnect" href="https://fonts.googleapis.com?display=swap">
     <link rel="preconnect" href="https://fonts.gstatic.com?display=swap" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&display=swap"
@@ -2587,7 +2588,7 @@
                             "url": null
                         },
                         "field_cta_link": {
-                            "link": emailLink,
+                            "link": "javascript:openForm()",
                             "label": "Let's Connect"
                         },
                         "field_cta_brightcove_video": null,
@@ -5620,6 +5621,212 @@
     <script async data-chunk="freeHtml" src="../resources/freeHtml.833f2b90141d83302de6.js"></script>
     <script async data-chunk="disclaimer" src="../resources/disclaimer.49e8364b86e36dd6294b.js"></script>
     <script async data-chunk="Footer" src="../resources/Footer.c8ab2195ab80b3043306.js"></script>
+    <script type="module" src="../common/stanmed-form.js"></script>
+    <script type="module" src="../common/firebase-config.js"></script>
+
+    <div class="default-theme" aria-hidden="true">
+        <div id="stanmed-form" class="ReactModal__Overlay ReactModal__Overlay--before-close"
+            style="position: fixed; inset: 0px; background-color: rgba(255, 255, 255, 0.75);">
+            <div class="ReactModal__Content ReactModal__Content--after-open gatedModal" tabindex="-1" role="dialog"
+                aria-modal="true"><a href="javascript:closeForm()" class="modal-close-btn"><img class="modal_close"
+                        src="../resources/b43293a8d0a7ac9a8939.svg"></a>
+                <section class="ahf_v3" data-componentname="Banner With Form" data-componentid="banner_with_form">
+                    <div class="alSnO"
+                        style="background-image: linear-gradient(330deg, rgb(23, 129, 153) 51%, rgb(255, 255, 255) 50%); background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
+                        <div class="nYaRY cEC6h">
+                            <div class="NC3ug">
+                                <div class="zXeDc">
+                                    <h3 id="undefined-undefined--modal-header" class="A4ftI"
+                                        style="color: rgb(22, 15, 65);">Reduce complexity and accelerate growth</h3>
+                                    <div id="undefined-undefined--modal-subheader" class="subhead-2">
+                                        <p><span style="color:#0077b6;">See how StanMed frees you to focus on what
+                                                matters most.</span></p>
+                                    </div>
+                                </div>
+                                <div class="lj8aK BZJA_">
+
+                                    <div formid="19546" class="undefined n1koR component-order">
+                                        <div class="Xl2gr web_form">
+                                            <form action="" class="J9a0W" name="schedule_meeting_homepage_form"
+                                                id="schedule_meeting_homepage_form" novalidate="">
+                                                <div class="EwUbT">
+                                                    <h6>Let’s get in touch.</h6>
+                                                    <p>Please provide the following information so our team can reach
+                                                        out.</p>
+                                                </div>
+                                                <div class="WMDX2 pEbYi" style="width: 48%;">
+                                                    <div class="nice-form-group">
+                                                        <label>First Name<span> *</span></label>
+                                                        <input id="firstName" type="text" placeholder="First name"
+                                                            value="" required />
+                                                    </div>
+
+                                                </div>
+                                                <div class="WMDX2 pEbYi" style="width: 48%;">
+                                                    <div class="nice-form-group">
+                                                        <label>Last Name<span> *</span></label>
+                                                        <input id="lastName" type="text" placeholder="Last name"
+                                                            value="" required />
+                                                    </div>
+
+                                                </div>
+                                                <div class="WMDX2 pEbYi" style="width: 100%;">
+                                                    <div class="nice-form-group">
+                                                        <label>Work Email<span> *</span></label>
+                                                        <input id="email" type="email" placeholder="Your email" value=""
+                                                            required />
+                                                    </div>
+
+                                                </div>
+                                                <div class="WMDX2 pEbYi" style="width: 48%;">
+                                                    <div class="nice-form-group">
+                                                        <label>Phone Number<span> *</span></label>
+                                                        <input id="phone" type="tel" placeholder="Your phone number"
+                                                            value="" required />
+                                                    </div>
+
+                                                </div>
+                                                <div class="WMDX2 pEbYi" style="width: 48%;">
+                                                    <div class="nice-form-group">
+                                                        <label>Zip Code<span> *</span></label>
+                                                        <input id="zip" type="text" placeholder="ZIP" value=""
+                                                            required />
+                                                    </div>
+
+                                                </div>
+                                                <div class="EwUbT">
+                                                    <h6>Let’s get to know each other better.</h6>
+                                                    <p>Help us understand your needs by telling us a little about your
+                                                        practice.</p>
+                                                </div>
+                                                <div class="WMDX2 pEbYi" style="width: 48%;">
+                                                    <div class="nice-form-group">
+                                                        <label>Name of Organization<span> *</span></label>
+                                                        <input id="org-name" type="text" placeholder="Organization"
+                                                            value="" required />
+                                                    </div>
+
+                                                </div>
+                                                <div class="MuiFormControl-root MuiFormControl-fullWidth zihjX Qm91Q css-tzsjye"
+                                                    id="Number_of_Docs__c" name="Number_of_Docs__c" type="select"
+                                                    label="Number of physicians in your organization" backndstyl=""
+                                                    value="">
+                                                    <div class="nice-form-group">
+                                                        <label>Number of physicians in your organization<span>
+                                                                *</span></label>
+                                                        <select id="physicians-no" required>
+                                                            <option value=""></option>
+                                                            <option value="1 - 5">1 - 5</option>
+                                                            <option value="6 - 30">6 - 30</option>
+                                                            <option value="31 - 300">31 - 300</option>
+                                                            <option value="301+">301+</option>
+                                                            <option value="None">None</option>
+                                                        </select>
+                                                    </div>
+
+                                                </div>
+                                                <div class="MuiFormControl-root MuiFormControl-fullWidth zihjX Qm91Q css-1rro7pr"
+                                                    id="type_of_organization_optional_"
+                                                    name="type_of_organization_optional_" type="select"
+                                                    label="Type of organization (optional)" backndstyl="" value="">
+                                                    <div class="nice-form-group">
+                                                        <label>Type of organization (optional)</label>
+                                                        <select id="org-type">
+                                                            <option value=""></option>
+                                                            <option value="Ancillary Service Organizations">Ancillary
+                                                                Service Organizations</option>
+                                                            <option value="Digital Health">Digital Health</option>
+                                                            <option value="Employers">Employers</option>
+                                                            <option value="Hospital & Health Systems">Hospital & Health
+                                                                Systems</option>
+                                                            <option value="Medical Practice">Medical Practice</option>
+                                                            <option value="MSO">MSO</option>
+                                                            <option value="Partners">Partners</option>
+                                                            <option value="Payers">Payers</option>
+                                                            <option value="Speciality Organization">Speciality
+                                                                Organization</option>
+                                                            <option value="Startup Medical Practice">Startup Medical
+                                                                Practice</option>
+                                                        </select>
+                                                    </div>
+
+                                                </div>
+                                                <div class="MuiFormControl-root MuiFormControl-fullWidth zihjX Qm91Q css-1rro7pr"
+                                                    id="biggest_challenge_optional_" name="biggest_challenge_optional_"
+                                                    type="select" label="Biggest challenge (optional)" backndstyl=""
+                                                    value="">
+                                                    <div class="nice-form-group">
+                                                        <label>Biggest challenge (optional)</label>
+                                                        <select id="biggest-challenge">
+                                                            <option value=""></option>
+                                                            <option value="Dispersed Patient Data">Dispersed Patient
+                                                                Data</option>
+                                                            <option value="Excessive Paperwork">Excessive Paperwork
+                                                            </option>
+                                                            <option value="Inefficient Workflow">Inefficient Workflow
+                                                            </option>
+                                                            <option value="Operational Inefficiencies">Operational
+                                                                Inefficiencies</option>
+                                                            <option value="Physician & Staff Burnout">Physician & Staff
+                                                                Burnout</option>
+                                                            <option value="Patient Retention">Patient Retention</option>
+                                                            <option value="Regulatory Changes">Regulatory Changes
+                                                            </option>
+                                                            <option value="Revenue Collection">Revenue Collection
+                                                            </option>
+                                                            <option value="Value-Based Care">Value-Based Care</option>
+                                                            <option value="Other">Other</option>
+                                                        </select>
+                                                    </div>
+
+                                                </div>
+                                                <div class="MuiFormControl-root MuiFormControl-fullWidth yQ8Nt  css-1rro7pr"
+                                                    id="Title__c" name="Title__c" type="radios"
+                                                    label="Are you a patient?" backndstyl="">
+                                                    <legend
+                                                        class="MuiFormLabel-root MuiFormLabel-colorPrimary css-1vovazs">
+                                                        Are you a patient?</legend>
+                                                    <fieldset class="nice-form-group">
+                                                        <div class="nice-form-group">
+                                                            <input type="radio" name="radio" id="r-1" value="Yes" />
+                                                            <label for="r-1">Yes</label>
+                                                        </div>
+
+                                                        <div class="nice-form-group">
+                                                            <input type="radio" name="radio" id="r-2" value="No" />
+                                                            <label for="r-2">
+                                                                No
+                                                            </label>
+                                                        </div>
+                                                    </fieldset>
+
+                                                </div>
+
+                                                <div class="WX8Yt ahf-footer">
+                                                    <div class="para-xs unNsF">
+                                                        <p>By submitting your information, you agree to our&nbsp;<a
+                                                                href="#" target="_blank">Privacy&nbsp;Policy
+                                                            </a>&nbsp;and&nbsp;<a href="#"
+                                                                target="_blank">&nbsp;Terms&nbsp;of Use.</a></p>
+                                                    </div>
+
+                                                    <a id="submit-btn" class="bn60"
+                                                        href="javascript:submitFormDetails()">
+                                                        Submit
+                                                    </a>
+                                                </div>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
 
     <script defer>
         let langLink = document.createElement("link");
