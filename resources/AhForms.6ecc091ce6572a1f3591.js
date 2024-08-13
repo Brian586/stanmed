@@ -1491,7 +1491,7 @@
                             backgroundColor: n.backgroundColor
                         };
                         var o = this.state.formOrientation === this.formDesign.defaultBgGradient
-                            , s = "#FFFFFF" === (null == n ? void 0 : n.headingColor) ? "subhead-2 ".concat(i()["purple-50"]) : "subhead-2"
+                            , s = "#000000" === (null == n ? void 0 : n.headingColor) ? "subhead-2 ".concat(i()["purple-50"]) : "subhead-2"
                             , c = i().b_content;
                         this.state.formOrientation == this.formDesign.rightAligned && (c += " ".concat(i().new_homepage)),
                             this.state.formOrientation == this.formDesign.defaultBg && (c += " ".concat(i()["default-w-bg"])),

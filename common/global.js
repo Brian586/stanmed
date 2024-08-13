@@ -1,41 +1,68 @@
 const name = "StanMed";
-const logo = "/assets/images/logo_name.png";
+const logo = "/assets/images/logo.png";
 const siteUrl = "";
 
 const contactUs = "/about/contact-us.html";
 const leadership = "/about/leadership.html";
 const whoWeAre = "/about/who-we-are.html";
 
-const advisoryServices = "/solutions/advisory-services.html";
-const electronicHealthRecords = "/solutions/electronic-health-records.html";
-const marketplaceProgram = "/solutions/marketplace-program.html";
-const patientEngagement = "/solutions/patient-engagement.html";
-const payers = "/solutions/payers.html";
-const platformServices = "/solutions/platform-services.html";
-const practiceManagement = "/solutions/practice-management.html";
-const revenueCycleManagement = "/solutions/revenue-cycle-management.html";
+// const advisoryServices = "/solutions/advisory-services.html";
+const advisoryServices = "#";
+// const electronicHealthRecords = "/solutions/electronic-health-records.html";
+const electronicHealthRecords = "#";
+// const marketplaceProgram = "/solutions/marketplace-program.html";
+const marketplaceProgram = "#";
+// const patientEngagement = "/solutions/patient-engagement.html";
+const patientEngagement = "#";
+// const payers = "/solutions/payers.html";
+const payers = "#";
+// const platformServices = "/solutions/platform-services.html";
+const platformServices = "#";
+// const practiceManagement = "/solutions/practice-management.html";
+const practiceManagement = "#";
+// const revenueCycleManagement = "/solutions/revenue-cycle-management.html";
+const revenueCycleManagement = "#";
 const stanmed = "/solutions/stanmed.html";
 
-const behavioralHealth = "/who-we-for/behavioral-health.html";
-const enterpriseMedicalOperation = "/who-we-for/enterprise-medical-operation.html";
-const fqhc = "/who-we-for/fqhc.html";
-const internalAndFamilyMedicine = "/who-we-for/internal-and-family-medicine.html";
-const marketplacePartners = "/who-we-for/marketplace-partners.html";
-const medicalOrderTransmission = "/who-we-for/medical-order-transmission.html";
-const mediumLargeMedicalPractices = "/who-we-for/medium-large-medical-practices.html";
-const memberCentricCare = "/who-we-for/member-centric-care.html";
-const orthopedics = "/who-we-for/orthopedics.html";
-const pediatrics = "/who-we-for/pediatrics.html";
-const smallMedicalPractices = "/who-we-for/small-medical-practices.html";
-const specialtyPractices = "/who-we-for/specialty-practices.html";
-const startUps = "/who-we-for/start-ups.html";
-const urgentCare = "/who-we-for/urgent-care.html";
-const womensHealth = "/who-we-for/womens-health.html";
+// const behavioralHealth = "/who-we-for/behavioral-health.html";
+// const enterpriseMedicalOperation = "/who-we-for/enterprise-medical-operation.html";
+// const fqhc = "/who-we-for/fqhc.html";
+// const internalAndFamilyMedicine = "/who-we-for/internal-and-family-medicine.html";
+// const marketplacePartners = "/who-we-for/marketplace-partners.html";
+// const medicalOrderTransmission = "/who-we-for/medical-order-transmission.html";
+// const mediumLargeMedicalPractices = "/who-we-for/medium-large-medical-practices.html";
+// const memberCentricCare = "/who-we-for/member-centric-care.html";
+// const orthopedics = "/who-we-for/orthopedics.html";
+// const pediatrics = "/who-we-for/pediatrics.html";
+// const smallMedicalPractices = "/who-we-for/small-medical-practices.html";
+// const specialtyPractices = "/who-we-for/specialty-practices.html";
+// const startUps = "/who-we-for/start-ups.html";
+// const urgentCare = "/who-we-for/urgent-care.html";
+// const womensHealth = "/who-we-for/womens-health.html";
 
-const caseStudies = "/case-studies.html";
+const behavioralHealth = "#";
+const enterpriseMedicalOperation = "#";
+const fqhc = "#";
+const internalAndFamilyMedicine = "#";
+const marketplacePartners = "#";
+const medicalOrderTransmission = "#";
+const mediumLargeMedicalPractices = "#";
+const memberCentricCare = "#";
+const orthopedics = "#";
+const pediatrics = "#";
+const smallMedicalPractices = "#";
+const specialtyPractices = "#";
+const startUps = "#";
+const urgentCare = "#";
+const womensHealth = "#";
+
+// const caseStudies = "/case-studies.html";
+const caseStudies = "#";
 const index = "/index.html";
-const knowledgeHub = "/knowledge-hub.html";
-const pressReleases = "/press-releases.html";
+// const knowledgeHub = "/knowledge-hub.html";
+const knowledgeHub = "#";
+// const pressReleases = "/press-releases.html";
+const pressReleases = "#";
 const customerSupport = "";
 
 const privacyPolicy = "";
@@ -127,7 +154,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                         // }
                     ],
                     "uri": "http://example.com",
-                    "name": "Join Us"
+                    "name": "Get To Us"
                 },
                 "menu-2": {
                     "template": "template5",
@@ -149,12 +176,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                             "link_type": "link"
                         }],
                     "uri": "http://example.com",
-                    "name": "In the News"
+                    "name": "News"
                 }
             }
         },
         "menu-1": {
-            "name": "Software & Services",
+            "name": "Products",
             "menu_size": "standard",
             "tid": "menu-0",
             "url_str": "",
@@ -175,10 +202,10 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "field_mega_disable_mobile": "0",
                     "field_disable_desc_desktop": "0",
                     "columnData": [{
-                        "title": "StanMed",
-                        "desc": "<p><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">An all-in-one solution that improves clinical effectiveness, patient experience, and financial performance.&nbsp;</span></p>",
+                        "title": "StanMed HealthNET",
+                        "desc": "<p><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">A comprehensive platform designed to enhance clinical outcomes, patient satisfaction, and financial viability.A comprehensive platform designed to enhance clinical outcomes, patient satisfaction, and financial viability.</span></p>",
                         "link": stanmed,
-                        "lebal": "StanMed",
+                        "lebal": "StanMed HealthNET",
                         "link_type": "link"
                     }],
                     "uri": stanmed,
@@ -189,20 +216,20 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "field_mega_disable_mobile": "1",
                     "field_disable_desc_desktop": "0",
                     "columnData": [{
-                        "title": "Electronic Health Record",
-                        "desc": "<p>A connected, tailorable EHR solution that empowers clinicians.</p>",
+                        "title": "Electronic Health Records",
+                        "desc": "<p>A customizable, interconnected EHR platform designed to optimize clinical workflows.</p>",
                         "link": electronicHealthRecords,
-                        "lebal": "Electronic Health Record",
+                        "lebal": "Electronic Health Records",
                         "link_type": "link"
                     }, {
                         "title": "Revenue Cycle Management",
-                        "desc": "<p>RCM software and services that boost efficiency and profitability.</p>",
+                        "desc": "<p>Comprehensive RCM solutions that streamline financial operations and enhance profitability.</p>",
                         "link": revenueCycleManagement,
                         "lebal": "Revenue Cycle Management",
                         "link_type": "link"
                     }, {
                         "title": "Patient Engagement",
-                        "desc": "<p>Communication and care tools that improve patient relationships.</p>",
+                        "desc": "<p>Interactive tools and communication channels to foster strong patient relationships.</p>",
                         "link": patientEngagement,
                         "lebal": "Patient Engagement",
                         "link_type": "link"
@@ -216,42 +243,44 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "field_disable_desc_desktop": "0",
                     "columnData": [{
                         "title": "Additional Offerings",
-                        "desc": "<p><span style=\"white-space:pre-wrap;\">Technology that helps improve patient outcomes and reduce costs.</span></p>",
+                        "desc": "<p><span style=\"white-space:pre-wrap;\">Optimize healthcare delivery and financial performance through innovative technological solutions.</span></p>",
                         "link": payers,
                         "lebal": "Payer Solutions",
                         "link_type": "link"
                     }, {
                         "title": null,
-                        "desc": "<p>Expert consulting and support to help improve performance and ROI.</p>",
+                        "desc": "<p>Leverage our expertise to enhance operational efficiency and maximize return on investment.</p>",
                         "link": advisoryServices,
                         "lebal": "Advisory Services",
                         "link_type": "link"
                     }, {
                         "title": null,
-                        "desc": "<p>Easily connect to StanMed and extend its capabilities.</p>",
+                        "desc": "<p>Seamlessly integrate with our system to expand your healthcare capabilities.</p>",
                         "link": platformServices,
                         "lebal": "Platform Services",
                         "link_type": "link"
                     }, {
                         "title": null,
-                        "desc": "<p>Tailor your StanMed experience with industry-leading partners.</p>",
+                        "desc": "<p>Customize your healthcare journey through strategic partnerships and complementary services.</p>",
                         "link": marketplaceProgram,
                         "lebal": "Marketplace Program",
                         "link_type": "link"
-                    }, {
-                        "title": null,
-                        "desc": "<p>Enterprise RCM software that maximizes collections with less work.</p>",
-                        "link": electronicHealthRecords,
-                        "lebal": "StanMedDX ",
-                        "link_type": "link"
-                    }],
+                    },
+                        // {
+                        //     "title": null,
+                        //     "desc": "<p>Enterprise RCM software that maximizes collections with less work.</p>",
+                        //     "link": electronicHealthRecords,
+                        //     "lebal": "StanMedDX ",
+                        //     "link_type": "link"
+                        // }
+                    ],
                     "uri": "/solutions/marketplace-program",
                     "name": "Additional Offerings"
                 }
             }
         },
         "menu-2": {
-            "name": "Who We're for",
+            "name": "Clients",
             "menu_size": "extended",
             "tid": "menu-1",
             "url_str": "",
@@ -271,43 +300,46 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "template": "template5",
                     "field_mega_disable_mobile": null,
                     "field_disable_desc_desktop": null,
-                    "columnData": [{
-                        "title": null,
-                        "desc": null,
-                        "link": startUps,
-                        "lebal": "Startup Practices",
-                        "link_type": "link"
-                    }, {
-                        "title": null,
-                        "desc": null,
-                        "link": smallMedicalPractices,
-                        "lebal": "Small Medical Practices",
-                        "link_type": "link"
-                    }, {
-                        "title": null,
-                        "desc": null,
-                        "link": mediumLargeMedicalPractices,
-                        "lebal": "Medium to Large Medical Groups",
-                        "link_type": "link"
-                    }, {
-                        "title": null,
-                        "desc": null,
-                        "link": enterpriseMedicalOperation,
-                        "lebal": "Enterprises & Health Systems",
-                        "link_type": "link"
-                    }, {
-                        "title": null,
-                        "desc": null,
-                        "link": fqhc,
-                        "lebal": "Federally Qualified Health Centers",
-                        "link_type": "link"
-                    }, {
-                        "title": null,
-                        "desc": null,
-                        "link": memberCentricCare,
-                        "lebal": "Member-centric Care Organizations",
-                        "link_type": "link"
-                    }],
+                    "columnData": [
+                        {
+                            "title": null,
+                            "desc": null,
+                            "link": mediumLargeMedicalPractices,
+                            "lebal": "Medium to Large Medical Groups",
+                            "link_type": "link"
+                        }, {
+                            "title": null,
+                            "desc": null,
+                            "link": enterpriseMedicalOperation,
+                            "lebal": "Enterprises & Health Systems",
+                            "link_type": "link"
+                        }, {
+                            "title": null,
+                            "desc": null,
+                            "link": memberCentricCare,
+                            "lebal": "Member-centric Care Organizations",
+                            "link_type": "link"
+                        }, {
+                            "title": null,
+                            "desc": null,
+                            "link": smallMedicalPractices,
+                            "lebal": "Small Medical Practices",
+                            "link_type": "link"
+                        }, {
+                            "title": null,
+                            "desc": null,
+                            "link": startUps,
+                            "lebal": "Startup Practices",
+                            "link_type": "link"
+                        },
+                        {
+                            "title": null,
+                            "desc": null,
+                            "link": fqhc,
+                            "lebal": "Qualified Health Centers",
+                            "link_type": "link"
+                        },
+                    ],
                     "uri": "/node/1006",
                     "name": "Provider Organizations"
                 },
@@ -315,49 +347,50 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "template": "template5",
                     "field_mega_disable_mobile": "0",
                     "field_disable_desc_desktop": "0",
-                    "columnData": [{
-                        "title": null,
-                        "desc": null,
-                        "link": behavioralHealth,
-                        "lebal": "Behavioral Health",
-                        "link_type": "link"
-                    }, {
-                        "title": null,
-                        "desc": null,
-                        "link": orthopedics,
-                        "lebal": "Orthopedics",
-                        "link_type": "link"
-                    }, {
-                        "title": null,
-                        "desc": null,
-                        "link": pediatrics,
-                        "lebal": "Pediatrics",
-                        "link_type": "link"
-                    }, {
-                        "title": null,
-                        "desc": null,
-                        "link": internalAndFamilyMedicine,
-                        "lebal": "Primary Care",
-                        "link_type": "link"
-                    }, {
-                        "title": null,
-                        "desc": null,
-                        "link": urgentCare,
-                        "lebal": " Urgent Care",
-                        "link_type": "link"
-                    }, {
-                        "title": null,
-                        "desc": null,
-                        "link": womensHealth,
-                        "lebal": "Women's Health",
-                        "link_type": "link"
-                    }, {
-                        "title": null,
-                        "desc": null,
-                        "link": specialtyPractices,
-                        "lebal": "View All Specialties",
-                        "link_type": "link"
-                    }],
+                    "columnData": [
+                        {
+                            "title": null,
+                            "desc": null,
+                            "link": urgentCare,
+                            "lebal": " Urgent Care",
+                            "link_type": "link"
+                        }, {
+                            "title": null,
+                            "desc": null,
+                            "link": behavioralHealth,
+                            "lebal": "Behavioral Health",
+                            "link_type": "link"
+                        }, {
+                            "title": null,
+                            "desc": null,
+                            "link": womensHealth,
+                            "lebal": "Women's Health",
+                            "link_type": "link"
+                        }, {
+                            "title": null,
+                            "desc": null,
+                            "link": orthopedics,
+                            "lebal": "Orthopedics",
+                            "link_type": "link"
+                        }, {
+                            "title": null,
+                            "desc": null,
+                            "link": pediatrics,
+                            "lebal": "Pediatrics",
+                            "link_type": "link"
+                        }, {
+                            "title": null,
+                            "desc": null,
+                            "link": internalAndFamilyMedicine,
+                            "lebal": "Primary Care",
+                            "link_type": "link"
+                        }, {
+                            "title": null,
+                            "desc": null,
+                            "link": specialtyPractices,
+                            "lebal": "View All Specialties",
+                            "link_type": "link"
+                        }],
                     "uri": "http://example.com",
                     "name": "Medical Specialties"
                 },
@@ -459,7 +492,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
         "links": {
             "921": {
                 "title": [{
-                    "value": "Rapid Access to quality healthcare"
+                    "value": "Enabling patient centered - care"
                 }],
                 "description": [],
                 "menu_name": [{
@@ -510,7 +543,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
     "footer_menu": {
 
         "menu-1": [{
-            "name": "Software & Services",
+            "name": "Products",
             "menu_size": "",
             "tid": "menu-3",
             "url_str": "",
@@ -536,7 +569,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "attached_modal_popup": []
                 },
                 "menu-1": {
-                    "name": "Electronic Health Record",
+                    "name": "Electronic Health Records",
                     "tid": "menu-1",
                     "url_str": electronicHealthRecords,
                     "description": null,
@@ -605,20 +638,20 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "isdefault": "0",
                     "attached_modal_popup": []
                 },
-                "menu-8": {
-                    "name": "StanMedDX",
-                    "tid": "menu-8",
-                    "url_str": electronicHealthRecords,
-                    "description": null,
-                    "unique_name": "",
-                    "unique_name_footer": "",
-                    "isdefault": "0",
-                    "attached_modal_popup": []
-                }
+                // "menu-8": {
+                //     "name": "StanMedDX",
+                //     "tid": "menu-8",
+                //     "url_str": electronicHealthRecords,
+                //     "description": null,
+                //     "unique_name": "",
+                //     "unique_name_footer": "",
+                //     "isdefault": "0",
+                //     "attached_modal_popup": []
+                // }
             }
         }],
         "menu-2": [{
-            "name": "Who We're for",
+            "name": "Clients",
             "menu_size": "",
             "tid": "menu-2",
             "url_str": "",
@@ -633,10 +666,10 @@ window.__PRELOADED_STATE__GLOBAL_ = {
             "is_expanded": false,
             "child_count": 16,
             "child": {
-                "menu-0": {
-                    "name": "Startup Practices",
-                    "tid": "menu-0",
-                    "url_str": startUps,
+                "menu-2": {
+                    "name": "Medium to Large Medical Practices",
+                    "tid": "menu-2",
+                    "url_str": mediumLargeMedicalPractices,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -653,10 +686,22 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "isdefault": "0",
                     "attached_modal_popup": []
                 },
-                "menu-2": {
-                    "name": "Medium to Large Medical Practices",
-                    "tid": "menu-2",
-                    "url_str": mediumLargeMedicalPractices,
+
+                "menu-0": {
+                    "name": "Startup Practices",
+                    "tid": "menu-0",
+                    "url_str": startUps,
+                    "description": null,
+                    "unique_name": "",
+                    "unique_name_footer": "",
+                    "isdefault": "0",
+                    "attached_modal_popup": []
+                },
+
+                "menu-4": {
+                    "name": "Qualified Health Centers",
+                    "tid": "menu-4",
+                    "url_str": fqhc,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -673,10 +718,10 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "isdefault": "0",
                     "attached_modal_popup": []
                 },
-                "menu-4": {
-                    "name": "Federally Qualified Health Centers",
-                    "tid": "menu-4",
-                    "url_str": fqhc,
+                "menu-10": {
+                    "name": "Women's Health",
+                    "tid": "menu-10",
+                    "url_str": womensHealth,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -693,6 +738,16 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "isdefault": "0",
                     "attached_modal_popup": []
                 },
+                "menu-7": {
+                    "name": "Orthopedics",
+                    "tid": "menu-7",
+                    "url_str": orthopedics,
+                    "description": null,
+                    "unique_name": "",
+                    "unique_name_footer": "",
+                    "isdefault": "0",
+                    "attached_modal_popup": []
+                },
                 "menu-6": {
                     "name": "Behavioral Health",
                     "tid": "menu-6",
@@ -703,10 +758,10 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "isdefault": "0",
                     "attached_modal_popup": []
                 },
-                "menu-7": {
-                    "name": "Orthopedics",
-                    "tid": "menu-7",
-                    "url_str": orthopedics,
+                "menu-12": {
+                    "name": "Labs and Imaging Centers",
+                    "tid": "menu-12",
+                    "url_str": medicalOrderTransmission,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -733,10 +788,10 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "isdefault": "0",
                     "attached_modal_popup": []
                 },
-                "menu-10": {
-                    "name": "Women's Health",
-                    "tid": "menu-10",
-                    "url_str": womensHealth,
+                "menu-14": {
+                    "name": "Marketplace Partners",
+                    "tid": "menu-14",
+                    "url_str": marketplacePartners,
                     "description": null,
                     "unique_name": "",
                     "unique_name_footer": "",
@@ -753,16 +808,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "isdefault": "0",
                     "attached_modal_popup": []
                 },
-                "menu-12": {
-                    "name": "Labs and Imaging Centers",
-                    "tid": "menu-12",
-                    "url_str": medicalOrderTransmission,
-                    "description": null,
-                    "unique_name": "",
-                    "unique_name_footer": "",
-                    "isdefault": "0",
-                    "attached_modal_popup": []
-                },
+
                 "menu-13": {
                     "name": "View All Specialties",
                     "tid": "menu-13",
@@ -773,16 +819,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "isdefault": "0",
                     "attached_modal_popup": []
                 },
-                "menu-14": {
-                    "name": "Marketplace Partners",
-                    "tid": "menu-14",
-                    "url_str": marketplacePartners,
-                    "description": null,
-                    "unique_name": "",
-                    "unique_name_footer": "",
-                    "isdefault": "0",
-                    "attached_modal_popup": []
-                },
+
                 // "menu-15": {
                 //     "name": "Developers",
                 //     "tid": "menu-15",
@@ -1025,9 +1062,10 @@ window.__PRELOADED_STATE__GLOBAL_ = {
     },
     "footer_bottom_menu": {
         "links": {
+
             "221": {
                 "title": [{
-                    "value": "Privacy Policy"
+                    "value": "© StanMed. All Rights Reserved."
                 }],
                 "description": [],
                 "menu_name": [{
@@ -1041,34 +1079,62 @@ window.__PRELOADED_STATE__GLOBAL_ = {
             },
             "226": {
                 "title": [{
-                    "value": "Terms of Use"
-                }],
-                "description": [{
-                    "value": "Terms of Use"
-                }],
-                "menu_name": [{
-                    "value": "footer-bottom-menu"
-                }],
-                "link": [{
-                    "uri": termsOfUse,
-                    "title": "",
-                    "options": []
-                }]
-            },
-            "231": {
-                "title": [{
-                    "value": "Disclaimers"
+                    "value": "Designed by Yetu Consulting"
                 }],
                 "description": [],
                 "menu_name": [{
                     "value": "footer-bottom-menu"
                 }],
                 "link": [{
-                    "uri": termsAndConditions,
+                    "uri": "https://yetuconsulting.com",
                     "title": "",
                     "options": []
                 }]
             },
+            // "221": {
+            //     "title": [{
+            //         "value": "Privacy Policy"
+            //     }],
+            //     "description": [],
+            //     "menu_name": [{
+            //         "value": "footer-bottom-menu"
+            //     }],
+            //     "link": [{
+            //         "uri": privacyPolicy,
+            //         "title": "",
+            //         "options": []
+            //     }]
+            // },
+            // "226": {
+            //     "title": [{
+            //         "value": "Terms of Use"
+            //     }],
+            //     "description": [{
+            //         "value": "Terms of Use"
+            //     }],
+            //     "menu_name": [{
+            //         "value": "footer-bottom-menu"
+            //     }],
+            //     "link": [{
+            //         "uri": termsOfUse,
+            //         "title": "",
+            //         "options": []
+            //     }]
+            // },
+            // "231": {
+            //     "title": [{
+            //         "value": "Disclaimers"
+            //     }],
+            //     "description": [],
+            //     "menu_name": [{
+            //         "value": "footer-bottom-menu"
+            //     }],
+            //     "link": [{
+            //         "uri": termsAndConditions,
+            //         "title": "",
+            //         "options": []
+            //     }]
+            // },
             // "611": {
             //     "title": [{
             //         "value": "Do Not Sell or Share My Personal Information"
@@ -1085,42 +1151,42 @@ window.__PRELOADED_STATE__GLOBAL_ = {
             //         "options": []
             //     }]
             // },
-            "621": {
-                "title": [{
-                    "value": "Code of Conduct"
-                }],
-                "description": [],
-                "menu_name": [{
-                    "value": "footer-bottom-menu"
-                }],
-                "link": [{
-                    "uri": codeOfConduct,
-                    "title": "",
-                    "options": []
-                }]
-            },
-            "916": {
-                "title": [{
-                    "value": "Transparency in Coverage"
-                }],
-                "description": [],
-                "menu_name": [{
-                    "value": "footer-bottom-menu"
-                }],
-                "link": [{
-                    "uri": transparencyInCoverage,
-                    "title": "",
-                    "options": []
-                }]
-            }
+            // "621": {
+            //     "title": [{
+            //         "value": "Code of Conduct"
+            //     }],
+            //     "description": [],
+            //     "menu_name": [{
+            //         "value": "footer-bottom-menu"
+            //     }],
+            //     "link": [{
+            //         "uri": codeOfConduct,
+            //         "title": "",
+            //         "options": []
+            //     }]
+            // },
+            // "916": {
+            //     "title": [{
+            //         "value": "Transparency in Coverage"
+            //     }],
+            //     "description": [],
+            //     "menu_name": [{
+            //         "value": "footer-bottom-menu"
+            //     }],
+            //     "link": [{
+            //         "uri": transparencyInCoverage,
+            //         "title": "",
+            //         "options": []
+            //     }]
+            // }
         },
         "schedule_meeting": {
             "sm_cta_type": "Link",
             "sm_cta_text": "Let's Connect",
-            "sm_cta_link": emailLink,
+            "sm_cta_link": "javascript:openForm()",
             "sm_cta_link_target": 0,
-            "sm_label": "Let's connect",
-            "sm_link": emailLink
+            "sm_label": "Let's Connect",
+            "sm_link": "javascript:openForm()"
         },
         "footer_call_us": `Call us anytime <span>${phone}</span>`,
         "ah_social_media_links": {
@@ -1249,7 +1315,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
         "global_cta_link": emailLink,
         "global_cta_link_target": 0,
         "schedule_meeting": "2016",
-        "schedule_meeting_label": "Let's connect",
+        "schedule_meeting_label": "Let's Connect",
         "schedule_meeting_page_url": emailLink,
         "eloqua_service_url": emailLink,
         "global_cta_style": "redesign_primary_light_mini"

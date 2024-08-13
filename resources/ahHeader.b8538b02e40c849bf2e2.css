@@ -865,7 +865,7 @@ body {
 [id*='ahcom'] [class~='header-redesign'] .ERK5A,
 [id*='khub'] [class~='header-redesign'] .ERK5A {
     height: 40px;
-    width: 111px
+    width: 40px;
 }
 
 [id*='ahcom'] [class~='header-redesign'] [class~='container-fluid'],

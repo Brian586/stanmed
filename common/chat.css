@@ -706,4 +706,5 @@ button.swiper-pagination-bullet {
 .ReactModal__Overlay--before-close {
     transition: opacity 2000ms ease-in-out;
     opacity: 0;
+    display: none;
 }

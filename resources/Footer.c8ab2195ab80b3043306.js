@@ -16,7 +16,7 @@
             , d = a(19738)
             , _ = a.n(d)
             , f = a(35415);
-        const u = a.p + "logo_name_white.png";
+        const u = a.p + "logo_white.png";
         var p = a(38125)
             , k = (a(84315),
                 a(7452),
@@ -404,9 +404,9 @@
                                 href: "/"
                             }, o.createElement("img", {
                                 src: u,
-                                width: "48",
-                                height: "17",
-                                alt: "Athenahealth",
+                                width: "40",
+                                height: "45",
+                                alt: "StanMed",
                                 className: m()["icon-image"]
                             })))
                                 , de = o.createElement(r.A, {

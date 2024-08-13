@@ -881,7 +881,7 @@ section[class*="static-variant"] {
 }
 
 .pB0oF [class~='slick-track'] .W_y_X blockquote.tOfpQ[class*="m-head-ptserif"]>p {
-    font-size: var(--ah-h3-pt-fs) !important;
+    font-size: 1.5rem !important;
     line-height: var(--ah-h3-pt-lh) !important;
     font-family: var(--ptserif-ff) !important;
     font-weight: var(--ptserif-reg-fw) !important

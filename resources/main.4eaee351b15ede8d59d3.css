@@ -11,11 +11,16 @@
     background-color: var(--very-light-gray)
 }
 
-.TTfF5,.oemx4,.SOGUG,.xKv2j {
+.TTfF5,
+.oemx4,
+.SOGUG,
+.xKv2j {
     overflow: hidden
 }
 
-.C5hRw,.TTfF5,.xKv2j {
+.C5hRw,
+.TTfF5,
+.xKv2j {
     width: 100%;
     clear: both
 }
@@ -44,13 +49,14 @@
     min-width: 347px
 }
 
-:not([class*='insight']) .SOGUG>div:first-child,:not([class*='insight']) .SOGUG>section:first-child {
+:not([class*='insight']) .SOGUG>div:first-child,
+:not([class*='insight']) .SOGUG>section:first-child {
     margin: 0
 }
 
 @media screen and (max-width: 1081px) {
     .oemx4 {
-        -ms-flex:100%;
+        -ms-flex: 100%;
         flex: 100%;
         width: 100%;
         margin-right: 0;
@@ -77,7 +83,7 @@
 
 @media screen and (max-width: 768px) {
     .oemx4 {
-        -ms-flex:100%;
+        -ms-flex: 100%;
         flex: 100%;
         width: 100%;
         margin-right: 0;
@@ -476,4 +482,24 @@
     display: flex;
     justify-content: center;
     align-items: center
+}
+
+.left-aligned-list {
+    text-align: left;
+    /* Aligns list items to the left */
+    padding-left: 0;
+    /* Optional: Removes default padding if necessary */
+    list-style-position: inside;
+    /* Ensures bullets are inside the list item */
+}
+
+.pillar-details {
+    text-align: left;
+}
+
+.justified-paragraph {
+    text-align: justify;
+    /* Justifies the text */
+    text-align-last: left;
+    /* Ensures the last line is left-aligned */
 }

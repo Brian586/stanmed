@@ -205,6 +205,13 @@
     margin-bottom: 22px
 }
 
+@media screen and (min-width: 1701px) {
+    .QRPmN .ToJNY {
+        height: 800px
+    }
+
+}
+
 @media screen and (max-width: 769px) {
     div[class*='black-theme'] .zFNL6 {
         background-color: #fff !important

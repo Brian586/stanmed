@@ -78,7 +78,7 @@
     width: fit-content;
     min-width: 90px;
     max-width: 430px;
-    box-shadow: 0 1px 15px rgba(128, 128, 128, 0.2);
+    /* box-shadow: 0 1px 15px rgba(128, 128, 128, 0.2); */
     position: relative;
     left: 0
 }
@@ -3089,7 +3089,8 @@ img[class*="modal_close"] {
 
 .alSnO .w1K1M .NC3ug .zXeDc .A4ftI {
     font-size: var(--re-h5-fs) !important;
-    line-height: var(--re-h5-lh) !important
+    line-height: var(--re-h5-lh) !important;
+    padding-top: 1rem !important;
 }
 
 .alSnO .w1K1M .NC3ug .lj8aK {
@@ -3104,7 +3105,7 @@ img[class*="modal_close"] {
 
 .alSnO .w1K1M .NC3ug .lj8aK div[class*="web_form"]>form {
     max-width: 573px;
-    padding: 0 20px !important;
+    padding: 20px 20px !important;
     margin-left: auto !important;
     margin-right: auto !important;
     background-color: transparent

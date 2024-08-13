@@ -207,7 +207,7 @@
                 a(2789))
             , s = a(17951)
             , m = a(49531);
-        const u = a.p + "logo_name.png";
+        const u = a.p + "logo.png";
         var d = a(25795)
             , _ = a.n(d)
             , p = a(86248)
