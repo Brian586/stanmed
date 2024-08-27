@@ -314,6 +314,19 @@ maindividerOff {
     margin: auto
 }
 
+[id*='ahcom'] .YVfgH:has(.key-milestones-img),
+[id*='khub'] .YVfgH:has(.key-milestones-img),
+[class~='black-theme'] .YVfgH:has(.key-milestones-img) {
+    padding-top: 20px;
+    max-width: 1000px;
+    margin: auto
+}
+
+.bPJQ9 .YVfgH .key-milestones-img {
+    height: 900px;
+    object-fit: contain;
+}
+
 [id*='ahcom'] .YVfgH ul,
 [id*='khub'] .YVfgH ul,
 [class~='black-theme'] .YVfgH ul {

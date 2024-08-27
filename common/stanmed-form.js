@@ -40,7 +40,7 @@ async function submitFormDetails() {
         var htmlTemplate = createEmailTemplate(firstName, lastName, email, phone, zip, orgName, physiciansNo, orgType, biggestChallenge, isPatient);
 
         const userDetails = {
-            to: ['info@stanmed.global'],
+            to: ['website@stanmed.global', 'briannamutali586@gmail.com'],
             message: {
                 subject: 'StanMed Form Submission',
                 text: `Details for ${firstName} ${lastName} from ${orgName}`,

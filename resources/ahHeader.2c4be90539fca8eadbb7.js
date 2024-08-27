@@ -510,7 +510,7 @@
                             , U = t && t.utility_nav_menu ? t.utility_nav_menu : {}
                             , H = n.createElement("img", {
                                 src: u,
-                                alt: "Athenahealth Logo",
+                                alt: "StanMed Logo",
                                 className: i()["redesign-logo"]
                             })
                             , q = O ? "Nav|epocrates-logo" : "Nav|athenahealth-logo";
@@ -599,7 +599,7 @@
                             height: S,
                             width: B,
                             src: b,
-                            alt: "Athenahealth",
+                            alt: "StanMed",
                             className: "".concat(i().logo, " logo")
                         }))) : n.createElement("span", {
                             className: i()["header-item-logo"]
@@ -613,7 +613,7 @@
                             type: N
                         }), n.createElement("img", {
                             src: b,
-                            alt: "Athenahealth",
+                            alt: "StanMed",
                             className: i().logo
                         })))), "minimal_header_2_cta" !== o && "minimal_header_1_cta" !== o && "minimal_header_0_cta" !== o ? n.createElement("div", {
                             className: "".concat(i()["navlines-wrapper"], " ").concat("navlines-wrapper--" + i()["navlines-wrapper"]),

@@ -138,7 +138,7 @@
                     value: function () {
                         if ("/careers" === window.location.pathname) {
                             var e = document.createElement("script");
-                            e.text = "window.socTrack = { siteid: 'stanmed.co.ke', formid: 'careers', isApiModeEnabled: true }; (function(i, s, o, g) { var a = s.createElement(o); a.src = g; var m = s.getElementsByTagName('head')[0]; m.appendChild(a); })(window, document, 'script', 'https://cdn-public.sociabble.com/blob/js/leadgen/track.min.js?v=1')",
+                            e.text = "window.socTrack = { siteid: 'stanmed.global', formid: 'careers', isApiModeEnabled: true }; (function(i, s, o, g) { var a = s.createElement(o); a.src = g; var m = s.getElementsByTagName('head')[0]; m.appendChild(a); })(window, document, 'script', 'https://cdn-public.sociabble.com/blob/js/leadgen/track.min.js?v=1')",
                                 e.async = !0,
                                 document.body.appendChild(e)
                         }

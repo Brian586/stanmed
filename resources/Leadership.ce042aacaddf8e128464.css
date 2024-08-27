@@ -12,6 +12,12 @@
     background: var(--very-light-gray)
 }
 
+div.page-components>.jEzJk:nth-of-type(odd) {
+    margin: 26px auto 0;
+    width: 100%;
+    background: white
+}
+
 .T5hvl {
     margin: 0 auto;
     max-width: 713px;
@@ -71,6 +77,13 @@
     width: 100%;
     max-width: 347px;
     margin-right: 20px
+}
+
+div.page-components>.jEzJk:nth-of-type(odd) .ADTWF {
+    float: right;
+    width: 100%;
+    max-width: 347px;
+    margin-left: 20px
 }
 
 @media screen and (max-width: 768px) {

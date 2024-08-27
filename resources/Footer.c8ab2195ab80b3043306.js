@@ -290,7 +290,7 @@
                                 type: ie
                             }), o.createElement("img", {
                                 src: $,
-                                alt: "Athenahealth",
+                                alt: "StanMed",
                                 className: _()["mf-logo"]
                             }))) : o.createElement("picture", {
                                 className: _()["mf-logo"]
@@ -302,7 +302,7 @@
                                 type: ie
                             }), o.createElement("img", {
                                 src: $,
-                                alt: "Athenahealth",
+                                alt: "StanMed",
                                 className: _()["mf-logo"]
                             })), o.createElement("div", {
                                 className: "".concat(N ? "para-xs" : "", " ").concat(_()["footer-cta-contents"], " ", "footer-cta-contents")
@@ -361,7 +361,7 @@
                                 type: ie
                             }), o.createElement("img", {
                                 src: $,
-                                alt: "Athenahealth",
+                                alt: "StanMed",
                                 className: _()["mf-logo"]
                             }))) : o.createElement("picture", {
                                 className: _()["mf-logo"]
@@ -373,7 +373,7 @@
                                 type: ie
                             }), o.createElement("img", {
                                 src: $,
-                                alt: "Athenahealth",
+                                alt: "StanMed",
                                 className: _()["mf-logo"]
                             })), o.createElement("div", {
                                 className: _()["mf-txt-wrap"]
@@ -450,7 +450,7 @@
                                         src: l,
                                         width: "0",
                                         height: "64",
-                                        alt: "Athenahealth",
+                                        alt: "StanMed",
                                         className: m()["icon-image"]
                                     })))
                                 }
@@ -581,7 +581,7 @@
                                         src: l,
                                         width: "30",
                                         height: "64",
-                                        alt: "Athenahealth",
+                                        alt: "StanMed",
                                         className: m()["icon-image"]
                                     })))
                                 }
@@ -609,7 +609,7 @@
                                     src: $,
                                     width: "161",
                                     height: "24",
-                                    alt: "Athenahealth",
+                                    alt: "StanMed",
                                     className: m()["footer-logo"]
                                 }))));
                             h = o.createElement("footer", {
@@ -689,7 +689,7 @@
                                     src: $,
                                     width: "30",
                                     height: "64",
-                                    alt: "Athenahealth",
+                                    alt: "StanMed",
                                     className: m()["footer-logo-mobile"]
                                 })))), C && C.map((function (e, t) {
                                     t += 1;
@@ -770,7 +770,7 @@
                                         src: l,
                                         width: "30",
                                         height: "64",
-                                        alt: "Athenahealth",
+                                        alt: "StanMed",
                                         className: m()["icon-image"]
                                     })))
                                 }

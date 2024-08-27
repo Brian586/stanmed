@@ -24,27 +24,27 @@ const practiceManagement = "#";
 const revenueCycleManagement = "#";
 const stanmed = "/solutions/stanmed.html";
 
-// const behavioralHealth = "/who-we-for/behavioral-health.html";
-// const enterpriseMedicalOperation = "/who-we-for/enterprise-medical-operation.html";
-// const fqhc = "/who-we-for/fqhc.html";
-// const internalAndFamilyMedicine = "/who-we-for/internal-and-family-medicine.html";
-// const marketplacePartners = "/who-we-for/marketplace-partners.html";
-// const medicalOrderTransmission = "/who-we-for/medical-order-transmission.html";
-// const mediumLargeMedicalPractices = "/who-we-for/medium-large-medical-practices.html";
-// const memberCentricCare = "/who-we-for/member-centric-care.html";
-// const orthopedics = "/who-we-for/orthopedics.html";
-// const pediatrics = "/who-we-for/pediatrics.html";
-// const smallMedicalPractices = "/who-we-for/small-medical-practices.html";
-// const specialtyPractices = "/who-we-for/specialty-practices.html";
-// const startUps = "/who-we-for/start-ups.html";
-// const urgentCare = "/who-we-for/urgent-care.html";
-// const womensHealth = "/who-we-for/womens-health.html";
+// const behavioralHealth = "/clients/behavioral-health.html";
+// const enterpriseMedicalOperation = "/clients/enterprise-medical-operation.html";
+// const fqhc = "/clients/fqhc.html";
+// const internalAndFamilyMedicine = "/clients/internal-and-family-medicine.html";
+const marketplacePartners = "/clients/marketplace-partners.html";
+// const medicalOrderTransmission = "/clients/medical-order-transmission.html";
+// const mediumLargeMedicalPractices = "/clients/medium-large-medical-practices.html";
+// const memberCentricCare = "/clients/member-centric-care.html";
+// const orthopedics = "/clients/orthopedics.html";
+// const pediatrics = "/clients/pediatrics.html";
+// const smallMedicalPractices = "/clients/small-medical-practices.html";
+// const specialtyPractices = "/clients/specialty-practices.html";
+// const startUps = "/clients/start-ups.html";
+// const urgentCare = "/clients/urgent-care.html";
+// const womensHealth = "/clients/womens-health.html";
 
 const behavioralHealth = "#";
 const enterpriseMedicalOperation = "#";
 const fqhc = "#";
 const internalAndFamilyMedicine = "#";
-const marketplacePartners = "#";
+// const marketplacePartners = "#";
 const medicalOrderTransmission = "#";
 const mediumLargeMedicalPractices = "#";
 const memberCentricCare = "#";
@@ -71,8 +71,8 @@ const termsAndConditions = "";
 const codeOfConduct = "";
 const transparencyInCoverage = "";
 
-const email = "";
-const phone = "+254 701 007 005";
+const email = "website@stanmed.global";
+const phone = " ";
 const emailLink = `mailto:${email}`;
 const phoneLink = `tel:${phone}`;
 
@@ -203,7 +203,12 @@ window.__PRELOADED_STATE__GLOBAL_ = {
                     "field_disable_desc_desktop": "0",
                     "columnData": [{
                         "title": "StanMed HealthNET",
-                        "desc": "<p><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">A comprehensive platform designed to enhance clinical outcomes, patient satisfaction, and financial viability.A comprehensive platform designed to enhance clinical outcomes, patient satisfaction, and financial viability.</span></p>",
+                        "desc": `<div>
+                        <p><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">A comprehensive platform designed to enhance clinical outcomes, patient satisfaction, and financial viability.A comprehensive platform designed to enhance clinical outcomes, patient satisfaction, and financial viability.</span></p>
+                        <div style="width: 100%; height: 200px; overflow: hidden;">
+                        <img style=\"width: 100%; height: 100%; object-fit: cover;\" src=\"/assets/images/DigitalHospt.jpg\" alt=\"\">
+                        </div>
+                        </div>`,
                         "link": stanmed,
                         "lebal": "StanMed HealthNET",
                         "link_type": "link"
@@ -492,7 +497,7 @@ window.__PRELOADED_STATE__GLOBAL_ = {
         "links": {
             "921": {
                 "title": [{
-                    "value": "Enabling patient centered - care"
+                    "value": "\"enabling patient centered - care\""
                 }],
                 "description": [],
                 "menu_name": [{
