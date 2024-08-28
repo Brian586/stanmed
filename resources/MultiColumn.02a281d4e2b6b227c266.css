@@ -2250,6 +2250,10 @@
     min-height: 250px
 }
 
+.GvMp1:has(p.partners-title-desc) {
+    min-height: 0px !important;
+}
+
 .GvMp1 .kJXmV li {
     max-width: 270px;
     width: 25%
